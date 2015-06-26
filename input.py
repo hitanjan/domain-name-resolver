@@ -15,13 +15,19 @@ class url():
         # try:
         response = urllib2.urlopen(request)  # TODO - Use retries and timeout options and add https support
 
-        response_contents = response.read()
+        # Filter out directly by content type for html. TODO - maybe later add support for parsing pdf/docs ?
+        response_content_type = response.headers.getheader("Content-Type")
+
+        if(not 'text/html' in  response_content_type):
+            raise BaseException("URL contains non-html data. This tool does not support other content types except 'html'")
+
+        response_content = response.read()
         # except urllib2.URLError, e:
         #     print "URL timeout error"
         # except socket.timeout :
         #     print "sock timeout"
 
-        self.soup = BeautifulSoup(response_contents)
+        self.soup = BeautifulSoup(response_content)
         [tag.decompose() for tag in self.soup.find_all(['style', 'script', '[document]', 'span'])]
 
 
