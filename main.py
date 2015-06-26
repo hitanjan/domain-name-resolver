@@ -15,8 +15,11 @@ from input import dataset
 
 
 def main():
-    a = dataset('data/test_positive', 'data/negative.csv')
-    a.load()
+    a = dataset(positive_csv_data='data/test_positive', negative_csv_data='data/test_negative')
+    data = a.load(build_cache=True)
+    for key in data:
+        print data[key].target_names
+        print data[key].target
 
 if __name__ == '__main__':
   main()

@@ -8,14 +8,20 @@ import os
 from urlparse import urlparse
 import sklearn.datasets
 
-
-
 class url():
     def __init__(self, url):
         self.url = url.strip()
-        req = urllib2.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        html = urllib2.urlopen(req).read() # TODO - Use retries and timeout options and add https support
-        self.soup = BeautifulSoup(html)
+        request = urllib2.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        # try:
+        response = urllib2.urlopen(request)  # TODO - Use retries and timeout options and add https support
+
+        response_contents = response.read()
+        # except urllib2.URLError, e:
+        #     print "URL timeout error"
+        # except socket.timeout :
+        #     print "sock timeout"
+
+        self.soup = BeautifulSoup(response_contents)
         [tag.decompose() for tag in self.soup.find_all(['style', 'script', '[document]', 'span'])]
 
 
@@ -32,6 +38,7 @@ class url():
 class model():
     def __init__(self, potential_url, company_name=None):
         self.company_name = company_name.strip()
+        self.company_name = self.company_name.replace("/", " ")
         self.potential_url = potential_url.strip()
 
 
@@ -63,11 +70,15 @@ class dataset():
         self.__create_cache_dir()
 
     def __create_cache_dir(self):
-        if(not os.path.exists(self.__cache_dir__)):
+        if(not self.__check_if_cache_exists()):
             print "Building cache... This may take some time.."
             os.makedirs(self.__cache_dir__)
             os.makedirs(self.__feature_set1_dir_positive__)
             os.makedirs(self.__feature_set1_dir_negative__)
+
+    def __check_if_cache_exists(self):
+        if(os.path.exists(self.__cache_dir__)):
+           return True
 
     def _build_dataset_cache_from_csv_file(self, file, classifier_dir):
 
@@ -79,7 +90,7 @@ class dataset():
 
                     # Deal with comma separated 'Inc.' and other such occurrences in csv file. Remove the index of the term. Deals with rogue commas in a csv row
                     if(len(row) > 2):
-                        element = row[1]
+                        element = row[1].strip()
                         valid_url = urlparse(element)
                         if(not valid_url.netloc):
                             # Not a url, a plain string
@@ -102,25 +113,36 @@ class dataset():
                         text_file.close()
 
 
-    def load(self):
 
-        self.build_data_set_cache()
+    def load(self, build_cache=False):
+        """
+            Returns a dictionary of sklearn Bunch data
+
+        :param build_cache: attempt to build cache (i.e. url contents) or reuse existing
+        :return:
+        """
+        if(not self.__check_if_cache_exists() or build_cache):
+            self.__build_data_set_cache()
 
         # TODO utf-8 ??
-        dataset = sklearn.datasets.load_files(self.__feature_set1_dir__)
+        dataset = {}
+        dataset[self.__feature_set_1__] = sklearn.datasets.load_files(self.__feature_set1_dir__)
 
         return dataset
 
 
     def rebuild_data_set_cache(self):
-        if(os.path.exists(self.__cache_dir__)):
+        self.clear_data_set_cache()
+
+        self.__build_data_set_cache()
+
+
+    def clear_data_set_cache(self):
+        if(self.__check_if_cache_exists()):
             shutil.rmtree(self.__cache_dir__)
 
 
-        self.build_data_set_cache()
-
-
-    def build_data_set_cache(self):
+    def __build_data_set_cache(self):
         self._build_dataset_cache_from_csv_file(self.positive_file, self.__feature_set1_dir_positive__)
         self._build_dataset_cache_from_csv_file(self.negative_file, self.__feature_set1_dir_negative__)
 
