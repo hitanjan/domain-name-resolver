@@ -1,0 +1,184 @@
+
+
+	COOKIE_DOUBLECLICK - Threat Encyclopedia - Trend Micro USA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+      Buy Online       Downloads    Partners    United States    About Us    Log In      Where to Buy Trend Micro Products For Home Home Office Online Store Renew Online  For Small Business Small Business Online Store Renew Online Find a Reseller Contact Us 1-888-762-8736 For Enterprise Find a Reseller Contact Us 1-877-218-7353    Not in the United States?Select the country/language of your choice: Asia Pacific Region APAC Australia 中国 (China) Hong Kong (English) 香港 (中文) भारत गणराज्य (India) Indonesia 日本 (Japan) 대한민국 (South Korea) Malaysia New Zealand Philippines Singapore 台灣 (Taiwan) ราชอาณาจักรไทย (Thailand) Việt Nam  Europe België (Belgium) Česká Republika Danmark Deutschland, Österreich, Schweiz España France Italia Nederland Norge (Norway) Polska (Poland) Россия (Russia) South Africa Suomi (Finland) Sverige (Sweden) Türkiye (Turkey) United Arab Emirates United Kingdom / Ireland  The Americas Brasil Canada México United States     Log In Links For Home My Account SafeSync Online Guardian Lost Device Portal Trend Micro Vault Password Manager  For Business SafeSync SecureCloud Portal Online Case Tracking Premium Support Worry-Free Business Security Services Worry-Free Remote Manager Deep Security as a Service Deep Security for Web Apps Trend Micro SSL  Partners Sales & Marketing Portal           For Home      Internet Security Products for 1-10 Computers   PC & Mac Protection Premium Security Maximum Security Internet Security Antivirus Plus Security Antivirus for Mac Compare Protection Options Not sure what to choose?See the Comparison chart. Online Store Upgrade or Renew    Mobile Devices Android Security iPhone and iPad Security Battery Saver for Android Secure Backup for Android Password Management for Mobile Devices      More Products Online Sync and Backup  Password Manager Premium Services Windows 8 Apps Mac Cleaner        Internet Safety @ Home   Kids’ Online Safety Resource Library Mobile Threat Info   All Topics Product SupportDo you need help with your Security Software?     MORE IN FOR HOME Online Store Do you need help with your Trend Micro Security Product?                For Business    Cloud and Data Center Security  Secure your virtual and cloud environments without performance compromises.   Custom Defense  Detect, analyze and respond to targeted attacks before damage is done.   Complete User Protection  Secure all your users’ activity – any application, any device, anywhere.      Small Business3-100 Users Popular Products Worry-Free Threat & Virus Protection Family  Advanced Edition Standard Edition Services Edition   All Small Business Products Buy Online Find a Small Business Reseller    Enterprise & Midsize Business101+ Users Popular Products   OfficeScan Deep Security Deep Discovery InterScan™ Web Security Smart Protection Suites   All Enterprise Business Products Service Provider Solutions Find an Enterprise Reseller     More in Business  Data Protection Healthcare Information Security Point-of-Sale Threats Combating Targeted Attacks Security as a Service Consumerization of IT Support Services Our Alliance Partners            Security Intelligence   Security Intelligence: Insight and analysis from security experts   Current Threat Activity Security Advisories - Threat Encyclopedia TrendLabs Security Intelligence Blog Security News      Research and Analysis Threat Reports Cyber Attacks and APT Research Mobile Threat Research      Awareness and Prevention Webcasts and Events Social Media Network First Line of Defense Newsletter                   Why Trend Micro   Trend Micro: The recognized leader in cloud security   Our Story Cloud Security Cyber Security Mobile Security and Consumerization      Our Technology Smart Protection Network Competitive Benchmarks Windows 8 Security      More in Why Trend Micro Our Experts Our Customers Company Awards              Support     Home & Home Office Support   Popular Topics: Upgrading to  the latest version FAQs: Purchasing Online Managing your Trend Micro Account Trend Micro Security 2015 Product Guide Additional Resources      Popular Products Maximum Security Internet Security Antivirus for Mac Mobile Security for Android Password Manager      More Support Contact Support for Home Contact Support for Business       Business   Go to: Technical Support Renewals & Registrations  Virus & Threat Help Support Policies Contact Support      Popular Products Worry-Free Business Security OfficeScan Deep Security Hosted Email Security               Search terms: Submit     
+
+
+
+
+Home>Security Intelligence>Threat Encyclopedia>Malware> COOKIE_DOUBLECLICKMalware
+
+
+
+Threat Encyclopedia
+
+
+
+
+Security IntelligenceSecurity NewsBusiness SecurityHome & Office SecurityCurrent Threat ActivityThreat Intelligence CenterDeep WebTargeted AttacksInternet of ThingsMobile SafetyThreat Encyclopedia Web AttacksMalwareVulnerabilitiesSpamMalicious URLsGlossaryResearch & AnalysisThreat Reports and Predictions Research Papers and Articles Awareness & PreventionSocial @ Trend MicroEventsFree Tools, Apps & Widgets
+
+
+
+
+ 
+
+
+
+Related Blog Entries12 for 2012: What Will The New Year Bring?
+
+
+
+
+TREND MICRO 1Q 2015 SECURITY ROUNDUP
+The biggest incidents in the first three months of 2015 showed that even the most security-savvy users and organizations are not immune to security threats. View the roundupTHREAT INTELLIGENCE: THE DEEP WEB
+The latest research and information on the deep web and the cybercriminal underground.Learn more about the Deep WebKEYLOGGER ATTACK PREYS ON SMBS
+Latest research into an operation that uses unsophisticated software to attack SMBs, proving that 'simple' can still be effective.Read more
+
+
+
+
+
+
+
+COOKIE_DOUBLECLICKPublish date: October 08, 2012  
+
+    
+        
+
+
+
+
+Email
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+
+Twitter
+
+
+
+
+
+
+Google+
+
+
+
+
+
+
+Linkedin
+
+
+
+ANALYSIS BYErika Bianca MendozaPLATFORM:Windows 2000, Windows XP, Windows Server 2003 OVERALL RISK RATING:REPORTED INFECTION:SYSTEM IMPACT RATING:INFORMATION EXPOSURE: Threat Type:Adware  Destructiveness:NoEncrypted: No  In the wild: Yes     OVERVIEW   Cookies may also be used by malware to gather information related to site preferences, sessions or other computer activities. For example, WORM_KOOBFACE makes use of cookies related to social networking sites, such as Facebook and Twitter, to allow the malware to post malicious links using the affected user's account credentials.  TECHNICAL DETAILS   File Size: VariesMemory Resident: NoInitial Samples Received Date: 30 Mar 2011NOTES: This tracking cookie is installed on a system when an affected user visits the websites, http://www.{BLOCKED}click.com. 
+Tracking cookies (also known as data miners) are cookies that are used by two or more websites to track an affected user's Web browsing habits and display advertisement or other material the users might be interested in.Similar to adware, tracking cookies collect user information for third party recipients.
+Cookies may also be used by malware to gather information related to site preferences, sessions or other computer activities. For example, WORM_KOOBFACE makes use of cookies related to social networking sites, such as Facebook and Twitter, to allow the malware to post malicious links using the affected user's account credentials.  SOLUTION  Minimum Scan Engine: 8.900Step 1For Windows XP and Windows Server 2003 users, before doing any scans, please make sure you disable System Restore to allow full scanning of your computer.Step 2Scan your computer with your Trend Micro product to delete files detected as COOKIE_DOUBLECLICK  If the detected files have already been cleaned, deleted, or quarantined by your Trend Micro product, no further step is required. You may opt to simply delete the quarantined files. Please check this Knowledge Base page for more information.Did this description help? Tell us how we did.
+
+
+
+
+
+
+Featured Stories
+
+CybercrimeDeep WebRansomware#SecurityNowBy the Numbers: The Deep WebPiercing the HawkEye: How Nigerian Cybercriminals Used a Simple Keylogger to Prey on SMBs The Deep Web: Anonymizing Technology for the Good… and the Bad? By the Numbers: The Deep WebGoing Deeper: Exploring the Deep WebThe Deep Web: Anonymizing Technology for the Good… and the Bad?  'Resume' Spam Used to Spread CryptoWall 3.0 RansomwareRansomware: 10 Years of Bullying, Fear-mongering and ExtortionBad Ads and Zero-Days: Reemerging Threats Challenge Trust in Supply Chains and Best Practices Security On-The-Go: Setting up a Virtual Private Network (VPN)7 Ways to Improve Security on Your iOS Device7 Android Security Hacks You Need to Do Right Now
+
+
+
+
+
+↑ Top of page
+Connect with us on        Products & Free TrialsHome and Home OfficeSmall BusinessData Center and CloudEndpoint and Mobile DevicesNetwork and WebMessaging and CollaborationSecurity and Risk ManagementHouseCallFree Antivirus ToolsBusiness ChallengesCloud and VirtualizationConsumerization of ITCombat Hidden ThreatsCompliance and Data PrivacyCost and ConsolidationThreat InformationSecurity AdvisoriesThreat EncyclopediaBlogsForumsWebinarsSimply SecuritySupportDownload CenterHome & Home OfficeBusinessAbout Trend MicroContact UsCareersNewsroomInvestor RelationsEventsHome & Home Office Store|Small Business Store|Become a PartnerAsia Pacific Region (APAC):Australia / New Zealand中国日本대한민국台灣Latin America Region (LAR):BrasilMéxicoNorth America Region (NABU):United StatesCanadaEurope, Middle East, & Africa Region (EMEA):FranceDeutschland / Österreich / SchweizItaliaРоссияEspañaUnited Kingdom / Ireland
+
+
+
+
+
+Participate in Research
+Privacy Statement
+Legal Policies
+Sitemap
+
+
+Copyright ©
+
+Trend Micro Incorporated. All rights reserved.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

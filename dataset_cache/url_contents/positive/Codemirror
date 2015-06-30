@@ -1,0 +1,161 @@
+CodeMirror
+
+
+
+
+
+
+
+
+
+
+
+
+CodeMirror
+
+Home
+Manual
+Code
+
+
+Features
+Community
+Browser support
+
+
+
+
+CodeMirror is a versatile text editor
+  implemented in JavaScript for the browser. It is specialized for
+  editing code, and comes with a number of language modes and addons
+  that implement more advanced editing functionality.
+A rich programming API and a
+  CSS theming system are
+  available for customizing CodeMirror to fit your application, and
+  extending it with new functionality.
+
+
+This is CodeMirror
+
+
+
+
+
+
+Other demos...
+Autocompletion
+Code folding
+Themes
+Mixed language modes
+Bi-directional text
+Variable font sizes
+Search interface
+Vim bindings
+Emacs bindings
+Sublime Text bindings
+Tern integration
+Merge/diff interface
+Full-screen editor
+Custom scrollbars
+
+
+
+
+
+
+DOWNLOAD
+
+
+FUND
+
+
+
+      Get the current version: 5.4.
+      You can see the code or
+      read the release notes.
+      There is a minification helper.
+    
+
+      Software needs maintenance,
+      maintainers need to subsist.
+      Current funding status = 
+      You can help per month or
+      once.
+      
+
+
+
+
+
+
+
+Features
+
+Support for over 100 languages out of the box
+    A powerful, composable language mode system
+Autocompletion (XML)
+    Code folding
+Configurable keybindings
+    Vim, Emacs, and Sublime Text bindings
+    Search and replace interface
+    Bracket and tag matching
+    Support for split views
+Linter integration
+Mixing font sizes and styles
+Various themes
+Able to resize to fit content
+Inline and block widgets
+    Programmable gutters
+Making ranges of text styled, read-only, or atomic
+Bi-directional text support
+    Many other methods and addons...
+  
+
+
+Community
+CodeMirror is an open-source project shared under
+  an MIT license. It is the editor used in the
+  dev tools for
+  both Firefox
+  and Chrome, Light
+  Table, Adobe
+  Brackets, Bitbucket,
+  and many other projects.
+Development and bug tracking happens
+  on github
+  (alternate git
+  repository).
+  Please read these
+  pointers before submitting a bug. Use pull requests to submit
+  patches. All contributions must be released under the same MIT
+  license that CodeMirror uses.
+Discussion around the project is done on
+  a discussion forum.
+  There is also
+  the codemirror-announce
+  list, which is only used for major announcements (such as new
+  versions). If needed, you can
+  contact the maintainer
+  directly.
+A list of CodeMirror-related software that is not part of the
+  main distribution is maintained
+  on our
+  wiki. Feel free to add your project.
+
+
+Browser support
+The desktop versions of the following browsers,
+  in standards mode (HTML5 <!doctype html>
+  recommended) are supported:
+
+Firefoxversion 4 and up
+Chromeany version
+Safariversion 5.2 and up
+Internet Explorerversion 8 and up
+Operaversion 9 and up
+
+Support for modern mobile browsers is experimental. Recent
+  versions of the iOS browser and Chrome on Android should work
+  pretty well.
+
+

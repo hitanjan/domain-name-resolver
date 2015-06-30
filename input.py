@@ -6,6 +6,8 @@ import shutil
 import os
 import sklearn.datasets
 import util
+from sklearn.cross_validation import train_test_split
+
 
 class url():
     def __init__(self, url):
@@ -61,11 +63,11 @@ class model():
 class dataset():
     __positive__ = "positive"
     __negative__ = "negative"
-    __feature_set_1__ = "url_contents"
+    feature_set_1 = "url_contents"
     __cache_dir__ = 'dataset_cache'
-    __feature_set1_dir_positive__ = os.path.join(__cache_dir__,__feature_set_1__,__positive__)
-    __feature_set1_dir_negative__ = os.path.join(__cache_dir__,__feature_set_1__,__negative__)
-    __feature_set1_dir__ = os.path.join(__cache_dir__, __feature_set_1__)
+    __feature_set1_dir_positive__ = os.path.join(__cache_dir__,feature_set_1,__positive__)
+    __feature_set1_dir_negative__ = os.path.join(__cache_dir__,feature_set_1,__negative__)
+    __feature_set1_dir__ = os.path.join(__cache_dir__, feature_set_1)
 
     def __init__(self, positive_csv_data, negative_csv_data):
         self.positive_file = positive_csv_data
@@ -117,7 +119,7 @@ class dataset():
 
         # TODO utf-8 ??
         dataset = {}
-        dataset[self.__feature_set_1__] = sklearn.datasets.load_files(self.__feature_set1_dir__, shuffle=shuffle)
+        dataset[self.feature_set_1] = sklearn.datasets.load_files(self.__feature_set1_dir__, shuffle=shuffle, encoding='utf-8')
 
         return dataset
 
@@ -139,3 +141,22 @@ class dataset():
 
 
 
+def load_data(train_percent=0.6):
+    import input
+    print("Loading data to train and test classifier..")
+    dataset = input.dataset(positive_csv_data='data/positive.csv', negative_csv_data='data/negative.csv')
+    data_dict = dataset.load(build_cache=False)
+
+    # data has a single feature now
+    feature_set_1 = data_dict[dataset.feature_set_1]
+    data = feature_set_1.data
+    target = feature_set_1.target
+    categories = feature_set_1.target_names
+
+    x_train, x_test, y_train, y_test = train_test_split(data, target, random_state=0, train_size=train_percent)
+    return (x_train, y_train, x_test, y_test, categories)
+
+
+def get_categories():
+    import input
+    return [input.dataset.__negative__, input.dataset.__positive__]

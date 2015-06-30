@@ -1,0 +1,507 @@
+ 
+
+What Is Gamesalad?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+Join
+Sign In
+About Us
+Contact Us
+Expert Authors
+Ask Chris Knight
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+
+Home
+
+
+			» Computers and Technology
+
+
+			» Programming
+
+
+Join
+Sign in
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				Brad A Hammond			
+
+
+				|  
+				
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+What Is Gamesalad?
+
+
+
+
+
+
+
+
+			By
+			Brad A Hammond
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OverviewGamesalad is a software program created by Gamesalad Inc that you can develop IOS, Mac, Android and HTML 5 Applications with. Gamesalad offers a simple to use interface in which you can create Applications without any programming experience. Instead of programming applications, you use logical thinking to control "Actors".Now you are probably thinking to yourself right now, what are "Actors"? An Actor is any attribute of the application. For example if you have an application that has a picture of a forest as the background and a stick man that jumps when you tap the screen, then the forest background picture would be one Actor and the stick man would be another.In order to create applications or games with Gamesalad, you have to do a lot of logical thinking. An example of some logical thinking in Gamesalad is as follows. You would like to create a game with Gamesalad in which when you tap the screen a stick man jumps to avoid touching a snake on the ground. You first would create a new actor in Gamesalad named stick man. Then you would create anouther "Actor" called snake and finally an actor named background.You would then open up the "Stick Man" actor in Gamesalad and create a "Rule" (Rules in Gamesalad are attributes that you apply to actors) that says "When actor receives touch is pressed then move up for.5 seconds" Then you would want to apply "Gravity" to the scene in order to to make the actor return to the ground when you release your finger.. A "Scene" in Gamesalad is each screen that could be opened in the game. For the Actor "Snake", you would want to apply the attribute "Move (specify direction) and then choose a speed at which the Snake should move.
+
+
+I hope this gives you a glimpse into the kind of logical thinking that you will have to do in order to use Gamesalad to develop iPhone apps. Even though Gamesalad Inc advertises their software as "No Programming Skills Required" it doesn't mean that you will be able to make great successful iPhone Applications with little work and effort. Application development with Gamesalad is faster than Xcode and other application development software but still requires some thinking, hard work and determination in order for you to succeed.How Easy is It to Use Gamesalad?Gamesalad is extremely easy to use, as well as, to learn how to use for the complete beginner. The creators of Gamesalad's main goal was to bring simplicity to Application development and take out many of the tedious and confusing steps that you have to take in order to develop iPhone Apps in Xcode. They basically wanted to develop a tool for quick and easy App development that the average person could use.Learning how to use Gamesalad is extremely easy. Gamesalad Inc has created video tutorials on every aspect of using Gamesalad from creating and "Actor" to publishing your finished Application. The video tutorials make the learning process very quick and easy. You will be a Gamesalad expert before you know it!Why Should I Use Gamesalad and Not Apple's Native Xcode?Apple's native iPhone App Development Application (Xcode) is great for developing Apps but has a huge learning curve plus the fact that you have to know how to program in Objective C, Coca and use the Interface Builder. Ideally Xcode is the best way to develop iPhone Apps. Applications developed in Xcode are clean, speedy and professional, but not everyone has the knowledge to use Xcode to develop iPhone Apps.The best alternative to Xcode is Gamesalad. In Gamesalad, you can still create professional iPhone Apps but in less the time and with no programming knowledge.Are There Any Limitations To Gamesalad?As great as Gamesalad is, there are a few limitations. Some of the limitations that Gamesalad has are in the areas of accessing system information. With Gamesalad, you can not access system information such as the devices battery life, ram usage, storage space available, location etc...You also can't send push notifications with Gamesalad at the time of this writing. Because of these limitations, many utilities are impossible to make with Gamesalad. Although Gamesalad has these limitations and you can't develop many utilities with it, Gamesalad is great for making games. You probably guessed this from the name "Gamesalad". Almost any type of game is possible to make in Gamesalad. Gamesald is great for quick and easy iPhone App development, especially for games.So I Have Decided To Get Gamesalad But Should I Get A Gamesalad Free Account or a Gamesalad Pro Account?Gamesalad offers two different types of accounts. They offer a free account which gives you the ability to publish iPhone Apps but without Ads and also the without ability to publish to the Mac and Android App Stores.
+
+
+The Gamesalad Pro Account gives you added features like the ability to open URL's and also the ability to put iAds into your iPhone Apps as well as the ability to publish to the Mac and Android Stores. Putting URL buttons into your App might not sound like a big thing but trust me, it is a very important feature.In all of my iPhone Apps, I have a "More Games" button on the home screen of the App. When the user clicks on the "More Games" button, the app will open up the iTunes URL which contains all of my other Applications. This feature can defiantly boost sales. Many users will click on the button and end up buying more of your Apps.Another important feature that comes with the "Gamesalad Pro" account is the ability to put iAd's into your Application. The iAd Network is Apple's advertising program which gives you the ability to earn advertising revenue after placing Ad requests in your Apps.Wrap UpI hope this gives you a glimpse into the kind of logical thinking that you will have to do in order to use Gamesalad to develop iPhone apps. Even though Gamesalad Inc advertises their software as "No Programming Skills Required" it doesn't mean that you will be able to make great successful iPhone Applications with little work and effort. Application development with Gamesalad is faster than Xcode and other application development software but still requires some thinking, hard work and determination in order for you to succeed. 
+
+Like This Article?Check out my Blog iPhone Development Tutorial Headquarters [http://www.iphonedevelopmenttutorialhq.com] 
+Article Source:
+				http://EzineArticles.com/?expert=Brad_A_Hammond
+
+
+
+
+
+
+
+
+
+
+
+
+0 Comments | Leave a Comment
+
+
+
+
+		Did you find this article helpful?
+		
+
+
+
+
+			Viewed 177 times		
+
+			Word count: 1,066		
+
+
+
+
+
+
+Article Tools
+
+
+
+						EzinePublisher
+					
+
+
+						Report this article
+					
+
+
+						Cite this article
+					
+
+
+
+
+
+
+Stay Informed
+
+
+Subscribe to New Article Alerts:
+
+
+
+ Computers and Technology: Programming								
+
+ Brad A Hammond								
+
+
+
+
+Subscribe
+
+We will never sell or rent your email address.
+
+
+
+							Programming Article Feed
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Find More Articles
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+Similar Articles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recent Articles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		Hammond, Brad A.		"What Is Gamesalad?."
+		.
+		28 Feb. 2012		EzineArticles.com.
+		27 Jun. 2015 <http://ezinearticles.com/?What-­Is-­Gamesalad?&id=6910312>.
+	
+
+
+
+		Hammond, B. A. (2012, February 28). What Is Gamesalad?.
+ 		Retrieved June 27, 2015, from http://ezinearticles.com/?What-­Is-­Gamesalad?&id=6910312
+
+
+
+
+		Hammond, Brad A. "What Is Gamesalad?." What Is Gamesalad?
+EzineArticles.com. http://ezinearticles.com/?What-­Is-­Gamesalad?&id=6910312
+
+
+
+
+
+
+
+
+
+
+
+EzineArticles.com
+
+
+About Us
+FAQ
+Contact Us
+Member Benefits
+Privacy Policy
+Shop
+Site Map
+
+
+Blog
+Training
+Video Library
+Advertising
+Affiliates
+Cartoons
+
+
+
+
+
+Authors
+
+
+Submit Articles
+Members Login
+Premium Membership
+Expert Authors
+Endorsements
+Editorial Guidelines
+Terms of Service
+
+
+
+
+
+Publishers
+
+
+Terms Of Service
+Ezines / Email Alerts
+Manage Subscriptions
+EzineArticles RSS
+
+
+
+© 2015 SparkNETAll Rights Reserved Worldwide
+
+
+
+
+
+
+
+

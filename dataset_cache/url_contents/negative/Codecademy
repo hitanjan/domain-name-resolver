@@ -1,0 +1,726 @@
+
+
+
+Practice Makes Perfect Forum | Codecademy Online Tutorials
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+☰
+
+
+
+
+
+
+
+                Sign up
+              
+
+ 
+
+
+
+
+                Login
+              
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Sign in
+
+
+
+
+
+
+Sign up
+
+
+
+
+
+
+Learn
+
+
+
+
+
+
+Teach
+
+
+
+
+
+
+Help
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Practice Makes Perfect
+(Section 1 of 3)
+
+
+
+
+
+Section
+
+
+
+Q&A Forum
+
+
+
+Glossary
+
+
+
+Fun With Numbers
+
+Course written by
+Adam Cooper
+
+
+
+
+
+
+
+
+      ← Forum
+    
+
+
+299 pts
+
+
+
+Eliza Miller
+
+
+
+
+
+
+6/15: Your function fails on is_prime(9)
+My error message: Your function fails on is_prime(9). It returns True when it should return False.
+Why does this fail on 9? I can't figure out why this would return False from the code and I'm having trouble debugging due to the set up of this exercise:
+def is_prime(x):
+    if x==2:
+        return True
+    elif x > 2: 
+        for n in range(2,x):
+            if (x%n) == 0:
+                return False
+                break
+            else:
+                return True
+    else:
+        return False
+
+
+
+      Follow post
+  
+
+
+
+
+
+
+228 pts
+
+
+
+jacquelinedataminr.com
+
+
+
+
+
+
+
+your range on your elif statement is off. you have to test (2,x-1)
+
+
+
+
+
+
+
+
+
+
+Eliza Miller
+
+
+That range causes failures for 3
+
+
+
+
+sequester21
+
+
+besides the range of elif being off, it fails on 9 because the for statement is checking EACH n in that range.  For x=3 to x=8, the function will break for n=2 which is correct. However, the first n that goes into 9 evenly is 3. So the function doesn't know whether it should return True or False.  therefore it returns none and you get an error
+
+
+
+
+
+
+
+194 pts
+
+
+
+St Pavel
+
+
+
+
+
+
+
+I found solution in the web:
+    def is_prime(x):
+    -----if x == 2 or x == 3:
+        ----------return True
+    -----elif x % 2 == 0 or x < 2:
+        ----------return False
+    -----for n in range(3, int(x **.5)+1, 2):
+        ----------if x % n == 0:
+           ---------------return False
+    -----return True
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sign in to post to the forum.
+
+
+
+
+
+
+
+
+  Ask a question
+
+
+Other Courses
+
+      Looks like you don't have any. 
+
+        Start learning by finding more courses
+      
+
+
+
+Forum Guidelines
+
+
+      Full guidelines available here
+    
+
+
+
+Be descriptive.
+      If you're stuck, give as much detail as possible about what you tried and what you're seeing. Include the code you’ve written and the exact error messages that you see, and any other actions that you've tried.
+    
+
+Don't just post the code.
+      Posts that consist only of code with no other information are not appropriate. Describe what you tried, what did and didn't work, what you understand or have questions about, and what you think might be going on.
+    
+
+Format your code for clarity.
+      Use Markdown to format your code, mark things italics or bold, and do other formatting that will help your clarity.
+    
+
+
+
+
+
+
+
+
+
+
+
+                  Exercise 1: Practice! Practice Practice!
+                
+
+
+
+
+
+                  Exercise 2: is_even
+                
+
+
+
+
+
+                  Exercise 3: is_int
+                
+
+
+
+
+
+                  Exercise 4: digit_sum
+                
+
+
+
+
+
+                  Exercise 5: factorial
+                
+
+
+
+
+
+                  Exercise 6: is_prime
+                
+
+
+
+
+      Not started
+    
+
+
+
+
+
+
+                  Exercise 1: reverse
+                
+
+
+
+
+
+                  Exercise 2: anti_vowel
+                
+
+
+
+
+
+                  Exercise 3: scrabble_score
+                
+
+
+
+
+
+                  Exercise 4: censor 
+                
+
+
+
+
+      Not started
+    
+
+
+
+
+
+
+                  Exercise 1: count
+                
+
+
+
+
+
+                  Exercise 2: purify
+                
+
+
+
+
+
+                  Exercise 3: product
+                
+
+
+
+
+
+                  Exercise 4: remove_duplicates
+                
+
+
+
+
+
+                  Exercise 5: median
+                
+
+
+
+
+      Not started
+    
+
+
+
+
+Formatting Text
+
+Headers
+# This is an h1 tag
+## This is an h2 tag
+###### This is an h6 tag
+
+
+
+Text styles
+*This text will be italic*
+_This text will be italic_
+**This text will be bold**
+__This text will be bold__
+
+*You **can** combine them*
+
+
+
+
+Lists
+
+Unordered
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+
+
+
+Ordered
+1. Item 1
+2. Item 2
+3. Item 3
+   * Item 3a
+   * Item 3b
+
+
+
+
+Miscellaneous
+
+Images
+![Codecademy Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
+
+
+Links
+http://www.codecademy.com
+[Codecademy](http://www.codecademy.com)
+
+
+
+Glossary Term
+Functions Review
+[] { functions }
+
+
+
+
+Code
+
+Inline code
+To print 'hello, world', type:
+`console.log("hello, world")`
+
+
+Code Block
+// Use 4 spaces for multiline codeblocks
+    var a = 1;
+    while (a  
+
+
+
+View full Markdown syntax
+
+
+
+
+
+
+
+
+
+
+
+
+Teaching the world how to code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Company
+
+About
+Stories
+We're hiring
+Contact us
+Blog
+
+Resources
+
+Schools
+Labs
+
+
+
+Learn To Code
+
+
+
+
+
+
+
+
+
+HTML & CSS
+JavaScript
+jQuery
+PHP
+Python
+Ruby
+
+
+
+
+
+
+
+
+
+
+
+Privacy Policy
+Terms
+
+
+
+
+
+
+
+              Made in NYC © 2015 Codecademy
+            
+
+
+
+
+
+
+            English
+          
+
+            Español
+          
+
+            Français
+          
+
+            Português (Brazil)
+          
+
+            Kyrgyz (Kyrgyzstan)
+          
+
+            فارسی
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sign up to Codecademy
+
+      You're doing great! 
+ 
+
+Sign up...
+Sign up Facebook
+Sign up Google
+
+
+Sign up with email
+
+
+
+
+
+
+
+
+
+By signing up, you agree to our Terms of Service
+
+
+
+
+
+
+
+
+
+Sign in
+
+
+Sign in with...
+Sign in with Facebook
+Sign in with Google
+Sign in with Twitter
+
+
+Sign in with email
+
+
+
+
+
+
+Remember me
+Forgot your password?
+
+
+
+Sign up
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,217 @@
+
+
+
+
+CanJS  - home
+
+
+
+
+
+
+
+
+
+CanJS
+
+JavaScriptMVC
+CanJS
+jQuery++
+StealJS
+FuncUnit
+DocumentJS
+
+
+
+
+Home
+
+guides
+api
+
+Community
+
+Forums
+IRC
+Apps
+Plugins
+Articles
+Github
+Twitter
+Meetups
+
+
+
+Blog
+
+
+Download
+
+
+
+
+Bitovi
+
+Bitovi.com
+Blog
+Design
+Development
+Training
+Open Source
+People
+Contact Us
+
+
+
+
+
+
+
+Build better apps, faster
+
+
+Download 2.2.6
+
+Customize 
+
+Works with: jQuery, Zepto, Dojo, Mootools, YUI
+
+
+
+
+
+
+
+Flexible
+Works with jQuery, Dojo, Mootools, YUI, and Zepto. Reuse your existing templates.
+
+
+Powerful
+2-way binding, restful models, custom tags, observables, memory safety, and more.
+
+
+Fast
+Fast templates, responsive widgets, and you can learn it in a day.
+
+
+CanJS is a JavaScript library that makes developing complex applications simple and fast. Easy-to-learn, small, and unassuming of your application structure, but with modern features like custom tags and 2-way binding. Creating apps is easy and maintainable.
+
+
+Follow @canjs
+
+
+
+
+
+
+articles
+
+
+
+
+Simple To Use
+Observables and live binding do the work for you.
+Edit
+
+var Todo = can.Model.extend({
+  findAll: 'GET /todos',
+  findOne: 'GET /todos/{id}',
+  update: 'PUT /todos/{id}',
+  destroy: 'DELETE /todos/{id}'
+}, {});
+
+can.Component.extend({
+  tag: 'todos-app',
+  scope: {
+    selectedTodo: null,
+    todos: new Todo.List({}),
+    select: function(todo){
+      this.attr('selectedTodo', todo);
+    },
+    save: function(todo) {
+      todo.save();
+      this.removeAttr('selectedTodo');
+    }
+  }
+})
+
+<todos-app>
+  <h2>Todays to-dos</h2>
+  {{#selectedTodo}}
+  <input type="text"
+         can-value="description"
+         can-change="save">
+  {{/selectedTodo}}
+  <ul>
+    {{#each todos}}
+    <li>
+      <input type="checkbox"
+             can-value="complete">
+      <span class="{{#if complete}}done{{/if}}"
+            can-click="select">
+        {{description}}
+      </span>
+      <button can-click="destroy"></button>
+    </li>
+    {{/each}}
+  </ul>
+</todos-app>
+
+
+
+
+
+Get Started
+You'll be up and running in no time
+
+Download
+Read the Guide
+Watch this Video
+
+
+
+
+CanJS.com Embed
+
+
+
+
+Most Popular Articles
++ Add an Article
+
+
+
+
+
+Get Free Stuff for Helping
+Report bugs, submit a plugin, vote for your favorites
+Sign Up Now
+
+
+
+
+
+
+
+
+Home
+
+guides
+api
+
+Community
+
+
+Blog
+
+
+Download
+
+
+
+
+
+
+
+
+

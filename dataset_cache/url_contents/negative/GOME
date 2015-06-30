@@ -1,0 +1,464 @@
+
+
+
+
+
+
+
+
+
+Mg II core-to-wing solar index from high resolution GOME data
+
+
+
+
+
+
+
+
+ESA
+Earth Home
+Missions
+Data Products
+Resources
+Applications
+
+
+
+
+
+  
+ 
+22-Jul-2014
+
+
+
+
+
+
+
+
+EO Data Access 
+ 
+
+
+
+ 
+How to Apply
+
+
+
+
+
+
+
+
+
+
+
+ 
+How to Access
+
+
+
+
+
+
+
+
+Mg II core-to-wing solar index from high resolution GOME data (Peeters et al.)
+
+
+MgII solar index from high resolution GOME data
+
+
+
+
+Services 
+Site Map
+
+Frequently asked questions
+
+Glossary
+
+Credits
+
+Terms of use
+
+Contact us
+
+
+
+
+
+Search 
+
+
+
+
+
+
+
+
+
+
+Advanced Search
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+Mg II core-to-wing solar index from high
+resolution GOME data
+
+
+Philippe Peeters and Paul C.
+        Simon
+Belgian Institute for Space Aeronomy, Av.
+        Circulaire 3, B-1180 Brussels, Belgium
+        Tel: +32-2-373 03 81, Fax: +32-2-374 84 23
+        email:  philp bira-iasb.oma.be ,  pauls bira-iasb.oma.be 
+
+
+
+Oran R. White and Guiliana
+        de Toma
+High Altitude Observatory, National
+        Center for Atmospheric Research, Boulder, CO 80307-3000,
+        U.S.A.
+        email:  orw hao.ucar.edu ,
+         detoma hao.ucar.edu 
+
+
+Gary J. Rottman, Thomas N.
+        Woods and Barry G. Knapp
+Laboratory for Atmospheric and Space
+        Physics, University of Colorado, 1234 Innovation Drive,
+        Boulder, Colorado, USA
+        email:  rottman lasp.colorado.edu ,
+         woods lasp.colorado.edu ,
+         knapp lasp.colorado.edu 
+
+
+Abstract
+
+The Mg II core-to-wing index was first developed
+    for the Nimbus 7 solar backscatter ultraviolet spectrometer
+    as an indicator of solar UV flux temporal variation. It is
+    particularly important because of its long-term precision and
+    insensitivity to instrument artifacts. For almost twenty
+    years, solar activity monitoring from space has provided
+    valuable data from which the Mg II index can be derived. The
+    quality of each Mg II index is related to the calibration of
+    the instrument as well as its spectral resolution. A
+    reasonably good record can be obtained from the unresolved Mg
+    II doublet at 280 nm. However, a higher spectral resolution
+    of an instrument increases sensitivity to both the 27 days
+    rotational modulation and the long term solar cycle
+    variation. The new GOME instrument on board the ERS-2
+    satellite provides daily solar spectrum observations. Thanks
+    to its high spectral resolution of 0.2 nm at 280 nm we can
+    expect a very good Mg II index product from this instrument.
+    In this paper, we show some preliminary results of GOME
+    derived Mg II index using an algorithm taking into account
+    its high spectral resolution. This algorithm is derived
+    directly from UARS/SOLSTICE Mg II index algorithm at HAO and
+    LASP. A direct comparison with the SOLSTICE index is also
+    presented for a time period of half a year. 
+
+Introduction
+The Solar chromospheric activity in the ultraviolet region is
+of great importance to our understanding of both the physical
+properties of the Sun as a star, and of the Solar influence on
+the Earth's stratospheric chemistry. In the UV region, the Mg II
+core-to-wing ratio introduced by Heath et al. [5] is one of the most widely used
+indices of solar activity. 
+The Mg II doublet near 280 nm is a broad absorption feature
+with narrow emission peaks in the core. The h and k emission
+doublet originates in the Sun's chromosphere overlying the denser
+photosphere. The full disk Mg II index derived from the line core
+show's the 27-day rotational modulation as well as the long term
+11-year activity cycle. Radiation in the line wings originates in
+the photosphere and shows much less variability. Therefore, the
+ratio of line core intensity to wing intensity provides a good
+estimate of solar variability because the use of intensity ratio
+cancels degradation effects. 
+The Mg II core-to-wing ratio has become one of the most
+valuable qualitative indices of solar activity used by both
+astrophysicists and geophysicists. Solar irradiance has been
+measured by different space experiments since 1978, and
+variability over the 11-year solar cycle has been recorded.
+Instruments which have contributed to solar studies include the
+Solar Backscatter UltraViolet (SBUV) experiments on board of
+Nimbus 7 and NOAA satellites and two instruments from the Upper
+Atmosphere Research Satellite (UARS), the SUSIM and SOLSTICE
+instruments, both specifically designed for solar observations. 
+Both UARS instruments, SOLSTICE and SUSIM, have sufficient
+instrumental resolution to resolve the Mg II doublet. The
+SOLSTICE F channel has a resolution of 0.24 nm with a wavelength
+spacing of 0.068 nm at 280 nm. A detailed description of the
+SOLSTICE instrument can be found in Rottman et al. and in
+Woods et al. [6, ], and
+a recent evaluation of its performance with respect to other
+spaceborne solar observation instruments has been made in Woods et
+al. [9]. 
+Although not fully resolved, the h and k emission lines can be
+clearly identified at this resolution. To take advantage of the
+more accurate profiles, a new SOLSTICE Mg II index has been
+defined. An extensive comparison work of the different Mg II
+indices has been done by de Toma et al. [1]. In order to combine the
+measurements of the Mg II index from different experiments, it is
+necessary to determine the effect of their differing spectral
+resolutions on both short term (days) and long term (years)
+variability in the Mg II index time series. White et al. [7] analyzed the properties of Mg II
+index series computed at 0.25 nm and 1.15 nm resolution. They
+conclude that the current measurements describe slow solar
+variation from 1992 to 1996 and the shorter term variations at
+periods of 27 and 13.5 days equally well, except during solar
+minimum when the solar fluctuations are small. The higher
+resolution measurements at 0.2 nm resolution and a high
+day-to-day precision are required for accurate measurements of
+variability at solar minimum. 
+Since mid 1995, a new European instrument, the Global Ozone
+Monitoring Experiment (GOME), on board the ERS-2 satellite makes
+daily solar irradiance measurements for calibration purpose. Its
+high spectral resolution puts it in the same class as SOLSTICE
+observations. In this paper, we present a Mg II core-to-wing
+index derived from GOME solar observations using the SOLSTICE
+index approach. Although a limited amount of GOME data are
+available, we show a comparison with the SOLSTICE Mg II index. 
+The GOME instrument
+The Global Ozone Monitoring Experiment (GOME) was launched
+on-board the ERS-2 spacecraft in April 1995. This instrument is a
+nadir-viewing spectrometer that observes solar radiation
+backscattered by the Earth's atmosphere and scattered from its
+surface. The primary objectives of this instrument are to measure
+the atmosphere's content of ozone, nitrogen dioxide, as well as
+other trace gases using a technique known as Differential Optical
+Absorption Spectroscopy (DOAS). Knowledge of the solar incident
+radiation is also required to establish the amount of absorption.
+The GOME instrument can directly measure the Earth's radiance
+scattered into its spectrometer, or, in an alternate mode using a
+slightly different optical path, it can measure the solar
+irradiance directly. The optics of the spectrometer are the same
+in both configurations, except for a scanning mirror and a
+diffuser inserted in the optical path for direct solar
+measurements. Input solar radiation is needed for trace gase
+measurements but also for calibration of the instrument. The
+reader is referred to reports from ESA [2] and [3]
+for details about the GOME instrument. To summarize, the GOME
+instrument is a 4-channel diode array spectrometer. Each channel
+detector is a 1024 pixels diode array, and the full wavelength
+range spans 240 nm to 790 nm. The instrument resolution varies
+from 0.15 nm to 0.3 nm depending on the channel. 
+An extensive validation program was conducted during the first
+six months of the instrument's operation. The goal of this
+program was to assess the performance of both the instrument and
+data processing with respect to well known references. This
+validation program included both the level 1 data (solar
+irradiance and Earth's radiance) and level 2 data (ozone and
+nitrogen dioxide total column). Reports on the validation
+campaign can be found in ESA reports [4].
+The solar irradiance measurements from GOME have been compared
+with SOLSTICE measurements for a limited time period. Although
+displaying some instrumental artifacts and absolute calibration
+discrepancies, the solar spectra measurements from GOME show a
+very good day-to-day accuracy and a very low noise. These
+characteristics make it an excellent source for solar UV data,
+and a Mg II index in particular. A more extensive GOME/SOLSTICE
+irradiance comparison can be found in this proceedings. 
+Data sets and
+computation of the Mg II index
+The GOME instrument makes daily observation of the solar
+irradiance during its Sun Observation Timeline (SOT), a 42-second
+timeline inserted into its normal observation sequence when the
+satellite is close to the Earth's north pole. 
+For Mg II index computation, only channel 1 data from the GOME
+instrument is needed. Figure 1
+displays both GOME and SOLSTICE solar measurements around 280 nm.
+
+  
+Figure 1: GOME (solid line) and SOLSTICE
+(dotted line) solar flux measured on June 28, 1996. Both
+irradiance are normalized to 1 astronomical unit.
+Both spectra were recorded on June 28, 1996 and are
+representative of the solar minimum between solar cycle 22 and
+23. Despite the small intensities of h and k lines, the emission
+doublet shows quite clearly on GOME high resolution spectrum
+while it is less resolved in SOLSTICE spectrum. This simple
+comparison already shows the potential high quality of the GOME
+solar measurements for Mg II index computation. The day-to-day
+precision of GOME solar measurement is very good (). It is quite clear to us that a version
+of the SOLSTICE algorithm modified for the higher GOME resolution
+is the best approach for computation of the GOME Mg II index. 
+The raw data (level 0) are processed at the German ground data
+processing facility (DLR) to produce the level 1 data, i.e.
+calibrated data both for solar irradiance and Earth's radiance.
+The data used in this analysis include only data processed using
+the current operational V1.0 Gome Data Processor (GDP). The GOME
+data used in this study include the V1.0 level 1 data received
+from DLR from June 1996 to December 1996. The SOLSTICE Mg II
+index are provided by LASP from their research database. They are
+a later version than is presently available in the SOLSTICE
+database at the GSFC DAAC (http://daac.gsfc.nasa.gov). 
+The SOLSTICE approach for index computation has been described
+in de Toma et al. [1]
+and compared to other available Mg II indices. Since the
+chromospheric emissions is resolved, integration of the peaks
+measures the chromospheric radiations alone. The Mg II index is
+defined as the integral of the area beneath the h and k peaks
+divided by a reference intensity from the wings nearby the broad
+Mg II absorption band. Figure 2 shows the corresponding areas
+and reference intensity for a typical GOME spectrum. 
+  
+Figure 2: GOME solar spectrum acquired on
+June 28, 1996. The black area beneath each k and l peaks and the
+average reference intensity used for Mg II index computation are
+represented.
+The k line position is first identified from the spectrum and
+the weaker h line center is determined at a fixed offset of
+0.7175 nm. The integration is performed over a 0.268 nm band
+around the line centers. The reference intensities are the maxima
+of parabola fitted to the four peaks in the far wings of the Mg
+II absorption feature. The final reference intensity is the
+average of the four maxima. 
+GOME Mg II index
+Each daily GOME solar spectrum is an average of around 150
+individual measurements when the Sun is in the line of sight of
+the satellite close to the North pole. The corresponding Mg II
+value is computed from the average spectrum. On the other hand,
+daily SOLSTICE Mg II index is an average of Mg II indices
+computed on the 16 individual daily solar measurements. The
+current Mg II index time series from GOME is plotted in
+figure 3 from 28 June
+1996 to 5 December 1996 and contains 138 individual measurements.
+
+  
+Figure 3: Mg II index computed from GOME V1.0
+solar measurements using high resolution approach (triangles) an
+corresponding SOLSTICE Mg II index (diamonds).
+The 27-day rotational modulation shows up clearly on this
+short time series of 6 months duration. The very low noise of the
+GOME Mg II data is one of the most striking features of this
+plot. This is a consequence of the high day-to-day precision of
+the GOME instrument. Additional work is in progress to quantify
+more thoroughly GOME's accuracy. The correlation with the
+SOLSTICE index is good (r=0.81) considering the small
+amount of data values. The linear fit is showed in figure 4. The sensitivity to solar
+variability is good but can probably be improved. We note that
+this short time series shows solar variability during the period
+of minimum activity between solar cycles 22 and 23. Furthemore,
+the SOLSTICE Mg II index time series appear noisy. This problem
+is known and originates in wavelength shift for some days in this
+6 months period especially in summer. This may give a misleading
+view of SOLSTICE Mg II index quality. A better filtering of the
+SOLSTICE data will significantly improve the correlation. 
+  
+Figure 4: Linear regression of the GOME Mg II
+index with the corresponding SOLSTICE Mg II index. The solid line
+corresponds to the least square linear regression.
+Conclusion
+We find that a high resolution algorithm for Mg II solar index
+applied to GOME daily solar measurements provides high quality
+data. Altough the time series considered in this work is quite
+short, the day-to-day precision is very good and the signal to
+noise ratio is high. 
+These characteristics allow us to be reasonably confident that
+the GOME Mg II time series could reliably be combined with
+existing longer Mg II records obtained with either the UARS or
+SBUV2 instruments. 
+While not designed specificaly for solar observations, we find
+that the GOME instrument on board the European ERS-2 satellite to
+be a good source of high quality solar measurements that
+complement the current operational solar experiments. 
+Aknowledgments
+The SOLSTICE Mg II index used in this work is a research
+product, which will be made publicly available as part of the
+SOLSTICE database at the GSFC-DAAC http://daac.gsfc.nasa.gov.
+This work has been support by PRODEX-UV A.O. ERS2-Project 2
+(151903). 
+
+References
+
+1
+de Toma, Guiliana, O.R. White, B.G. Knapp, G.J Rottman
+        and T.N. Woods, Mg II core-to-wing index : Comparison of
+        SBUV2 and SOLSTICE time series, J. Geophys. Res. 102,
+        A2, 2597-2610, 1997 
+2
+ESA, GOME Interim Science Report, ESA SP-1151, ESA/ESTEC
+        Noordwijk, 1993 
+3
+ESA, GOME Users Manual, ESA SP-1182, ESA/ESTEC,
+        Noordwijk, 1995 
+4
+ESA, GOME Geophysical Validation Campaign, Final Results
+        Workshop Proceedings, ESA-ESRIN Frascati 24-26 January
+        1996, ESA WPP-108, 1996 
+5
+Heath, D.F., and B.M. Schlesinger, The 280 nm doublet as
+        a monitor of changes in solar ultraviolet irradiance, J.
+        Geophys. Res. 91, 8672-8682, 1986 
+6
+Rottman, G.J., Thomas N. Woods, and T.P. Sparn, Solar
+        Stellar Irradiance Comparison Experiment 1. instrument
+        design and operation, J. Geophys. Res. 98,
+        10667-10678, 1993 
+7
+White, Oran R., G. de Toma, G.J. Rottman, T.N. Woods and
+        B.G. Knapp, Effect of Spectral Resolution on the Mg II
+        core-to-wing index, to appear in Solar Physics ,
+        SOLERS 22 issue, 1997. 
+8
+Woods, Thomas N., Gary J. Rottman and G.J. Ucker, Solar
+        Stellar Irradiance Comparison Experiment 2. instrument
+        calibration, J. Geophys. Res. 98, 10679-10694,
+        1993 
+9
+Woods, Thomas N., D.K. Prinz, J. London, G.J. Rottman,
+        P.C. Crane, R.P. Cebula, E. Hilsenrath, G.E. Brueckner,
+        M.D. Andrews, O.R. White, M.E. VanHoosier, L.E. Floyd,
+        L.C. Herring, B.G. Knapp, C.K. Pankratz, and P.A. Reiser,
+        Validation of the UARS Solar Ultraviolet Irradiances:
+        comparison with the ATLAS-1,-2 Measurements, J.
+        Geophys. Res. 101, 9541-9569, 1996 
+
+
+ 
+* Recently moved from the National
+        Center for Atmospheric Research 
+
+
+
+Philippe Peeters 
+    Fri Mar 14 09:02:46 MET 1997
+
+Keywords: ESA European 
+Space Agency - Agence spatiale europeenne, 
+observation de la terre, earth observation, 
+satellite remote sensing, 
+teledetection, geophysique, altimetrie, radar, 
+chimique atmospherique, geophysics, altimetry, radar, 
+atmospheric chemistry 
+
+
+
+
+   Copyright 2000 -  European Space Agency. All rights reserved.
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1070 @@
+
+
+
+Cloudinary - Cloud image service, upload, storage & CDN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+About
+Blog
+Contact
+Partners
+Support
+Login
+
+
+
+search
+
+
+
+
+
+
+Twitter
+Google Plus
+Facebook
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Features
+Pricing
+Customers
+
+Documentation
+
+
+
+
+
+
+
+Overview
+
+
+Architecture and concepts
+API, URLs and access identifiers
+
+
+
+
+Image Management
+
+
+Upload images
+Image transformations
+Fetch remote images
+Facebook profile pictures
+Admin API
+Upload widget
+
+
+
+
+Video Management
+
+
+Upload videos
+Video manipulation and delivery
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rails - Getting started guide
+
+Rails image upload
+Rails image manipulation
+Rails & CarrierWave integration
+
+
+
+
+
+
+
+
+
+
+
+jQuery - Getting started guide
+
+jQuery image upload
+jQuery image manipulation
+
+
+
+
+
+
+
+
+
+
+
+PHP - Getting started guide
+
+PHP image upload
+PHP image manipulation
+
+
+
+
+
+
+
+
+
+
+
+
+
+Node.js - Getting started guide
+
+Node.js image upload
+Node.js image manipulation
+
+
+
+
+
+
+
+
+
+
+
+Java - Getting started guide
+
+Java image upload
+Java image manipulation
+
+
+
+
+
+
+
+
+
+
+
+Django - Getting started guide
+
+Django image upload
+Django image manipulation
+
+
+
+
+
+
+
+
+
+
+
+
+
+.NET - Getting started guide
+
+ASP.NET image upload
+.NET image manipulation
+
+
+
+Other frameworks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cloudinary Add-ons
+
+
+
+
+Imagga Crop and Scale
+
+
+
+URL2PNG Website Screenshots
+
+
+
+JPEGmini Image Optimization
+
+
+
+VIESUS™ Image Enhancement
+
+
+
+
+
+WebPurify Image Moderation
+
+
+
+ReKognition Detect Face Attributes
+
+
+
+Aspose Document Conversion
+
+
+
+
+
+ReKognition Scene Categorization
+
+
+
+Metascan Anti-malware Protection
+
+
+
+Remove-The-Background Editing
+
+
+
+
+
+
+
+
+
+Add-ons
+
+
+sign up for free
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Management In The Cloud
+
+
+
+
+
+
+
+Image
+
+Upload
+
+
+
+Cloud
+
+Storage
+
+
+
+Powerful
+
+Administration
+
+
+
+Image
+
+Manipulation
+
+
+
+Fast
+
+Delivery
+
+
+
+sign up for free
+
+
+
+
+
+
+
+
+
+
+Still Managing Your Images In-House?
+Use Cloudinary's image service instead. With simple integration that developers will love you'll get immediate access to cutting-edge image capabilities. Save R&D time, get to market faster, reduce your IT costs and improve your viewers experience.
+
+
+
+
+
+
+
+Image Upload
+Securely upload images or any other file, at any scale from any source. API for fast upload directly from your users' browsers or mobile apps.
+
+
+
+
+
+
+
+Cloud Storage
+Store as many images as needed. Our image hosting service stores images privately and safely with automatic backup and historical revisions.
+
+
+
+
+
+
+
+Powerful Administration
+Manage your media library interactively with our Digital Asset Management solution or via APIs. Gain insights using advanced analytics.
+
+
+
+
+
+
+
+
+
+Image Manipulation
+Manipulate your images dynamically to fit any graphics design. Apply effects, resizing, cropping, face detection, watermarks and tons of image processing capabilities.
+
+
+
+
+
+
+
+Fast Delivery
+Get your images delivered lightning-fast, responsive and highly optimized for any device in any location. Images are served via Akamai’s worldwide CDN.
+
+
+
+
+
+
+
+
+50,000 customers from startups to enterprises manage
+
+images with us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Features developers love
+
+
+
+
+
+
+
+
+
+Powerful URL-based transformations
+
+From a single hi-res image, Cloudinary can generate all your required thumbnails, on-the-fly, using a simple URL. Use face detection based cropping to perfectly frame your photos. Deliver responsive images via a fast image CDN to any device and Retina display, at any pixel density.
+Learn More
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://res.cloudinary.com/demo/image/upload/w_133,h_133,c_thumb,g_face/bike.jpg
+
+
+
+Easy integration with your development framework
+Cloudinary’s client-side integration libraries and SDKs simplify the integration with your development platform of choice: Ruby on Rails, PHP, Node.js, Angular, .Net, Python & Django, jQuery, Java, Scala, Android, iOS and more.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  cl_image_tag(,
+                   ( => ,  => ,  => )); 
+
+
+
+cloudinary.image(, { : , : , :  })
+
+
+
+cloudinary.CloudinaryImage().image(width=, height=, crop=)
+
+
+
+.cloudinary.image(, { : , : , :  })
+
+
+
+ = = = =
+
+
+
+cloudinary.url().transformation(
+   Transformation().width().height().crop()).imageTag();
+
+
+
+cloudinary.Api.UrlImgUp.Transform(
+   Transformation().Width().Height().Crop()).
+    BuildImageTag();
+
+
+
+cloudinary.url format  transformation 
+  Transformation().w_().h_().c_() imageTag 
+
+
+
+[cloudinary : :{: 
+  [[ transformation] 
+    : {: , : , : }]}];
+
+
+
+cloudinary.url().transformation(
+   Transformation().width().height().crop()).generate();
+
+
+
+
+Upload images with a single line of code
+Upload files using Cloudinary's API from your back-end application, directly from your visitors' web browsers or mobile apps without any server-side component. Apply complex image transformations in advance or on-the-fly.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::.upload(,
+                             => ,  => ,  => )
+
+
+
+\\::upload(,
+                      ( => ,  => ,  => ));
+
+
+
+cloudinary.uploader.upload(, (result) { console.log(result) },
+                           { : , : , :  });
+
+
+
+cloudinary.uploader.upload(,
+                            width = , height = , crop = )
+
+
+
+ = =
+   = =
+   =
+
+$(".file-upload").cloudinary_fileupload();
+
+
+
+.upload({: file,
+                : {: .cloudinary.config().upload_preset},
+                ... });
+
+
+
+cloudinary.uploader().upload(,
+     ObjectUtils.asMap(,
+                       Transformation().width().height().crop()));
+
+
+
+cloudinary.Upload( ImageUploadParams() {
+   =  FileDescription(),
+  Transformation =  Transformation().Crop().Width().Height()
+});
+
+
+
+cloudinary.uploader.upload(, 
+  UploadParameters().transformation(Transformation().w_().h_().c_()))
+
+
+
+* uploader = [[ alloc] :cloudinary :];
+ *imageData = [ :];
+
+ *transformation = [ transformation];
+[transformation : {: , : , : }];
+
+[uploader :imageData :{: transformation}];
+
+
+
+cloudinary.uploader().upload(,
+     ObjectUtils.asMap(, 
+                       Transformation().width().height().crop()));
+
+
+
+
+
+Fetch and manipulate images on-the-fly
+Use a short URL prefix to crop and further manipulate your existing images on-the-fly. The images are optimized & delivered via an image CDN. Fetch images from anywhere around the web, including Facebook, Twitter and more.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://res.cloudinary.com/demo/image/fetch/w_365,h_140,c_fill,r_20,e_saturation:50,f_auto/http://upload.wikimedia.org/wikipedia/commons/8/81/Waves_lajolla.jpg
+
+
+
+
+On-the-fly real-time video manipulation and web optimization
+Upload all your video clips to the cloud. With a tweak of a URL, Cloudinary will transcode your videos for web view across all browsers and mobile devices. Scale, crop and further manipulate your videos on-the-fly according to your graphic design. Your videos will be optimized and streamed via a fast CDN.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://res.cloudinary.com/demo/video/upload/w_220,h_220,c_fill,q_50/dog.mp4
+
+
+
+
+
+Powerful management UI and API
+Manage your media library interactively and use RESTful APIs and SDKs to automate your image house-keeping. Analyze and optimize your image usage with in-depth reports, insights and statistics.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sign up for free
+
+
+
+
+Our partners
+
+and infrastructure providers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What people say about Cloudinary
+
+
+
+
+
+
+
+
+I was a bit skeptical when I first read about Cloudinary, but after five minutes of goofing around with it I’m sold.
+
+
+
+
+Read more
+
+
+
+
+
+Tweets
+
+
+
+
+
+
+
+
+From our blog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+more posts
+
+
+
+
+
+
+
+Service
+
+
+Features
+Pricing
+Customers
+FAQ
+
+
+
+
+Resources
+
+
+Documentation
+Blog
+Cookbook
+Knowledge Base
+Support
+Service status
+
+
+
+
+Company
+
+
+About us
+Contact us
+Partners
+Careers
+
+
+
+
+
+Twitter
+Google Plus
+Facebook
+LinkedIn
+RSS
+
+
+
+
+
+
+
+
+
+
+© 2015 Cloudinary. All rights reserved
+
+Terms of Use
+Privacy Policy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

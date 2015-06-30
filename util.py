@@ -41,7 +41,7 @@ class csv_dataset():
         self.negative_csv_file = negative_csv_file
 
 
-    def _negative_data_gen(self):
+    def _negative_data_gen(self, ratio=0.5):
 
         csv_file = csv_reader(self.company_list_csv_file)
         search_handle = search.bing()
@@ -50,7 +50,7 @@ class csv_dataset():
         csv_record_count = sum(1 for _ in csv_file.record_gen())
 
         # Use half of the total csv record count to create negative dataset
-        for record in csv_file.record_gen(csv_record_count/2):
+        for record in csv_file.record_gen(csv_record_count*ratio):
             input_model = input.model(record[1], record[0])
             company_name = input_model.company_name
 
@@ -96,8 +96,4 @@ class csv_dataset():
                     positive_csv_writer.writerow(b)
             else:
                 positive_csv_writer.writerow(b)
-
-
-
-
 

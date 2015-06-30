@@ -1,0 +1,174 @@
+
+
+The Coral Content Distribution Network
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"You make it fun; we'll make it run"
+
+
+
+The Coral Content Distribution Network
+
+
+
+
+
+
+Home
+••
+Project home page
+
+
+
+
+Overview
+••
+Brief overview and news
+
+
+
+
+Usage
+••
+Coral Wiki and FAQ
+
+
+
+
+Lists
+••
+Mailing Lists
+
+
+
+
+Pubs
+••
+Publications and people
+
+
+
+
+
+
+
+
+Our Goal
+
+Are you tired of clicking on some link from a web portal, only to
+find that the website is temporarily off-line because thousands or
+millions of other users are also trying to access it?  Does your
+network have a really low-bandwidth connection, such that everyone,
+even accessing the same web pages, suffers from slow downloads?  Have
+you ever run a website, only to find that suddenly you get hit with a
+spike of thousands of requests, overloading your server and possibly
+causing high monthly bills?  If so, CoralCDN might be your free solution
+for these problems!
+
+
+
+
+Using CoralCDN
+
+Taking advantage of CoralCDN is simple.  Just append 
+
+
+.nyud.net
+
+
+to the hostname of any URL,
+and your request for that URL is handled by CoralCDN!  
+
+Try our project page,
+or any other site:
+
+
+
+
+
+
+
+
+
+Current Deployment
+
+
+
+
+260 servers world-wide
+
+
+
+
+What is CoralCDN?
+
+CoralCDN is a free and open content distribution network based around peer-to-peer technologies,
+comprised of a 
+world-wide network of web proxies and nameservers.  It allows a user
+to run a web site that offers high performance and meets huge demand,
+all for the price of a $50/month cable modem.
+
+
+Publishing through CoralCDN is as simple as appending a short string to
+the hostname of objects' URLs; a peer-to-peer DNS layer transparently
+redirects browsers to participating caching proxies, which in turn
+cooperate to minimize load on the source web server.  
+CoralCDN proxies automatically replicate content as a side effect
+of users accessing it, improving its availability.
+
+Using modern peer-to-peer indexing techniques, CoralCDN will efficiently
+find a cached object if it exists anywhere in the network,
+requiring that it use the origin server only to initially fetch the
+object once.
+
+
+One of CoralCDN's key goals is to avoid ever creating hot spots in its
+infrastructure.  It achieves this through a novel indexing abstraction we introduce called a
+distributed sloppy hash table (DSHT), and it creates
+self-organizing clusters of nodes that fetch information from each
+other to avoid communicating with more distant or heavily-loaded
+servers.
+
+
+CoralCDN has been continuously operated since March 2004, running on
+300-400 servers on the PlanetLab testbed, spread
+worldwide.  As of 2011, it receives 25-50 million requests per day
+from a few million unique clients.
+
+
+(What's with the Google ads? Our Illuminati measurement project sought to 
+understand how IP addresses and public information
+characterize Web clients. One
+related question is how such information plays a role in pay-per-click
+advertising, so we decided to run some ourselves to better understand how such systems work.)
+
+
+
+
+
+
+
+
+
+
+
+
+

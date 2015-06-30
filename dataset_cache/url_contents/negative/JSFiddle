@@ -1,0 +1,520 @@
+ 
+
+Easy Web Development with jsFiddle -- Visual Studio Magazine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Twitter RSS 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NewsIn-Depth.NET Tips & TricksAgile AdvisorCode FocusedC# CornerCross-Platform C#Data DriverInside TFSMobile CornerModern C++Neural Network LabOnWard and UpWardPractical .NETRedmond ReviewUI Code Expert
+
+
+
+
+
+
+
+Tech Library2013 Salary SurveyVisual Studio 2012ALMAgile/ScrumAsync/Parallel/MulticoreCloud/AzureOpen SourceSharePointSQL ServerWeb DevelopmentHTML Issue ArchiveFull Archive
+
+
+
+
+
+
+
+
+
+
+HomeNewslettersWhitepapersWebcastsPDF Back IssuesAdvertiseContact UsLive! Video
+
+
+
+
+
+
+
+ 
+
+
+
+Papa's Perspective
+Easy Web Development with jsFiddle
+jsFiddle is a free code-sharing tool that allows you to edit, share, execute and debug Web code within a browser.
+
+By John Papa01/10/2012
+
+Have you ever wanted to test out a new idea with some  JavaScript and CSS quickly to see if you're on the right track? Have you ever  wanted to share your source for HTML, JavaScript and CSS sample on the Web and  allow people to run it? If so, you need to check out jsFiddle. Created by Piotr Zalewa, jsFiddle is a free code-sharing  tool that allows you to edit, share, execute and debug Web code within a  browser.
+ jsFiddle is a great tool for testing and sharing Web code. While  you don't need to register for a free account, it's useful, since you can  maintain a list of your projects, or "fiddles", on the dashboard. There are three  main windows where you can type HTML (upper middle), JavaScript (lower middle) and  CSS (upper right). Then you can run the code and view the results in a fourth  window (lower right). Figure 1 shows the UI.
+jsFiddle color-codes the syntax and offers a nice "tidy up"  feature that reformats the code using appropriate indentation and spacing. You  can also use the JSLint button to check your JavaScript syntax, which is a nice  bonus.
+ When you edit a fiddle, you can create a new version of it  by clicking the Update button. Or you can fork the code using the Fork button.  The nice thing about the Update button is that it creates a new URL with a  version number for the fiddle. This makes it easy to go back to previous  versions of fiddles from the more recent ones, in case you need to refer back  to previous code.
+
+
+
+[Click on image for larger view.] 
+
+Figure 1. jsFiddle displays HTML, JavaScript and CSS in the  same window.
+ You can check out jsFiddle by creating your own fiddle; you  can also view someone else's public fiddle, such as the one in the previous  figure that I created, which is located here. From here you can view, run or even fork the code to try your own variations.
+
+
+
+
+
+
+
+
+
+ One of my favorite uses for jsFiddle is sharing code  snippets with colleagues when tossing around ideas. One way to do this is to  share the public link. However, you can also share the fiddle on Twitter or Facebook  using the Share button. 
+ What I find most useful is the embed feature, which creates  a link that will embed the fiddle in another Web page. This is ideal for  embedding a fiddle's HTML, CSS, JavaScript and results in a blog page, for  example. Below is my fiddle from Figure 1:
+
+ You can also automatically include specific versions of  popular references, such as Mootools or jQuery, from the options window (on the  left). Notice in Figure 1  that I  reference jQuery 1.7.1. You can also choose to add your own references, such as  Knockout, by providing an address from the Add Resources option. Simply enter  the URL for the resource's source code and it will be available.
+ I'll leave you with three tips for using jsFiddle effectively.  First, register an account and log in before creating your fiddles. This makes it easier to organize your fiddles under your  dashboard. It also adds your jsFiddle username to the URL of your fiddles.
+ Second, remember to fill in the Info section for each of  your fiddles. This allows you to give your fiddle a title and description,  which becomes extremely useful when you start creating several fiddles and are  trying to discern each fiddle's purpose.  Third, if you have no purpose for the  intermediate fiddles as you go, click the Set Base button. This makes your  current version of the fiddle the base fiddle, and all others will derive from  it.
+ While jsFiddle is extremely useful, it's far from perfect.  But I'm willing to live with its missing features and warts because its pros  far outweigh its cons. jsFiddle isn't intended to be a full-fledged Web editor,  but it is an excellent code testing and sharing tool that's simple to use and  adds a lot of value. There are many other features that jsFiddle offers, and I  highly recommend you check it out. 
+
+
+
+
+About the Author
+
+
+                    John Papa is a Microsoft Regional Director and former Microsoft technical evangelist. Author of 100-plus articles and 10 books, he specializes in professional application development with Windows, HTML5, JavaScript, CSS, Silverlight, Windows Presentation Foundation, C#, .NET and SQL Server. Check out his online training with Pluralsight; find him at johnpapa.net and on Twitter at twitter.com/john_papa.
+
+                    
+
+
+
+
+
+
+
+
+Printable Format
+
+
+
+
+Please enable JavaScript to view the comments powered by Disqus.
+comments powered by 
+
+
+
+
+
+
+
+Most Popular Articles
+Most Emailed Articles
+
+
+
+Navigation with Xamarin Forms
+Why Wait for Updates? SQL Server 2016 Shifts into Rapid Preview
+What It Takes To Get Your App To Market
+Fire OS 5 Preview Opens Up New Options for .NET Developers 
+Even Better Data Typing with TypeScript 1.4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Free Whitepapers
+
+
+The Top 30 Data Quality Issues We’ve Encountered Over 30 Years in the Industry
+
+
+
+Enterprise Imaging on the Web 
+
+
+
+Scanning on the Web 
+
+
+
+Boosting Agile Velocity with Factory as a Service on Azure
+
+
+
+> More TechLibrary
+
+
+
+
+
+
+
+
+
+
+Upcoming Events
+
+
+Visual Studio Live!, Redmond
+August 10-14
+Redmond, WA
+
+
+Visual Studio Live!, New York
+Sept. 28-Oct. 1
+Brooklyn, NY
+
+
+Live 360!
+Nov. 16-20
+Orlando, FL
+
+
+
+.NET InsightSign up for our newsletter.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Email Address:
+
+
+
+
+
+
+
+
+
+
+
+
+
+I agree to this site's Privacy Policy.
+
+
+
+
+
+
+
+
+
+
+Free Webcasts
+
+
+Answer Big Questions with Microsoft BI, even on Oracle
+
+
+
+Sell Business Rules to your Boss
+
+
+
+5 Tips from Intuit for Implementing Static Code Analysis
+
+
+
+> More Webcasts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sponsored Links:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Advanced SearchContact UsAdvertiseEventsPrint Issues OnlineFree NewslettersSite MapReprints
+
+
+
+
+
+
+
+Application Development TrendsAWSInsider.netEnterprise SystemsMCPmag.comRedmond    Redmond Channel PartnerVirtualization Review
+
+
+
+
+
+    © 1996-2015 1105 Media, Inc. View our Privacy Policy and Terms of Use.
+Problems? Questions? Feedback? E-mail us.
+
+
+
+
+
+
+Close this Advertisement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

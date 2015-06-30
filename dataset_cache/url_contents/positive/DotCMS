@@ -1,0 +1,477 @@
+
+
+
+Content Management System - dotCMS Open Source Java CMS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Say Hello to dotCMS 3.2
+DotCMS 3.2 with advanced searching, geolocation, facets, suggestions, customizable pages, UTF-8 urls and much more.
+Download 
+                   Demo  
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+dotCMS Cloud
+Take the worry out of hosting your own Content Management System (CMS). DotCMS Cloud allows you to get started quickly and scale rapidly to meet your sites' growth. Allowing you to focus on what matters most, your business.
+Dotcms Cloud
+
+
+
+
+
+
+
+
+
+
+More Sites Run on  than our Three Nearest Competitors Combined*
+ Demo  
+                  Download 
+                  * Sources: builtwith.com
+
+
+
+
+
+
+
+
+
+
+
+1
+2
+3
+
+
+
+‹
+›
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Explore 
+
+Editions
+Demo
+Customers
+Partners
+Architecture
+Technology
+Roadmap
+
+
+
+Products 
+
+dotCMS Server
+dotCMS Cloud
+Training
+Consulting
+Support
+
+
+
+Resources 
+
+Documentation
+Forum
+Codeshare
+Plugins
+Themes
+Videos
+Blog
+
+
+Download
+
+Company 
+
+News
+Events
+Careers
+Locations
+Contact Us
+
+
+
+Pricing 
+
+dotCMS Cloud
+dotCMS Server
+
+
+ 
+
+
+
+
+
+ 
+ 
+ 
+ 
+
+	dotCMS is an Open Source Content Management System (CMS), built on leading Java technology and open standards (REST API, CMIS and Spring).
+
+
+			dotCMS is an Open Source Content Management System (CMS), built on leading Java technology and open standards (REST API, CMIS and Spring).
+
+		Page Tags: 	Content Management System, Open Source CMS, Java CMS, Open Source Java CMS, Web Content Management System, Multi-Tenant CMS, Mutli web Site CMS
+
+	
+
+
+Kiss Your Old CMS Goodbye
+DotCMS is the next generation of Content Management System (CMS). Quick to deploy, open source, Java-based, open APIs, extensible and massively scalable,  can rapidly deliver personalized, engaging multi-channel sites, web apps, campaigns, one-pagers, intranets - all types of content driven experiences - without calling in your developers.
+
+
+
+Responsive Design
+Unrivaled support for responsivedesign and CSS frameworks.
+
+
+
+Multi-Site
+Run multiple sites on multipleservers in multiple languages.
+
+
+
+Highly Scalable
+Designed from the ground upfor horizontal scalability.
+
+
+
+Push Publishing
+Publish Content and Web Apps toone or many remote servers
+
+
+
+APIs & CMIS
+Comprehensive APIs allows your team torespond to your business needs.
+
+
+
+Workflows
+Create simple to advanced workflows withDotCMS' simple visual workflow builder
+
+
+
+Download
+Online Demo
+
+
+
+
+
+
+
+Responsive, by Design  (try resizing your browser) (scales to fit your device)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Content Management for the Post-PC World
+Unrivaled support for responsive design and CSS frameworks (13 and counting!) makes it easy to deliver 
+      engaging customer experiences across all devices. Leverage today's best-of-breed mobile and 
+      responsive frameworks to easily integrate a mobile strategy into your multi-channel marketing efforts.
+DotCMS delivers responsive, theme based 
+      templates that automatically adapt and optimize your content, images and videos to fit mobile devices. 
+      Custom themes can be developed to leverage native device capabilities such as geolocation services based on a standards 
+      based database of device attributes (WURFL).
+Be Ready for the Next, Next Big Thing
+Use whatever tools and libraries best meet your needs,  offers real flexibility in rapidly building modern sites 
+        that future proofs your content. Because content is so easy to reuse and freed from design, you can prototype, 
+        develop and deploy different sites based on new frameworks that reuse content from existing sources.
+
+
+1
+2
+3
+
+
+
+
+
+
+Multi-Everything Multi-tenant CSM
+Multiple sites on multiple servers in multiple languages.
+Micro-sites, mega-sites, mobile apps, multi-channel; dotCMS multi-site & multi-tenant capabilities can host thousands of sites in one system. Build your own SaaS CMS solution with granular, site based permissions. Manage all your sites and content in multiple languages without the added expense; dotCMS allows you to standardize your infrastructure and maximize your return on investment.
+
+
+
+Multi-tenant support 1000's of sites and 100's of users.
+Multi-lingual support for content and admin tooling.
+One pagers, campaign sites and micro-sites at the click of a button.
+Three steps to a new site: copy an existing site, edit and launch.
+Share or Separate - content, templates & assets can be shared across sites - or not.
+Granular permissions - users to see only what they need to.
+Dashboards allow you track traffic and status of each site.
+Vanity domains and URLs - map campaign domains and urls to specific sites and pages.
+Site search for each site.
+Create sharable themes to change the look and feel your sites.
+
+Learn More
+
+
+
+
+Push Publishing
+
+
+
+
+
+
+
+
+
+
+
+
+1
+2
+3
+
+
+
+
+
+
+Crazy simple, super flexible
+DotCMS includes remote publishing that can be set up in minutes and supports a variety of publishing architectures out of the box.
+Supported Push Publishing Architectures (and any combination of these)
+
+Authoring / Delivery
+Enterprise Deployments (Stage, QA, Production)
+Remote Disaster Recovery
+Geographic Load Balancing
+Multi-Server, Shared Nothing Scalability
+
+Learn More
+
+
+
+
+Highly Scalable
+
+
+
+Designed from the ground up for horizontal scalability,  includes a configurable, multi-level caching infrastructure that maintains state across nodes in a cluster. In fact,  is architected to never hit the database once the cache is loaded (you can actually turn the db off) even while pages and content stay completely dynamic. Dotcms minimizes single points of failure for high traffic, highly available web sites and web applications.
+Cluster or Shared Nothing (or both)
+DotCMS supports a number of different highly available architectures. DotCMS can cluster, where multiple  instances run as a single unit that can scale to meet even the heaviest traffic loads. Or using push publishing,  can run multiple servers in a shared nothing configuration - where each node maintains its own db, content store and indexes are kept in sync through push publishing. The shared nothing configuration can even be used in conjunction with ' native clustering for redundant, scalable infrastructure.
+
+
+
+Performance Report
+
+
+
+APIs, Remote Widgets, Spring & CMIS
+
+
+
+
+dotCMS = Your Content Hub
+DotCMS provides easy and open APIs to query, retrieve (xml, json) and write content, binary assets and even remote widgets. These API calls have been designed to perform at scale so content can be retrieved for real-time use by external systems.
+Remote Widgets for Simple Integration
+Widgets are little apps that can be managed just like content. DotCMS' remote widget API can deliver these widgets, fully rendered, as snippets of code to remote systems by calling a RESTful url. All it takes is javascript to pull and display content rich widgets into any webpage or external system.
+Spring & OSGi
+DotCMS dynamic plugin support gives developers the ability to hot deploy whole Spring web apps in  without a restart.
+CMIS 
+CMIS support allows  content and files to be read and written by any system that is a CMIS client, including Sharepoint, Liferay and even Drupal.
+
+
+
+Workflows
+Manage Change
+
+When managing content, the process is as important as the publishing; content management always demands a flexible strategy that can and will evolve over time.  ' GUI based workflow engine can be configured to mimic your real world processes and move your content through your content lifecycle, whatever it might look like.
+Workflow should be Simple
+Building a custom workflow in  is easy:
+
+Build the workflow steps your content requires - drafting, reviewing, revising, approving, publishing, archiving, anything.  A workflow scheme can have an unlimited amount of steps.
+Build the Actions that transition content between these steps.  Actions can do just about anything in the system, from publish content, to scheduling publication, to sending an email notifying users, to pushing, requiring multiple approvers, even integrate with other 3rd party systems.  
+Grant permissions to those Actions, e.g. "Only managers in the Legal Department can approve and publish a press release".
+
+That's it.  And you did it all from the GUI.  But don't let our ease of use fool you - if you have custom integration requirements, you can build your own "Actions" that fire as content moves through its lifecycle - think "push the content.lead to twitter when a manager publishes a new event".
+
+Back to the top
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
++ More Resources
+What's New
+
+
+              Testable, reproducible, “Real World” Benchmarking show dotCMS can serve more than 15,000 page requests per second.
+              
+
+
+              Just released: Five new videos including The dotCMS Approach. Co-founders talk about the philosophy and guiding principles that are moving the Java open source content management platform forward.
+              
+
+
+              Automatically detect the user's device and deliver optimized HTML, and images for a better user experience.
+              
+
+
+
+
+ Community
+Have a question? Want to get involved? Join the conversation!
+
+
+
+
+
+Join
+
+
+
+
+
+
+
+
+
+
+
+
++1-888-404-6185 (toll free)  |  Contact Us  |  Privacy Policy
+ © 2015  All rights reserved.
+
+
+
+
+
+See what people are saying about Dotcms
+
+
+
+
+
+Questions? Feedback? powered by Olark live chat software
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,253 @@
+
+
+ASP.NET | The ASP.NET Site
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The ASP.NET Site
+Language
+Sign InJoin
+Home
+      Get Started
+    
+			Learn 
+
+
+WEB APPLICATIONS
+
+Web Forms
+MVC
+Web Pages/Razor
+Mobile
+Single Page Apps
+
+
+
+WEB SERVICES / API's
+
+Web API
+
+
+
+REAL TIME
+
+SignalR
+
+
+
+DATA ACCESS
+
+Entity Framework
+
+
+
+ONE ASP.NET
+
+Latest Release (2013.4)
+Common ASP.NET Features
+Security / Identity
+Tooling/IDE
+Deployment
+Future Release (ASP.NET 5)
+
+
+
+
+      Hosting
+    
+      Downloads
+    
+			Community 
+
+
+
+Overview
+Community Spotlight
+Articles of the Day
+What's new
+Community Blogs
+ASP.NET Team
+Events
+
+
+
+
+Hall Of Fame
+MSDN Samples
+Forums
+
+
+
+
+Community Websites
+Community Support
+
+
+
+ForumsHelp
+
+
+
+
+
+
+
+
+Learning ASP.NET
+ASP.NET is a free web framework for building web sites,apps and services with HTML, CSS and JavaScript.Learn more
+
+
+
+
+
+
+Web Sites
+ASP.NET is great for building standards-based websites with HTML5, CSS3, and JavaScript.Learn more
+
+
+
+
+
+
+ASP.NET powered Web APIs
+You can write ASP.NET Web APIs and Services that produce JSON or XML to talk to connected devices!Learn more
+
+
+
+
+
+
+Real-time ASP.NET
+With ASP.NET SignalR you can enable real-time bi-directional communication between client and server with web sockets.Learn more
+
+
+
+
+
+
+Mobile Apps & Sites with ASP.NET
+ASP.NET can power your mobile apps with responsive design or mobile frameworks like jQuery Mobile and more.Learn more
+
+
+
+
+
+Meet ASP.NET
+Web Sites
+APIs
+Real-time
+Mobile
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Visual Studio 2015 RCVisual Studio CodeOpen SourceASP.NET 5New ASP.NET Website Survey
+
+
+
+
+
+View all
+
+
+Shine Up Those Older Web Forms Applications with ServiceStackMonday, June 22, 2015Patrick Steele shows how to add REST services powered by ServiceStack to enhance your legacy Web Forms applications.Using ASP.NET 5 and EF7 with Modern Web Dev Tools like AngularJS and GruntFriday, June 19, 2015Nice article from Ravi Kiran showing how to create an application using ASP.NET 5 with AngularJS and Grunt.JavaScript Editor Improvements in Visual Studio 2015Thursday, June 18, 2015Jordan Matthiesen describes some great new features in the Visual Studio 2015 JavaScript editor.Hangfire, a must for adding background tasks in ASP.NETWednesday, June 17, 2015Michael Swanson overviews Hangfire, a library for running background tasks in ASP.NET.Action filters, service filters and type filters in ASP.NET 5 and MVC 6Tuesday, June 16, 2015Filip W. explains filters in ASP.NET 5 and MVC 6, covering action filters, service filters and type filters.Using Secret Manager in ASP.NET 5 applicationMonday, June 15, 2015Abhi Jain describes how to use the Secret Manager to store configuration values used in ASP.NET 5 applications.Getting Lookup Data Into Your View ASP.NET - MVC 6 VersionFriday, June 12, 2015Great tip from Simon Timms showing how to use dependency injection in ASP.NET MVC 6 to supply lookup data to populate dropdowns.
+
+ View allMVC recommended tutorials and articlesWednesday, April 29, 2015This page contains links to ASP.NET MVC tutorials and a suggested sequence to follow them.Best practices for deploying passwords and other sensitive data to ASP.NET and Azure App ServiceFriday, April 24, 2015This tutorial shows how your code can securely store and access secure information. The most important point is you should never store passwords or other sensitive data in source code, and you shou...Unstructured Blob Storage (Building Real-World Cloud Apps with Azure)Monday, March 30, 2015The Building Real World Cloud Apps with Azure e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can help you be successful developing web apps...
+
+
+
+
+
+
+
+
+
+
+This site is managed for Microsoft by Neudesic, LLC. | © 2015 Microsoft. All rights reserved.
+
+Privacy Statement
+Terms of Use
+Contact Us
+Advertise With Us
+CMS by Umbraco
+Hosted on Microsoft Azure
+
+
+Microsoft
+
+Feedback on ASP.NET
+File Bugs
+Support Lifecycle
+
+
+
+✖Installs powered by the Microsoft Web Platform InstallerThe product(s) you are about to install leverage the Web Platform Installer (WebPI) for installation. By downloading and using the Web Platform Installer (WebPI), you agree to the license terms and privacy statement for WebPI. This installer will contact Microsoft over the Internet to retrieve product information.  WebPI uses the Microsoft Customer Experience Improvement Program (CEIP), which is turned on by default, see privacy statement for more information.  Some of the Microsoft software obtained through WebPI may use CEIP. To view which software uses CEIP, see here.Accept and install
+
+
+
+
+
+
+
+
+
+
+ 

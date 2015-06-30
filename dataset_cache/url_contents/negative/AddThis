@@ -1,0 +1,258 @@
+
+
+
+Comparison of ShareThis, AddThis and Gigya (Now w/ Convio Integration!) | The Beaconfire RedEngine Blog
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+about
+services
+clients
+work
+blog
+contact
+
+
+
+
+
+
+
+
+
+The Blog
+
+
+
+
+
+
+
+
+
+
+
+
+		By Rob
+
+
+		Monday, February 7th, 2011	
+
+
+
+
+
+
+
+
+ 
+
+
+
+Comparison of ShareThis, AddThis and Gigya (Now w/ Convio Integration!)
+
+
+Integrating social sharing on your website can be as easy to implement as adding a script into your webpage templates.
+I recently took a look at three of the most popular utilities for social sharing: ShareThis, AddThis, and Gigya. After conducting a review, AddThis came out on top as the best system for most users. Gigya, especially with it’s recent integration with Convio, might be your best bet depending on your needs.
+Gigya, in addition to the standard social sharing options, also allows for Single Sign On,   allowing users to bypass the standard account creation process. Instead, it allows users to use their   Facebook, Twitter and other credentials and also allows for   user interactions with the widget (e.g. sharing content) to be recorded   in Convio. While it is highly powerful and customizable, be aware that setting up Gigya requires significantly more time and effort than setting up most social sharing widgets (even if you only use their social sharing features).
+One concern with Gigya’s service is that sharing content through their   widget prompts users to provide access permissions to their   profile data on Facebook (see screenshot, right). While this may   provide additional audience data, users may be wary   of the privacy implications of this somewhat unusual request (for a   sharing widget) and therefore it will likely have the effect of reducing   clickthrough rates. Gigya also offers a simple sharing plugin which does not send a request for permission.
+ShareThis and AddThis have had significant feature differentiation in the past, but as time progressed they have largely mimicked each other’s feature sets. Currently, there are a limited set of functional differences between them, primarily focused on default aesthetics and ease of customization.
+
+Customization: AddThis is generally preferred by developers due to an API that is easier to use, but the ShareThis API can typically accomplish the same tasks (though potentially at a higher development cost). One of the few differentiators between the two services is in the customization of which buttons are shared. Both services, by default, show sharing icons to each user based on their previous sharing history (across all sites using the platform). If, for example, someone typically shares via MySpace on other sites, the MySpace icon will appear in the sharing box on the very first time that the user visits a site. It’s possible to force a listing of pre-determined icons using AddThis, but that level of customization is unavailable with ShareThis (or it is not documented).
+Privacy Policy: AddThis received negative publicity several years ago for their use of a flash cookie which recorded a user’s browsing preferences across sites, with non-personally identifying demographic and historical visit information later being sold to advertisers. This practice is common among these services (including ShareThis and Gigya), but they received additional criticism due to the fact that the AddThis Flash cookie revived cookies that had been deleted. AddThis no longer engages in this practice.
+
+
+Reporting: Both AddThis and ShareThis integrate with Google Analytics to report on sharing, but neither provides the user-level actions that makes Gigya compelling.
+
+ 
+
+Clickthroughs: While there may be difference in clickthrough rates between these services, no testing has been done. Even so, scattered reports have suggested people find the AddThis hover menu to be easier to use than the ShareThis version.
+
+ 
+
+
+
+
+
+
+
+AddThis widget (on   hover)
+ShareThis widget (on   hover)
+
+
+
+ 
+Conclusion: Based on most organization’s needs, the easy extensibility of AddThis is probably ideal. If single sign on is desired, or tracking by user (with Convio integration), Gigya’s software may be the best fit.
+For more sophisticated sharing (i.e. allowing people’s Facebook posts on a topic to appear directly on your webpage), check out Disqus or Echo.
+
+
+Analytics, Social Media, Uncategorized, User Generated Content 
+
+
+								
+																	Both comments and pings are currently closed.
+
+															
+
+
+
+
+6 Responses to “Comparison of ShareThis, AddThis and Gigya (Now w/ Convio Integration!)”
+
+
+Liza Hausman Says:
+						
+February 7th, 2011 at 2:53 pm 
+Hi Rob – great post! Wanted to let you and your readers know that Gigya also makes a “simple share” plugin available that doesn’t require authentication. Best practice for clients that are already registering users with a social identity is to use our 2nd generation plugin because when the user is already connected to the site, sharing happens in a single click. But if the site doesn’t require the user to connect as in your screen shot above, the system can just use simple sharing which is comparable to addthis/sharethis, but which doesn’t collect data for a third party advertising network.
+
+
+Brian Schmidt Says:
+						
+February 7th, 2011 at 3:06 pm 
+Your analysis of Gigya was good but the issue about permissions isn’t quite right. Gigya also offers a “Simple Share” option that doesn’t ask users for access permissions. It executes just like AddThis or ShareThis. We use the Gigya simple share option in our application. You can test this for yourself (just hit Simple Share button):
+http://wiki.gigya.com/040_Demos/032_The_%22Share%22_UI_component
+Since you brought up privacy concerns, you should know that both AddThis and ShareThis sell the user data they collect to advertisers.
+
+
+Liza Hausman Says:
+						
+February 7th, 2011 at 8:24 pm 
+Also important to note that Gigya is not an advertising model – data belongs only to clients and is never sold or shared with any third party.
+
+
+Rob Says:
+						
+February 8th, 2011 at 1:59 pm 
+I hadn’t been aware of the simple share, but it looks like a great option as well. The fact that Gigya’s simple share data doesn’t get shared with advertisers is an important differentiator. Thanks for sharing the info about it, Brian and Liza.
+
+
+Rob Says:
+						
+October 6th, 2011 at 1:52 pm 
+I’m giving a thumbs down to ShareThis and switching to AddThis.
+ShareThis has not processed the data from my blog. I seem to not be the only person with this problem as can be seen from link below. Note ShareThis has not responded in 12 days. To add my frustration to the topic there would have required me sharing personal info or signing up with GetSatisfaction.com, no thanks.
+Also, with my old indie WordPress linker I could click on the Tweet button # and see what people were tweeting. With ShareThis I hit on the button # and it opens up a tweet box, not that that is a big issue but it counts it as a tweet even though I don’t tweet anything. Just hitting the button runs up your numbers even if you don’t actually share or tweet it! How can anybody trust that?
+http://getsatisfaction.com/sharethis/topics/data_not_appearing
+
+
+igotux Says:
+						
+December 10th, 2011 at 3:02 pm 
+On one of my projects earlier this year for a major brand, they were interested in adding social features to their current site. In my heuristic evaluation I reviewed 4 brands – Gigya.com, wibiya.com, Addthis.com and ShareThis.com to see which of these tools would best fit their user and business needs.
+Wibiya.com – is a free service and allows you to ad a fixed tool bar to your site, it came with a list of really nice features like – standard social sharing, news alert, even chat capabilities. Very easy to use. Recently they were bought by conduit and have received a makeover. 
+ShareThis.com – free service. Easy to use and good analytics.
+AddThis.com – free service. I found easier to use then ShareThis when customizing. Also found they offer more when it comes to FaceBook button terms ‘Like’ vs ‘Recommend’. Good analytics suite. 
+Gigya.com – has a fee per domain. But they offer a ton of great features from one package that makes is super easy to give any site some really cool social features. Like Sharing, Commenting, Sign In, Game Mechanics, Chat and so on. They also have a very good analytics suite and keep the data secure which was very important to my client.  List of gigya’s features can be seen here http://developers.gigya.com/010_Developer_Guide 
+My recommendation was to go with gigya.com because of their abilities, feature list and giving my client the ability to manage all the analytics data from one location.  The 1st location we implemented gigya was on my clients WordPress blog overall very simple, my development team did need to work with gigya engineers to resolve some customization features the designers created, 1 with the social share which did get resolved and one with their commenting system which still has not been resolved.  Gigya should update their commenting api or maybe look at Disqus the leaders in commenting.
+Note: my second recommendation was to have my clients development team build their own social features using 4 core social networking api’s – Facebook, Twitter, Google+, LinkedIn. This was not consider because of development efforts, costs and possible performance issues to my clients site having to call 4 different api’s vs. calling gigyas 1 api to do the same thing.
+
+
+
+ 
+
+ 
+
+
+
+
+
+Beaconfire RedEngine
+
+2300 Clarendon Blvd.
+Suite 925
+Arlington, VA 22201
+
+Directions
+
+info@beaconfire-red.com
+www.beaconfire.com
+
+
+Find Us on Twitter
+Find Us on Facebook
+Find Us on LinkedIn
+
+
+
+Quick Links
+
+Careers
+People
+Client List
+Merger with RedEngine
+
+
+
+
+
+
+
+Stay Informed
+Sign up to receive updates from us.
+
+
+
+Sign Me Up
+
+
+
+
+
+
+			Copyright © 2009 - 2015, Beaconfire RedEngine
+		
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

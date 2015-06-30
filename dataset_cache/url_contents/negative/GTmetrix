@@ -1,0 +1,893 @@
+
+
+php - Why is my htaccess rule still producing gtmetrix, yslow expire headers errors? - Stack Overflow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+current community
+
+
+
+
+
+chat
+blog
+
+
+
+        Stack Overflow
+    
+
+
+
+
+
+
+
+        Meta Stack Overflow
+    
+
+
+
+
+
+
+
+                        Stack Overflow Careers
+                    
+
+
+
+
+
+your communities        
+
+
+
+Sign up or log in to customize your list.
+            
+
+
+more stack exchange communities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    Stack Overflow
+                
+
+
+
+
+Questions
+Tags
+Users
+Badges
+Unanswered
+
+
+
+
+
+Ask Question
+
+
+
+
+
+
+
+
+
+
+
+
+
+            Stack Overflow is a question and answer site for professional and enthusiast programmers. It's 100% free, no registration required.
+        
+
+
+
+
+
+Why is my htaccess rule still producing gtmetrix, yslow expire headers errors?
+
+
+
+
+
+ 
+
+
+
+
+up vote
+
+down vote
+favorite
+
+
+
+
+
+
+I have a rule set up in my .htaccess on a WordPress site.  It looks like this:
+# manual caching - force use of browser cache 
+FileETag MTime Size 
+<ifmodule mod_expires.c>   
+   <filesmatch "\.(jpg|gif|png|css|js|ico|pdf|swf)$">
+      ExpiresActive on
+      ExpiresDefault "access plus 1 year"
+   </filesmatch>
+</ifmodule>
+
+From things I have read, this should take care of all expiry headers.  But when I run a gtmetrix or yslow test, they still give me errors like this:
+
+http://fonts.googleapis.com/css?family=Anonymous+Pro%3Aregular%2Citalic%2Cbold%2Cbolditalic%7C&ver=3.5.1
+http://www.thisismydomain.org/wp-content/plugins/wp-ui/css/css.php?styles=wpui-light%7Cwpui-blue%7Cwpui-red%7Cwpui-green%7Cwpui-dark%7Cwpui-quark%7Cwpui-alma%7Cwpui-macish%7Cwpui-redmond%7Cwpui-sevin&ver=3.5.1
+http://assets.pinterest.com/images/PinExt.png
+http://0.gravatar.com/avatar/41ff57b7b930a31656ab460e5a56d425?s=100&d=wavatar&r=G
+http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic&subset=latin,latin-ext
+http://0.gravatar.com/css/hovercard.css?ver=201311ac
+http://0.gravatar.com/css/services.css?ver=201311ac
+http://0.gravatar.com/js/gprofiles.js?ver=201311ac
+http://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&d=wavatar&forcedefault=y&r=G
+
+
+Other pages show similar errors for expiry headers:
+
+http://easyrotator.s3.amazonaws.com/.../FFF_arrow10_export.png (expiration not specified)
+http://s7.addthis.com/js/300/addthis_widget.js (expiration not specified)
+http://search.twitter.com/search.json?... (15 seconds)
+http://connect.facebook.net/en_US/all.js (5 minutes)
+https://apis.google.com/js/plusone.js (30 minutes)
+http://c520866.r66.cf2.rackcdn.com/1/js/easy_rotator.min.js (33.2 minutes)
+http://intensedebate.com/js/wordpressTemplateLinkWrapper2.php?... (60 minutes)
+http://i.po.st/share/script/post-widget.js (3 hours)
+http://www.thisismydomain.org/wp-content/plugins/wp-ui/css/css.php?styles=wpui-light%7Cwpui-blue%7Cwpui-red%7Cwpui-green%7Cwpui-dark%7Cwpui-quark%7Cwpui-alma%7Cwpui-macish%7Cwpui-redmond%7Cwpui-sevin&ver=3.5.1 (20 hours)
+
+
+I'd assume this is because those particular css's and js's aren't on my domain?  In such a case, is there anything I can do in order to fix this, and increase my speed scores?  Or is there something else I should be doing for better results?  And the one for thisismydomain ... that file extension is css.php, so I'm unsure how I could set an expiry in the htaccess for that.  Thanks for any guidance anybody can offer!
+
+
+php .htaccess browser-cache
+
+
+
+
+shareimprove this question
+
+
+
+
+edited 
+
+
+
+
+
+
+ 
+
+
+
+        asked 
+
+
+
+
+
+Jason Weber
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  
+                        
+
+                                 
+                        
+
+
+
+
+
+
+
+                – 
+                    Amir
+
+
+
+
+
+
+
+
+
+
+
+                                  
+                        
+
+                                 
+                        
+
+
+
+
+
+
+
+                – 
+                    Jason Weber
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 
+                        
+
+
+
+
+
+
+
+                – 
+                    Amir
+
+
+
+
+
+
+
+
+
+
+
+                                  
+                        
+
+                                 
+                        
+
+
+
+
+
+
+
+                – 
+                    Jason Weber
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 
+                        
+
+
+
+
+
+
+
+                – 
+                    vancoder
+
+
+
+
+
+
+
+
+
+show 1 more comment
+
+
+ 
+
+
+
+
+
+
+
+
+
+active
+oldest
+votes
+
+
+
+
+
+								Know someone who can answer? 
+								Share a link to this question via email, Google+, Twitter, or Facebook.
+							
+
+
+
+
+
+Your Answer
+
+
+
+
+
+
+
+
+
+ 
+draft saved
+draft discarded
+
+
+
+
+
+
+
+
+
+
+
+Sign up or log in
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Post as a guest
+
+
+
+
+
+Name
+
+
+
+Email
+
+
+
+
+
+
+
+
+
+
+
+Post as a guest
+
+
+
+
+
+Name
+
+
+
+Email
+
+
+
+
+
+
+
+
+
+
+discard
+
+By posting your answer, you agree to the privacy policy and terms of service.
+ 
+
+
+							Browse other questions tagged php .htaccess browser-cache  or ask your own question.						
+
+
+
+
+
+
+
+asked
+
+
+2 years ago
+
+
+
+
+viewed
+
+
+
+1053 times
+
+
+
+
+
+
+
+
+
+
+
+
+Linked
+
+
+
+32
+
+Website image caching with Apache
+ 
+
+
+Related
+
+
+
+0
+    
+.htaccess, expire headers, and the W3 Total Cache plugin for WordPress
+
+
+
+0
+    
+htaccess rewrite rule with forward slash error
+
+
+
+0
+    
+Leverage browser caching, .htaccess configured correctly, still resources not getting an expire time
+
+
+
+0
+    
+Are Expire Headers in .htaccess a form of a cookie?
+
+
+
+0
+    
+Yslow, Add Expires headers doesn't work
+
+
+
+0
+    
+htaccess Rewrite Rule Error
+
+
+
+2
+    
+Adding Expires Headers and .htaccess
+
+
+
+0
+    
+Static CSS/JS files with Expires and Cache-Control headers are not cached in browser
+
+
+
+0
+    
+How to set expires headers with far-future expiration date - without using htaccess?
+
+
+
+
+
+
+            Hot Network Questions
+        
+
+
+
+
+                    If a track contains two channels, is the track stereo?
+                
+
+
+
+                    Why does \mathbf work for uppercase Greek but not for lowercase
+                
+
+
+
+                    How to handle mistreatment of customer service reps?
+                
+
+
+
+                    Why does a=(b++) have the same behavior as a=b++?
+                
+
+
+
+                    Can employees of a university live with students or better to find other roommates?
+                
+
+
+
+                    How do I handle offended players as GM?
+                
+
+
+
+                    How to deal with people judging your 'overproductiveness'?
+                
+
+
+
+                    Does Earth get in Hubble's way?
+                
+
+
+
+                    Did 15 doctors save a woman who had a heart attack on a plane?
+                
+
+
+
+                    Resuming a list (for nested lists)
+                
+
+
+
+                    Mass of elements
+                
+
+
+
+                    Why doesn't Many-Worlds interpretation talk about many worlds?
+                
+
+
+
+                    Inbuilt flash memory size not enough
+                
+
+
+
+                    Typographic character to 'fill' a white space
+                
+
+
+
+                    How do game bots perceive the game world & other entities?
+                
+
+
+
+                    What do 3 *close* horizontal bars (not the hamburger menu) represent UX-wise, and what's the origin of the design?
+                
+
+
+
+                    Labels parallel near curves
+                
+
+
+
+                    Work with splits in Vim without C-W?
+                
+
+
+
+                    On OS X, why does sudo ls show hidden (dot) files?
+                
+
+
+
+                    Why do people scan their Intercity / Sprinter tickets twice (on entry and exit) in Amsterdam?
+                
+
+
+
+                    Is there any time when you can use 'beaucoup des'?
+                
+
+
+
+                    Is 3,5-diethyltoluene an accepted IUPAC name?
+                
+
+
+
+                    Occupancy rate and late reservations
+                
+
+
+
+                    A theoretical question on probe resistances for a voltage measuring device
+                
+
+
+
+            more hot questions
+        
+
+
+
+
+
+question feed
+        
+
+ 
+
+
+lang-php
+
+
+
+
+
+
+tour
+help
+blog
+chat
+data
+legal
+privacy policy
+work here
+advertising info
+mobile
+contact us
+feedback
+
+
+
+
+
+                Technology
+            
+
+                Life / Arts
+            
+
+                Culture / Recreation
+            
+
+                Science
+            
+
+                Other
+            
+
+
+
+
+Stack Overflow
+Server Fault
+Super User
+Web Applications
+Ask Ubuntu
+Webmasters
+Game Development
+TeX - LaTeX
+
+Programmers
+Unix & Linux
+Ask Different (Apple)
+WordPress Development
+Geographic Information Systems
+Electrical Engineering
+Android Enthusiasts
+Information Security
+
+Database Administrators
+Drupal Answers
+SharePoint
+User Experience
+Mathematica
+Salesforce
+
+
+                                more (14)
+                            
+
+
+
+
+
+Photography
+Science Fiction & Fantasy
+Graphic Design
+Seasoned Advice (cooking)
+Home Improvement
+Personal Finance & Money
+Academia
+
+
+                                more (10)
+                            
+
+
+
+
+
+English Language & Usage
+Skeptics
+Mi Yodeya (Judaism)
+Travel
+Christianity
+Arqade (gaming)
+Bicycles
+Role-playing Games
+
+
+                                more (21)
+                            
+
+
+
+
+
+Mathematics
+Cross Validated (stats)
+Theoretical Computer Science
+Physics
+MathOverflow
+
+
+                                more (7)
+                            
+
+
+
+
+
+Stack Apps
+Meta Stack Exchange
+Area 51
+Stack Overflow Careers
+
+
+
+
+
+
+
+                site design / logo © 2015 stack exchange inc; user contributions licensed under cc by-sa 3.0 
+                with attribution required
+
+
+                rev 2015.6.26.2686
+            
+
+
+
+Stack Overflow works best with JavaScript enabled
+
+
+
+
+

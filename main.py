@@ -2,33 +2,39 @@
 # -*- coding: utf-8 -*-
 
 
-"""Tool that spits out a domain for a company name with a high degree of accuracy.
+"""Tool that spits out a domain for a company name with an accuracy of 80% or more.
 """
 
 __author__ = 'hitanjan'
 
 
-from input import dataset
+import engine
 import search
-import util
+import input
+from optparse import OptionParser
 
 def main():
-    #result = search.get_data_order_by_page_rank("Segment",15, 11)
-    #print result
+    op = OptionParser()
+    op.add_option("--predict",
+              action="store", type="string", dest="query",
+              help="Enter Company Name")
 
-    # csv_row = util.csv_reader("data/seed.csv").get_record()
-    #
-    # for i in csv_row:
-    #     print(i)
-    #
-    a = dataset(positive_csv_data='data/positive.csv', negative_csv_data='data/negative.csv')
-    data = a.load(build_cache=True)
-    #
-    # for key in data:
-    #     print data[key].target_names
-    #     print data[key].target
-    #a = util.csv_dataset_creator("data/seed.csv", "data/positive.csv", "data/negative.csv")
-    #a.create_files()
+    (opts, args) = op.parse_args()
+    if(opts.query):
+        classifier = engine.load_classifier_template2()
+
+        search_handle = search.bing()
+        urls = search_handle.search(opts.query, limit=30)
+        for url in urls:
+            model = input.model(potential_url=url, company_name=opts.query)
+            score = classifier.predict(model)
+            if(score):
+                print "Domain for Company Name - %s is %s" % (model.company_name, model.potential_url)
+                break
+
+        if(not score):
+            print "Unable to predict domain for given Company Name - %s" % model.company_name
+
 
 
 if __name__ == '__main__':
