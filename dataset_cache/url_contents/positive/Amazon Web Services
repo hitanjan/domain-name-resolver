@@ -1,0 +1,4357 @@
+
+
+
+
+
+
+
+Amazon Web Services (AWS) -  Cloud Computing Services
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Menu 
+        
+
+
+
+
+
+
+
+
+
+
+Sign Up
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Deutsch 
+ English 
+ Español 
+ Français 
+ Italiano 
+ Português 
+ Ρусский 
+ 日本語 
+ 한국어 
+ 中文 (简体) 
+ 中文 (繁體) 
+
+
+
+
+
+
+MY ACCOUNT
+ AWS Management Console 
+ Account Settings 
+ Billing & Cost Management 
+ Security Credentials 
+
+
+
+
+
+
+
+
+AWS & Cloud Computing
+
+
+Solutions
+
+
+Products
+
+
+Developers
+
+
+Partners
+
+
+Training & Resources
+
+
+Support
+
+
+
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ AWS & Cloud Computing
+
+           INTRODUCTION TO AWS 
+         
+
+What is Cloud Computing?
+
+
+Choosing a Cloud Platform
+
+
+Customer Success
+
+
+Global Infrastructure
+
+
+           GETTING STARTED 
+         
+
+Getting Started
+
+
+AWS Free Tier
+
+
+           NEWS 
+         
+
+What's New
+
+
+AWS Blog
+
+
+AWS in the News
+
+
+Analyst Reports
+
+
+
+
+
+ Solutions 
+
+Websites & Web Apps
+
+
+Mobile Services
+
+
+Backup, Storage, & Archive
+
+
+Big Data & HPC
+
+
+Gaming
+
+
+Digital Media
+
+
+Healthcare & Life Sciences
+
+
+Business Apps
+
+
+
+Start-ups 
+
+
+Enterprises 
+
+
+Government & Education 
+
+
+
+
+
+ Products 
+
+Compute
+
+
+Storage & Content Delivery
+
+
+Databases
+
+
+Networking
+
+
+Administration & Security
+
+
+Analytics
+
+
+Application Services
+
+
+Deployment & Management
+
+
+Mobile Services
+
+
+Enterprise Applications
+
+
+AWS Marketplace Software
+
+
+
+
+
+ Developers
+
+Get Started 
+
+
+Downloads 
+
+
+Documentation
+
+
+Forums
+
+
+User Groups
+
+
+
+Java
+
+
+JavaScript
+
+
+Mobile
+
+
+PHP
+
+
+Ruby
+
+
+Python
+
+
+Windows & .NET
+
+
+
+
+
+ Training & Resources
+
+Training
+
+
+Self-Paced Labs
+
+
+Certification
+
+
+
+Economics Center 
+
+
+Security Center 
+
+
+Architecture Center 
+
+
+
+Whitepapers
+
+
+Analyst Reports
+
+
+Documentation
+
+
+Forums
+
+
+AWS YouTube Channel
+
+
+Events & Webinars
+
+
+
+
+
+ Support
+
+AWS Support Information
+
+
+Support Center
+
+
+Trusted Advisor
+
+
+Technical FAQs
+
+
+Documentation
+
+
+Forums
+
+
+Service Health Dashboard
+
+
+Contact Us
+
+
+
+
+
+ Partners 
+
+AWS Partner Network 
+
+
+
+Find AWS Partners 
+
+
+Premier Consulting Partners 
+
+
+APN Partner Solutions 
+
+
+
+Log in to the APN Portal 
+
+
+
+
+
+
+
+ Websites & Web Apps
+
+Websites & Website Hosting 
+
+
+Development and Test 
+
+
+Ecommerce Applications 
+
+
+Digital Marketing 
+
+
+AWS MARKETPLACE 
+
+
+WordPress powered by AMIMOTO
+
+
+Movable Type 6
+
+
+Drupal powered by Bitnami
+
+
+View All Related Products (95+)
+
+
+
+
+
+ Backup, Storage, & Archive
+
+Backup & Recovery 
+
+
+Data Archive 
+
+
+Disaster Recovery 
+
+
+AWS MARKETPLACE 
+
+
+Cloud Protection Manager Standard Edition
+
+
+SoftNAS Cloud
+
+
+Riverbed SteelStore
+
+
+View All Related Products (35+)
+
+
+
+
+
+ Big Data & HPC
+
+Big Data 
+
+
+High Performance Computing 
+
+
+Internet of Things 
+
+
+AWS MARKETPLACE 
+
+
+MapR M5
+
+
+Univa Grid Engine One Click HPC Head Node
+
+
+ScaleOut Analytics Server
+
+
+View All Related Products (145+)
+
+
+
+
+
+ Gaming
+
+Game Development and Operation 
+
+
+AWS MARKETPLACE 
+
+
+ORBX Cloud Game Console 
+
+
+Windows Server 2008R2 with NVIDIA GRID GPU Driver 
+
+
+Red5 Media Server 
+
+
+View All Related Products (25+)
+
+
+
+
+
+ Digital Media
+
+Digital Media 
+
+
+AWS MARKETPLACE 
+
+
+Adobe Media Server 5 Extended
+
+
+Wowza Streaming Engine 4: Standard
+
+
+Helix Universal Server Pro
+
+
+View All Related Products (75+)
+
+
+
+
+
+ Healthcare & Life Sciences
+
+Healthcare 
+
+
+Life Sciences 
+
+
+Genomics 
+
+
+AWS MARKETPLACE 
+
+
+NITRC Computational Environment
+
+
+BioPerl
+
+
+NCBI BLAST
+
+
+View All Related Products (25+)
+
+
+
+
+
+ Business Apps
+
+Business Apps 
+
+
+Oracle 
+
+
+SAP 
+
+
+Microsoft 
+
+
+AWS MARKETPLACE 
+
+
+SAP HANA One
+
+
+Oracle Database 12c Enterprise Edition (BYOL)
+
+
+Microsoft SharePoint Foundation 2010
+
+
+View All Related Products (845+)
+
+
+
+
+
+ Compute 
+
+Amazon EC2 
+
+
+Amazon EC2 Container Service 
+
+
+AWS Lambda  
+
+
+Auto Scaling
+
+
+Amazon VPC 
+
+
+Elastic Load Balancing
+
+
+AWS MARKETPLACE 
+
+
+CentOS 6
+
+
+Jaspersoft Reporting and Analytics for AWS (Hourly)
+
+
+Zend Server Professional Edition PHP 5.4
+
+
+View All Related Products (1800+)
+
+
+
+
+
+ Storage & Content Delivery 
+
+Amazon S3 
+
+
+Amazon Glacier 
+
+
+Amazon EBS 
+
+
+Amazon Elastic File System 
+
+
+AWS Storage Gateway 
+
+
+Amazon CloudFront 
+
+
+AWS MARKETPLACE 
+
+
+SoftNAS Cloud
+
+
+Cloud Protection Manager Standard Edition
+
+
+Panzura Global NAS Plus Appliance
+
+
+View All Related Products (100+)
+
+
+
+
+
+ Databases 
+
+Amazon RDS 
+
+
+Amazon DynamoDB 
+
+
+Amazon Redshift 
+
+
+Amazon ElastiCache 
+
+
+AWS MARKETPLACE 
+
+
+MONyog - RDS MySQL Monitor and Advisor
+
+
+SAP HANA One
+
+
+ScaleArc iDB Enterprise for MySQL
+
+
+View All Related Products (100+)
+
+
+
+
+
+ Networking 
+
+Amazon VPC 
+
+
+AWS Direct Connect 
+
+
+Amazon Route 53 
+
+
+Elastic Load Balancing
+
+
+AWS MARKETPLACE 
+
+
+Wowza Streaming Engine 4: Standard
+
+
+Adobe Media Server 5 Extended
+
+
+Vyatta Virtual Router/Firewall/VPN 
+
+
+View All Related Products (185+)
+
+
+
+
+
+ Administration & Security 
+
+AWS Directory Service 
+
+
+AWS Identity and Access Management (IAM) 
+
+
+Trusted Advisor 
+
+
+AWS CloudTrail 
+
+
+AWS Config 
+
+
+AWS CloudHSM 
+
+
+AWS Key Management Service 
+
+
+Amazon CloudWatch 
+
+
+AWS Service Catalog 
+
+
+
+
+
+ Analytics 
+
+Amazon EMR 
+
+
+Amazon Kinesis 
+
+
+Amazon Machine Learning 
+
+
+Amazon Redshift 
+
+
+AWS Data Pipeline 
+
+
+AWS MARKETPLACE 
+
+
+Jaspersoft Reporting and Analytics for AWS (Hourly)
+
+
+Attunity CloudBeam for Amazon Redshift 
+
+
+Revolution R Enterprise 7 
+
+
+View All Related Products (200+)
+
+
+
+
+
+ Application Services 
+
+Amazon SQS 
+
+
+Amazon SWF 
+
+
+Amazon AppStream 
+
+
+Amazon Elastic Transcoder 
+
+
+Amazon SES 
+
+
+Amazon CloudSearch 
+
+
+Amazon SNS 
+
+
+Amazon FPS 
+
+
+AWS MARKETPLACE 
+
+
+Adobe ColdFusion 11 
+
+
+Nginx 
+
+
+Citrix Netscaler 
+
+
+View All Related Products (260+)
+
+
+
+
+
+ Deployment & Management 
+
+AWS Elastic Beanstalk 
+
+
+AWS OpsWorks 
+
+
+AWS CloudFormation 
+
+
+AWS CodeDeploy 
+
+
+AWS CodePipeline 
+
+
+AWS CodeCommit 
+
+
+AWS Management Console 
+
+
+AWS Command Line Interface 
+
+
+AWS MARKETPLACE 
+
+
+Advanced Redmine on Ubuntu powered by Mbridge
+
+
+Trac by TurnKey Linux
+
+
+View All Related Products (220+)
+
+
+
+
+
+ Mobile Services 
+
+Amazon Cognito 
+
+
+Amazon Mobile Analytics 
+
+
+Amazon SNS  
+
+
+AWS Mobile SDK 
+
+
+
+
+
+ Mobile Services 
+
+Amazon Cognito 
+
+
+Amazon Mobile Analytics 
+
+
+Amazon SNS  
+
+
+AWS Mobile SDK 
+
+
+
+
+
+ Enterprise Applications 
+
+Amazon WorkSpaces 
+
+
+Amazon WorkMail 
+
+
+Amazon WorkDocs 
+
+
+
+
+
+ AWS Marketplace Software 
+
+INFRASTRUCTURE SOFTWARE (1300+)
+
+
+Application Development
+
+
+Application Servers
+
+
+Application Stacks
+
+
+Big Data 
+
+
+Databases & Caching
+
+
+Network Infrastructure
+
+
+Operating Systems
+
+
+Security
+
+
+BUSINESS SOFTWARE (845+)
+
+
+Business Intelligence
+
+
+Collaboration
+
+
+Content Management
+
+
+CRM
+
+
+eCommerce 
+
+
+Education & Research 
+
+
+Financial Services
+
+
+High Performance Computing
+
+
+Media
+
+
+Project Management
+
+
+Storage & Backup
+
+
+DEVELOPER TOOLS (220+)
+
+
+Issue & Bug Tracking
+
+
+Monitoring
+
+
+Log Analysis
+
+
+Source Control
+
+
+Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AWS & Cloud Computing
+
+
+What is Cloud Computing
+
+
+Choosing a Cloud Platform
+
+
+Customer Success
+
+
+Global Infrastructure
+
+
+Getting Started
+
+
+AWS Free Tier
+
+
+What's New
+
+
+AWS Blog
+
+
+AWS in the News
+
+
+Analyst Reports
+
+
+
+
+Solutions
+
+
+Websites & Web Apps
+
+
+Websites & Website Hosting
+
+
+Development and Test
+
+
+Ecommerce Applications
+
+
+Mobile Services
+
+
+Digital Marketing
+
+
+AWS Marketplace
+
+
+
+
+Backup, Storage, & Archive
+
+
+Backup & Recovery
+
+
+Data Archive
+
+
+Disaster Recovery
+
+
+AWS Marketplace
+
+
+
+
+Big Data & HPC
+
+
+Big Data
+
+
+High Performance Computing
+
+
+Internet of Things
+
+
+AWS Marketplace
+
+
+
+
+Gaming
+
+
+Game Development and Operation
+
+
+AWS Marketplace
+
+
+
+
+Digital Media
+
+
+Digital Media
+
+
+AWS Marketplace
+
+
+
+
+Healthcare & Life Sciences
+
+
+Healthcare
+
+
+Life Sciences
+
+
+Genomics
+
+
+AWS Marketplace
+
+
+
+
+Business Apps
+
+
+Business Apps
+
+
+Oracle
+
+
+SAP
+
+
+Microsoft
+
+
+AWS Marketplace
+
+
+
+
+
+
+Products
+
+
+Compute
+
+
+Amazon EC2
+
+
+Amazon EC2 Container Service
+
+
+AWS Lambda
+
+
+Auto Scaling
+
+
+Elastic Load Balancing
+
+
+AWS Marketplace
+
+
+
+
+Storage & Content Delivery
+
+
+Amazon S3
+
+
+Amazon Glacier
+
+
+Amazon EBS
+
+
+Amazon Elastic File System
+
+
+AWS Storage Gateway
+
+
+AWS Import/Export
+
+
+Amazon CloudFront
+
+
+AWS Marketplace
+
+
+
+
+Databases
+
+
+Amazon RDS
+
+
+Amazon DynamoDB
+
+
+Amazon Redshift
+
+
+Amazon ElastiCache
+
+
+AWS Marketplace
+
+
+
+
+Networking
+
+
+Amazon VPC
+
+
+AWS Direct Connect
+
+
+Amazon Route 53
+
+
+AWS Marketplace
+
+
+
+
+Administration & Security
+
+
+AWS Directory Service
+
+
+AWS Identity and Access Management (IAM)
+
+
+AWS CloudTrail
+
+
+AWS Config
+
+
+AWS CloudHSM
+
+
+AWS Key Management Service
+
+
+AWS Service Catalog
+
+
+Amazon CloudWatch
+
+
+AWS Marketplace
+
+
+
+
+Analytics
+
+
+Amazon EMR
+
+
+Amazon Kinesis
+
+
+Amazon Machine Learning
+
+
+Amazon Redshift
+
+
+AWS Data Pipeline
+
+
+AWS Marketplace
+
+
+
+
+Application Services
+
+
+Amazon SQS
+
+
+Amazon SWF
+
+
+Amazon AppStream
+
+
+Amazon SES
+
+
+Amazon SNS
+
+
+Amazon Elastic Transcoder
+
+
+Amazon SES
+
+
+Amazon CloudSearch
+
+
+Amazon FPS
+
+
+AWS Marketplace
+
+
+
+
+Deployment & Management
+
+
+AWS Elastic Beanstalk
+
+
+AWS OpsWorks
+
+
+AWS CloudFormation
+
+
+AWS CodeDeploy
+
+
+AWS CodePipeline
+
+
+AWS CodeCommit
+
+
+AWS Management Console
+
+
+AWS Command Line Interface
+
+
+AWS Marketplace
+
+
+
+
+Mobile
+
+
+Amazon Cognito
+
+
+Amazon Mobile Analytics
+
+
+Amazon SNS
+
+
+AWS Mobile SDK
+
+
+
+
+Enterprise Applications
+
+
+Amazon WorkDocs
+
+
+Amazon WorkMail
+
+
+Amazon WorkSpaces
+
+
+
+
+AWS Marketplace Software
+
+
+Infrastructure Software (1300+)
+
+
+Business Software (845+)
+
+
+Developer Tools (220+)
+
+
+
+
+
+
+Developers
+
+
+Get Started
+
+
+Downloads
+
+
+Documentation
+
+
+Forums
+
+
+Java
+
+
+JavaScript
+
+
+Mobile
+
+
+PHP
+
+
+Ruby
+
+
+Python
+
+
+Windows & .NET
+
+
+
+
+Training & Resources
+
+
+Training
+
+
+Self-Paced Labs
+
+
+Certification
+
+
+Economics Center
+
+
+Security Center
+
+
+Architecture Center
+
+
+Whitepapers
+
+
+Analyst Reports
+
+
+Documentation
+
+
+Forums
+
+
+AWS YouTube Channel
+
+
+Events & Webinars
+
+
+
+
+Support
+
+
+AWS Support Information
+
+
+Support Center
+
+
+Trusted Advisor
+
+
+Technical FAQs
+
+
+Documentation
+
+
+Forums
+
+
+Service Health Dashboard
+
+
+Contact Us
+
+
+
+
+Partners
+
+
+Find AWS Partners
+
+
+Premier Consulting Partners
+
+
+APN Competency Partners
+
+
+Login to the APN Portal
+
+
+
+
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gain free, hands-on experience with AWS for 12 months
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Learn how to start using AWS in minutes
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Learn about the AWS platform, products, and services
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Join us for keynote announcements, technical sessions, bootcamps and more
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+New 2015 Magic Quadrant:
+See how Gartner evaluates AWS for IaaS
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+Get Started with AWS for Free
+Get Started with AWS for free
+
+Create a Free Account
+
+
+
+
+Amazon EC2 
+ 750 hours of Linux & Windows Micro Instances/month
+
+
+Amazon S3 
+ 5GB storage, 20k Get requests and 2k Put requests
+
+
+Amazon DynamoDB 
+ 25GB of storage and up to 20 million requests/month
+
+
+View AWS Free Tier Details »
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+  AWS RE:INVENT 2015  
+
+
+
+
+
+
+  Registration is now open. Full conference pass $1299  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+  WHAT IS CLOUD COMPUTING?  
+
+
+
+
+
+
+  Learn about the benefits of on-demand IT resources and pay-as-you-go pricing  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+  GET STARTED WITH AWS  
+
+
+
+
+
+
+  Learn how to start using AWS in minutes  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+  SOFTWARE FREE TRIALS  
+
+
+
+
+
+
+  Try top software products from AWS Marketplace for free  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Broad & Deep Core Cloud Infrastructure Services  
+
+
+
+
+
+
+
+  Compute
+Virtual Servers
+Containers
+Event-driven Compute Functions
+Auto Scaling
+Load Balancing
+
+
+Compute
+
+
+Virtual Servers
+ 
+
+Amazon EC2
+Virtual Servers in the Cloud
+  
+
+
+Containers
+ 
+
+Amazon EC2 Container Service
+Scalable Container Management Service
+  
+
+
+Event-driven Compute Functions
+ 
+
+AWS Lambda
+Run Your Code in Response to Events
+  
+
+
+Auto Scaling
+ 
+
+Auto Scaling
+Automatic Elasticity
+  
+
+
+Load Balancing
+ 
+
+Elastic Load Balancing
+High Scale Load Balancing
+  
+
+
+
+
+
+
+  Storage & Content Delivery
+Object Storage
+Block Storage
+File System Storage
+Archive Storage
+CDN
+
+
+Storage & Content Delivery
+
+
+Object Storage
+ 
+
+Amazon S3
+Scalable Storage in the Cloud
+  
+
+
+Block Storage
+ 
+
+Amazon EBS
+EC2 Block Storage Volumes
+  
+
+
+File System Storage
+ 
+
+Amazon Elastic File System
+Fully Managed File System for EC2
+  
+
+
+Archive Storage
+ 
+
+Amazon Glacier
+Low-Cost Archive Storage in the Cloud
+  
+
+
+CDN
+ 
+
+Amazon CloudFront
+Global Content Delivery Network
+  
+
+
+
+
+
+
+  Databases
+Relational
+NoSQL
+Caching
+
+
+Databases
+
+
+Relational
+ 
+
+Amazon RDS
+Managed Relational Database Service for MySQL, Postgres, Oracle, SQL Server, and Amazon Aurora
+  
+
+
+NoSQL
+ 
+
+Amazon DynamoDB
+Fast, Predictable, Highly-scalable NoSQL data store
+  
+
+
+Caching
+ 
+
+Amazon ElastiCache
+In-Memory Caching Service
+  
+
+
+
+
+
+
+  Networking
+Virtual Private Cloud
+Direct Connections
+DNS
+
+
+Networking
+
+
+Virtual Private Cloud
+ 
+
+Amazon VPC
+Isolated Cloud Resources
+  
+
+
+Direct Connections
+ 
+
+AWS Direct Connect
+Dedicated Network Connection to AWS
+  
+
+
+DNS
+ 
+
+Amazon Route 53
+Scalable Domain Name System
+  
+
+
+
+
+
+
+  Administration & Security
+Identity Management
+Access Control
+Usage & Resource Auditing
+Key Storage & Management
+Monitoring & Logs
+Service Catalog
+
+
+Administration & Security
+
+
+Identity Management
+ 
+
+AWS Directory Service
+Managed Directories in the Cloud
+  
+
+
+Access Control
+ 
+
+AWS Identity and Access Management (IAM)
+Configurable AWS Access Controls
+  
+
+
+Usage & Resource Auditing
+ 
+
+AWS CloudTrail
+User Activity and Change Tracking
+  
+ 
+
+AWS Config
+Resource Inventory, Configuration History, and Configuration Change Notifications
+  
+
+
+Key Storage & Management
+ 
+
+AWS CloudHSM
+Hardware-based Key Storage for Regulatory Compliance
+  
+ 
+
+AWS Key Management Service
+Managed Creation and Control of Encryption Keys
+  
+
+
+Monitoring & Logs
+ 
+
+Amazon CloudWatch
+Resource and Application Monitoring
+  
+ 
+
+Trusted Advisor
+AWS Cloud Optimization Expert
+  
+
+
+Service Catalog
+ 
+
+AWS Service Catalog
+Find and Launch Products Using a Personalized Portal
+  
+
+
+
+
+
+
+
+
+
+
+  Accelerate your Cloud Success with Rich Platform Services  
+
+
+
+
+
+
+
+  Analytics
+Hadoop
+Real-time
+Machine Learning
+Data Warehouse
+Data Pipelines
+
+
+Analytics
+
+
+Hadoop
+ 
+
+Amazon EMR
+Hosted Hadoop Framework
+  
+
+
+Real-time
+ 
+
+Amazon Kinesis
+Real-time Data Stream Processing
+  
+
+
+Machine Learning
+ 
+
+Amazon Machine Learning
+Machine Learning for Developers
+  
+
+
+Data Warehouse
+ 
+
+Amazon Redshift
+Petabyte-scale Data Warehouse Service
+  
+
+
+Data Pipelines
+ 
+
+AWS Data Pipeline
+Orchestration Service for Periodic, Data-Driven Workflows
+  
+
+
+
+
+
+
+  Application Services
+Queueing
+Workflow
+App Streaming
+Transcoding
+Email
+Search
+
+
+Application Services
+
+
+Queueing
+ 
+
+Amazon SQS
+Message Queue Service
+  
+
+
+Workflow
+ 
+
+Amazon SWF
+Workflow Service for Coordinating Application Components
+  
+
+
+App Streaming
+ 
+
+Amazon AppStream
+Low-Latency Application Streaming
+  
+
+
+Transcoding
+ 
+
+Amazon Elastic Transcoder
+Easy-to-use Scalable Media Transcoding
+  
+
+
+Email
+ 
+
+Amazon SES
+Email Sending Service
+  
+
+
+Search
+ 
+
+Amazon CloudSearch
+Managed Search Service
+  
+
+
+
+
+
+
+  Deployment & Management
+1-Click Web App Deployment
+Dev/Ops Resource Management
+Resource Templates
+Code Deployment
+Continuous Integration Tool
+Source Code Management
+
+
+Deployment & Management
+
+
+1-Click Web App Deployment
+ 
+
+AWS Elastic Beanstalk
+AWS Application Container
+  
+
+
+Dev/Ops Resource Management
+ 
+
+AWS OpsWorks
+DevOps Application Management Services
+  
+
+
+Resource Templates
+ 
+
+AWS CloudFormation
+Templates for AWS Resource Creation
+  
+
+
+Code Deployment
+ 
+
+AWS CodeDeploy
+Automated Deployments
+  
+
+
+Continuous Integration Tool
+ 
+
+AWS CodePipeline
+Continuous Delivery and Release Automation Service
+  
+
+
+Source Code Management
+ 
+
+AWS CodeCommit
+Secure, Highly Scalable, Managed Revision Control Service
+  
+
+
+
+
+
+
+  Mobile & Devices
+Identity
+Sync
+Mobile Analytics
+Notifications
+
+
+Mobile & Devices
+
+
+Identity
+ 
+
+Amazon Cognito
+Managed User Identity
+  
+
+
+Sync
+ 
+
+Amazon Cognito
+Data Synchronization
+  
+
+
+Mobile Analytics
+ 
+
+Amazon Mobile Analytics
+Fast, Secure App Usage Analytics
+  
+
+
+Notifications
+ 
+
+Amazon SNS
+Send Notifications, Updates, and Promotions across Platforms
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Enterprise IT Applications from AWS  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Desktop Virtualization  
+
+
+
+
+
+Amazon WorkSpaces is a desktop computing service in the cloud, allowing end-users access to resources and applications on the device of their choice. 
+Learn more about Amazon WorkSpaces » 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Email and Calendaring  
+
+
+
+
+
+Amazon WorkMail is a secure, managed business email and calendaring service with support for existing desktop and mobile email clients. 
+Learn more about Amazon WorkMail » 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Document Sharing & Feedback  
+
+
+
+
+
+Amazon WorkDocs is a fully managed, secure enterprise storage and sharing service with strong administrative controls and feedback capabilities.
+Learn more about Amazon WorkDocs » 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Engineered for the most Demanding Requirements  
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+  Secure  
+
+
+
+
+
+Comprehensive security capabilities to satisfy the most demanding information security requirements. 
+Learn more » 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+  Private, isolated resources  
+
+
+
+
+
+Choose the right level of isolation for your apps, and integrate with existing resources. 
+Learn more » 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+  Compliant  
+
+
+
+
+
+Rich controls, auditing and broad security accreditations. 
+Learn more » 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+  Hybrid  
+
+
+
+
+
+Build hybrid IT architectures that extend your on-premises infrastructure to the Cloud. 
+Learn more » 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Supporting Virtually any Workload for Over a  
+
+
+
+
+
+
+  Million Active Customers in 190 Countries  
+
+
+
+
+
+
+
+
+ Web Applications 
+ Big Data & HPC 
+ Line of Business Apps 
+ Backup & Storage 
+ Disaster Recovery 
+ Media 
+ Gaming 
+ Healthcare & Life Sciences 
+
+
+
+
+
+ Web Applications 
+
+
+
+
+
+
+
+ 
+
+
+
+
+Build scalable, high performance websites with a broad set of services geared for modern web applications. Learn more »
+
+
+
+
+Customers running Web Applications on AWS 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+ Big Data & HPC 
+
+
+
+
+
+
+
+ 
+
+
+
+
+Process data quickly with instant access to vast amounts of computing power designed to handle massive volumes of data. Learn more »
+
+
+
+
+Customers running Big Data & HPC workloads on AWS 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+ Line of Business Apps 
+
+
+
+
+
+
+
+ 
+
+
+
+
+Move your business into the cloud with secured, high-performance solutions for your common and custom business applications. Learn more »
+
+
+
+
+Customers running Line of Business Apps on AWS 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+ Backup & Storage 
+
+
+
+
+
+
+
+ 
+
+
+
+
+Securely store your information with storage options that provide built-in encryption, designed for 99.999999999% durability. Learn more »
+
+
+
+
+Customers using AWS for Backup & Storage 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+ Disaster Recovery 
+
+
+
+
+
+
+
+ 
+
+
+
+
+Protect your data and applications across data centers and the cloud with immediately available, scalable and durable disaster recovery. Learn more »
+
+
+
+
+Customers using AWS for Disaster Recovery 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+ Media 
+
+
+
+
+
+
+
+ 
+
+
+
+
+Media services that allow the secured storage, processing, and delivery of your media assets around the world. Learn more »
+
+
+
+
+Customers using AWS for Media 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+ Gaming 
+
+
+
+
+
+
+
+ 
+
+
+
+
+From mobile to web, console to PC; AWS provides a broad range of low-cost, instantly available gaming backend services for developers that write for every platform and language. Learn more »
+
+
+
+
+Customers delivering Games using AWS 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+ Healthcare & Life Sciences 
+
+
+
+
+
+
+
+ 
+
+
+
+
+Healthcare and Life Sciences organizations are using AWS for everything from basic biomedical research to HIPAA-compliant clinical information systems. Learn more »
+
+
+
+
+Customers using AWS for Healthcare and Life Sciences solutions 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Customer Success Stories from all Industries  
+
+
+
+
+
+
+
+
+ Enterprises 
+ Start-ups 
+ Public Sector 
+
+
+
+
+
+ Enterprises 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+View all Enterprise stories » 
+
+
+
+ 
+ Start-ups 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+View all Start-Ups stories » 
+
+
+
+ 
+ Public Sector 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+View all Public Sector stories » 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Global Network of Regions and Edge Locations  
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Infrastructure Region  
+
+
+
+
+
+
+US West (Oregon, California)
+AWS GovCloud
+US East (Virginia)
+South America (Sao Paulo)
+EU (Dublin, Frankfurt)
+Asia Pacific (Singapore, Sydney, Tokyo)
+China (Beijing)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Edge POP  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+  NEW 2015 MQ  
+
+
+
+
+
+
+  See how Gartner evaluates AWS for IaaS. Get the Gartner report now  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+  AWS Activate Program  
+
+
+
+
+
+
+  Providing startups with the resources needed to get started with AWS  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+  AWS Marketplace  
+
+
+
+
+
+
+  Launch popular software on AWS in minutes  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+  AWS Training  
+
+
+
+
+
+
+  On-demand resources to help you develop your skills  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Get Started for Free
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Create a Free Account
+
+
+
+
+
+  AWS on Twitter
+  AWS on Facebook
+  AWS on Google+
+  AWS Blog
+  What's New? RSS
+
+
+
+
+
+
+
+
+         AWS & Cloud Computing 
+       
+
+What is Cloud Computing?
+Products & Services
+Customer Success
+Economics Center
+Architecture Center
+Security Center
+What's New
+Whitepapers
+AWS Blog
+Events
+Press Releases
+Analyst Reports
+Legal
+
+
+
+
+         Solutions 
+       
+
+Websites & Website Hosting
+Business Applications
+Backup & Recovery
+Disaster Recovery
+Data Archive
+Big Data
+High Performance Computing
+Mobile Services
+Digital Marketing
+Game Development
+Digital Media
+Government & Education
+
+
+
+
+         Resources & Training 
+       
+
+Developers
+Java on AWS
+JavaScript on AWS
+Mobile on AWS
+PHP on AWS
+Python on AWS
+Ruby on AWS
+Windows & .NET on AWS
+SDKs & Tools
+AWS Marketplace
+User Groups
+Support Plans
+Service Health Dashboard
+Discussion Forums
+FAQs
+Documentation
+Articles & Tutorials
+Test Drives
+
+
+
+
+         Manage Your Account 
+       
+
+Management Console
+Billing & Cost Management
+Personal Information
+Payment Method
+AWS Identity & Access Management
+Security Credentials
+Request Service Limit Increases
+Contact Us
+
+
+
+
+
+
+
+Amazon Web Services is Hiring.
+Amazon Web Services (AWS) is a dynamic, growing business unit within Amazon.com. We are currently hiring Software Development Engineers, Product Managers, Account Managers, Solutions Architects, Support Engineers, System Engineers, Designers and more. Visit our Careers page or our Developer-specific Careers page to learn more.
+
+Amazon Web Services is an Equal Opportunity Employer.
+
+
+
+
+
+
+
+
+
+
+
+
+Language
+Deutsch
+English
+Español
+Français
+Italiano
+Português
+Ρусский
+日本語
+한국어
+中文 (简体)
+中文 (繁體)
+
+
+
+
+
+
+
+
+Site Terms
+|
+Privacy
+
+
+
+
+       © 2015, Amazon Web Services, Inc. or its affiliates. All rights reserved. 
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

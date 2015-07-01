@@ -1,0 +1,280 @@
+
+
+
+
+
+
+AD Gallery - Home
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Code
+
+Register
+Sign In
+
+
+
+
+
+
+
+
+
+
+
+AD Gallery
+
+
+
+
+
+
+
+home
+source code
+downloads
+documentation
+discussions
+issues
+people
+license
+
+
+
+
+
+
+Are you Sure? X
+
+
+            By clicking Delete, all history, comments and attachments for this page will be deleted and cannot be restored.
+            
+
+
+
+
+
+
+
+
+Page Info
+Change History (all pages)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+All Project Updates
+
+
+Discussions
+
+
+Issue Tracker
+
+
+Downloads
+
+
+Reviews
+
+
+Source Code
+
+
+Wiki & Documentation
+
+
+
+
+
+                        Subscribe
+                    
+
+
+
+
+
+
+
+
+
+
+A highly customizable gallery/showcase plugin for jQuery.
+
+Choose effect, should the image slide in, or fade in? You can even write your own animation function.
+Show fifth image by adding #ad-image4 to the url, this takes precedence over over settings.start_at_index
+Create permalinks to specific images, by index or id Listens to changes to the url to make linking to specific images easier jQuery call returns gallery instances, which enables you to change settings on the fly like the "Change to fade effect" link above
+Keyboard arrows to move back and forth Click on the edge of the big image to go to the next/previous Images are preloaded, and if they aren't finished loading when they are supposed to be displayed, a loading image will appear
+Slideshow count down only begins when the image has loaded and is visible Image title, can either be set in the title attribute, or in elm.data('ad-title', 'My title here'). $.data takes precedence over the title attribute
+Image descriptions, can either be set in the longdesc attribute, or in elm.data('ad-desc', 'My description here'). $.data takes precedence over the longdesc attribute
+Callbacks on different events that has access to the internal object, which means that you can access all internal methods, etc
+Takes the dimensions of the image container div and scales down images that are larger than it
+Image is positioned in the middle if it's smaller than the container div Images that are larger than the container are scaled down to fit inside the container
+Demo
+http://coffeescripter.com/code/ad-gallery/
+Roadmap
+
+Rewrite from scratch with better modularity Make it possible to have the thumbnail list vertical instead of horizontal Make it possible to display HTML5 videos, and not just images
+
+
+
+Last edited  by andersekdahl, version 12
+
+
+
+
+
+download
+
+
+
+
+
+                    AD Gallery 1.2.7
+    			
+
+
+
+
+
+
+
+Stable
+
+
+
+94,960
+
+
+
+
+
+
+
+Review this release
+
+
+
+
+
+Most Helpful Reviews
+Most of the functionality works fine, looks great on a webpage. However there are two issues I encountered.
+1. the second image show... (more)
+ewqeqwewdq sdaqew qwe qqwe qe qwe qwewq  qwe qweq qwe 
+View all reviews
+
+
+
+
+
+
+Ads by Developer Media
+
+
+
+
+
+activity
+
+
+
+page views
+visits
+downloads
+
+
+
+
+
+
+
+
+Days: 
+
+
+7
+
+
+
+30
+
+
+
+All
+
+Details
+
+
+
+
+
+
+
+
+© 2006-2015 Microsoft
+Get Help
+Privacy Statement
+Terms of Use
+Code of Conduct
+Advertise With Us
+Version 5.26.2015.21018
+
+
+
+
+
+

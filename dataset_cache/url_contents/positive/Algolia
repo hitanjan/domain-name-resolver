@@ -1,0 +1,1005 @@
+
+
+
+Algolia | Hosted cloud search as a service | AlgoliaSearch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MENU
+
+
+
+
+
+Why
+Product
+Pricing
+
+More
+
+
+Blog
+About Us
+Customers
+World Tour
+Press & Media
+Careers at Algolia
+
+
+Blog
+About Us
+Customers
+Careers at Algolia
+Documentation
+
+
+
+
+
+
+
+
+Developers
+
+
+Getting Started
+Documentation
+Integrations
+Tutorials
+JS API Client
+JS Helper
+FAQ
+Change Log
+API Status
+
+
+
+
+Login
+
+
+Free Trial
+
+
+
+
+
+
+
+
+
+
+Build Unique Search Experiences
+Hosted Search API that delivers instant and relevant results from the first keystroke
+
+
+
+
+
+
+
+Instant search
+Our engine is so fast you can actually display the results as you type.
+
+
+Typo tolerance
+We handle typing mistakes to find the results people are looking for.
+
+
+Live Facets
+The facets are updated instantly according to your current search parameters
+
+
+
+Try to search for
+
+
+
+
+Fast and furious
+
+
+
+Jennifer Lawrence
+
+
+
+Interellar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+no-movies
+Created with Sketch.
+
+
+
+
+
+
+
+We didn't find any movie.
+
+
+
+
+Extend your search to all Genres
+
+
+
+Try another query
+
+
+
+Rating doesn't matter
+
+
+
+Try with all actors
+
+
+
+Try with a wider date range
+
+
+
+
+
+Found in
+ms
+
+
+
+
+
+
+
+
+
+
+Try it now
+
+Search for
+
+"Fast and furious"
+
+
+
+
+
+
+
+
+
+Successful startups and leading companies choose Algolia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Increase Your Users’ Engagement
+Your users expect the fastest access to what they’re looking for.Meet their expectations with our intuitive API.
+
+
+
+
+
+Find at the speed of thought
+
+
+
+
+Always relevant
+
+
+
+
+Any UI, any device
+
+
+
+Learn more
+
+
+
+
+Built by developers for developers
+Forget the complexity of search: our hosted API, intuitive documentation and dashboard allow you to build in no time the best search experience for your users.
+
+
+
+
+
+
+
+
+
+UnparalleledSpeed
+
+
+
+
+
+
+
+
+
+
+IntuitiveRanking
+
+
+
+
+
+
+
+
+
+
+UniqueArchitecture
+
+
+
+
+
+
+
+
+
+
+
+
+Facets,Geo-search,Languages
+
+
+
+
+
+
+
+
+
+
+ComprehensiveDashboard
+
+
+
+
+
+
+
+
+
+
+PassionateSupport
+
+
+
+
+
+
+View our features
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ruby
+
+
+
+
+Rails
+
+
+
+
+Python
+
+
+
+
+Node.js
+
+
+
+
+PHP
+
+
+
+
+Symfony
+
+
+
+
+JavaScript
+
+
+
+
+Java
+
+
+
+
+Curl
+
+
+
+
+Shell
+
+
+
+
+Go
+
+
+
+
+C#
+
+
+
+
+Objective-C
+
+
+
+
+Swift
+
+
+
+
+Android
+
+
+
+
+
+
+
+
+With Ruby
+
+
+1. Push your data
+  
+   
+                      
+                      
+
+
+2. Search for it !
+ 
+
+
+
+
+Getting Started >
+Step by Step with Ruby >
+
+
+
+With Rails
+
+
+1. Push your data
+   
+   
+
+   
+       
+  
+
+
+
+2. Search for it !
+ 
+
+
+
+
+Getting Started >
+Step by Step with Rails >
+
+
+
+With Python
+
+
+1. Push your data
+  
+ 
+                     
+                     
+
+
+2. Search for it !
+ 
+
+
+
+
+Getting Started >
+Step by Step with Python >
+
+
+
+With Node.js
+
+
+1. Push your data
+
+   
+   
+   
+   
+    
+    
+    
+  
+
+  
+
+
+
+2. Search for it !
+   
+    
+    
+    
+  
+
+  
+
+
+
+
+
+Getting Started >
+Step by Step with Node.js >
+
+
+
+With PHP
+
+
+1. Push your data
+  
+  
+                  
+                  
+
+
+2. Search for it !
+
+
+
+
+
+Getting Started >
+Step by Step with PHP >
+
+
+
+With Symfony
+
+
+1. Push your data
+
+
+
+
+
+
+
+ 
+
+    
+
+
+
+
+
+     
+
+
+
+2. Search for it !
+
+
+    
+    
+
+
+
+
+
+Getting Started >
+Step by Step with Symfony >
+
+
+
+With JavaScript
+
+
+1. Push your data
+
+
+
+
+2. Search for it !
+   
+    
+    
+    
+  
+
+  
+
+
+
+
+
+Getting Started >
+Step by Step with JavaScript >
+
+
+
+With Java
+
+
+1. Push your data
+   
+ 
+     
+     
+     
+
+
+2. Search for it !
+ 
+
+
+
+
+Getting Started >
+Step by Step with Java >
+
+
+
+With Curl
+
+
+1. Push your data
+curl --data-binary 
+
+ 
+     --request POST https://.algolia.net/1/indexes/contacts
+
+
+2. Search for it !
+curl --data-binary  
+     --request POST https://-dsn.algolia.net/1/indexes/contacts/query
+
+
+
+
+Getting Started >
+Step by Step with Curl >
+
+
+
+With Shell
+
+
+1. Push your data
+./algoliasearch-cmd.sh batch contacts contacts.json
+
+
+2. Search for it !
+./algoliasearch-cmd.sh query contacts 
+
+
+
+
+Getting Started >
+Step by Step with Shell >
+
+
+
+With Go
+
+
+1. Push your data
+object := make(map[string]interface{})
+object["firstname"] = "Jimmie"
+object["lastname"] = "Barninger"
+res, err = index.AddObject(object)
+
+
+2. Search for it !
+res, err := index.Search("jimmie b", params)
+
+
+
+
+Getting Started >
+Step by Step with Go >
+
+
+
+With C#
+
+
+1. Push your data
+   
+
+  
+
+
+
+
+2. Search for it !
+    
+
+
+
+
+
+Getting Started >
+Step by Step with C# >
+
+
+
+With Objective-C
+
+
+1. Push your data
+    
+   
+     
+     
+     
+
+ 
+
+
+2. Search for it !
+ 
+    
+
+
+
+
+Getting Started >
+Step by Step with Objective-C >
+
+
+
+With Swift
+
+
+1. Push your data
+   
+   
+     
+     
+     
+
+
+
+
+2. Search for it !
+ 
+
+
+
+
+Getting Started >
+Step by Step with Swift >
+
+
+
+With Android
+
+
+1. Push your data
+   
+ 
+        
+        
+
+
+2. Search for it !
+  
+
+
+
+
+Getting Started >
+Step by Step with Android >
+
+
+
+
+
+
+
+
+
+
+
+
+Algolia scales to meet your needs
+Our API is processing dozens of billions of operations per month.
+
+
+
+
+
+
+
+
+
+Don't wait! Try Algolia!
+Start Using it Now
+
+No credit card required. Try Algolia for free for 14 days.
+
+
+
+
+
+
+
+
+
+Developer
+
+Getting Started
+Documentation
+Integrations
+Tutorials
+FAQ
+API Status
+Change Log
+
+
+
+Company
+
+About Us
+Customers
+World Tour
+Blog
+Press
+Jobs
+
+Policies
+
+
+
+Stay in touch
+
+
+
+
+
+
+
+
+
+
+
+Newsletter
+
+
+
+
+
+
+
+
+Subscribe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+© Algolia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Need help?
+
+
+
+
+
+
+
+Need help? Chat with us!
+
+
+
+
+
+
+
+
+
+
+
+All
+FAQ
+Documentation
+
+
+
+
+
+
+
+
+Getting Started
+
+
+
+Documentation
+
+
+
+Live Demos
+
+
+
+Tutorials
+
+
+
+API Status
+
+
+
+API Changelog
+
+
+
+Request a Demo
+
+
+
+Can't find the answers you're looking for?
+Chat with us
+
+
+
+
+
+
+
+
+
+
+

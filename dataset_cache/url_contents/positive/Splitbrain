@@ -1,0 +1,212 @@
+
+
+Weblog [splitbrain.org]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+Weblog
+
+Post-food living — a quantified experiment starred jlevy/the-art-of-command-line at github 
+Adventure before Dementia
+
+
+ We're back from our vacation. Originally we planned to visit Scotland, but due to bad (aka. late planning) we couldn't find any affordable flights anymore. Instead we decided to rent a camper van and visit Bavaria and Austria again (after visiting Kaddi's parents), because we liked it very much when we passed it during our Italy vacation last year.
+
+
+Usually we rent our camper vans from one of the bigger companies. Because this year it was a last-minute decision, those companies were booked out already and we had to take what we could find. So unlike in the last years, the camper van this year was not a brand new one. It had more than 100,000km on the clock and was several years old. It had a couple of scratches and signs of usage but looked okay otherwise.
+
+Click to continue reading... · Permalink · CommentsFik Shun - World of Dance Las Vegas 2014 KUNG FURY Official Movie [HD] GravityLight 2: Made in Africa Interesting off-grid approach for lightingAgar.io if you feel too productive today, try this7 HOLES in the Space Station - Smarter Every Day 135 
+5 Minute Cupcake
+
+
+For when you crave chocolate cake right now.
+
+
+ 4 table spoons of flour
+
+ 2 table spoons of oil
+
+ 2 table spoons of cocoa1)
+
+ 3 table spoons of milk
+
+ 1 egg
+
+
+
+Mix everything and add whatever you want (chocolate pieces, fruits, yogurt). Grease a cup with butter or margarine and fill it with the batter. Microwave it at 700 Watt for 3.5 to 4 minutes.
+
+Tagsrecipecupcakemicrowave
+
+
+1) 
+The sweetened drinking kind. If you use unsweetened baking cocoa, add 2 table spoons of sugar.
+
+
+ · Permalink · Commentsstarred joshdholtz/Sentry-Android at github A tale of two lovers (or three, or four): the truth about polyamory The Backwards Brain Bicycle - Smarter Every Day 133 Why Boat Refugees Don't Fly! - Factpod #16 created repository splitbrain/sleepy at github 
+Raspberry Pi B+ Pinout Leaf
+
+
+
+
+
+I'm currently working on a little project involving a Raspberry Pi and some stuff connected to it's General Purpose IOs.
+
+
+Looking up the pinout scheme every time again gets tiring fast. A good solution is the Raspberry Leaf - a simple sheet of paper that slips over the pins and labels them. Unfortunately I couldn't find one that:
+
+
+ shows all 40 pins of a Raspberry Pi B+
+
+ shows the WiringPi numbering scheme
+
+
+
+So I set down and made one in Inkscape. The result can be found in this Github Repository.
+
+TagsrpidiyelectronicsSimilar posts:
+Using your Mobile Headset on a PC
+Kitchen Nexus 7 Holder
+Carpenter: Level 2
+
+
+
+
+ · Permalink · Commentscreated repository splitbrain/rpibplusleaf at github Adding a Library Project to Your App Monty Python and the Holy Grail Modern Trailer Flake: “Tastenficker” | Peter Richter Processing and analysing sensor data – a DIY approach 
+Games I liked in 2014
+
+
+It's 2015 for a while now. Time to look back on the last year. I played quite a few (computer) games, so why not have a list of my favorites.
+
+
+Please note, that they are listed here in no particular order. They are all available on steam. Oh and I realize that not all of them came out in 2014. But I played them in 2014 - that's what counts.
+
+Click to continue reading... · Permalink · CommentsThe problem with Angular created repository cosmocode/dokuwiki-plugin-adfs at github 10 Lessons from 4 Years Working Remotely at Automattic | When I Have Time by Sara Rosso Question: ADFS/SAML2.0 - How to set Claim Rules through Federation Metadata? Android Wear Burn-in Protection Explained! 
+Agenda Watch Face for Android Wear
+
+
+Of course the first thing I had to do to my new watch is customize it. Over the weekend I learned how to build my own watch face in WatchMaker2). The result is shown here:
+
+
+
+
+
+Most of the information is only shown in active mode (pictured left). I went for a white background because I assume it will be much better to read in outside. Thanks to the ugly Berlin Winter weather I had no way to test that hypothesis though . Dimmed mode (pictured right) uses a black background of course and fewer info.
+
+
+Most important to me besides the current time are my upcoming agenda items. The watch face shows them in two ways. One is a simple list of the next three appointments. The other is a representation of their length on the border of the watch.
+
+
+Getting these border graphs right was the hardest part. Since appointments happen on a 24 hour day, but the circle only represents 12 hours, I had to come up with some logic to decide when there's space for the next afternoon appointment even though it's still before twelve. Took a while, but now seems to work just fine3).
+
+
+Another problem I encountered in dimmed mode. I wanted to have the border graphs in dimmed mode, too. It worked just fine in Watchmaker, but once on the actual device I noticed the watch being off-center and cutting pixels. A reddit post later I found the reason: an Anti-Burn Screensaver mechanism in Android Wear.
+
+
+The watch face compensates for that behavior by moving the graphs a few pixels towards the center when the display is dimmed.
+
+
+The watch face is available for download from FaceRepo.
+
+Tagssmartwatchwatchmakerwatchfaceandroidwear
+
+
+2) 
+Good info is linked from this reddit post
+3) 
+thanks Theresa, for helping me with the math 
+
+
+ · Permalink · Comments 
+
+Older Posts are available in the Archive. Keep up to date with the RSS Feed.
+
+
+
+
+
+
+
+ 
+
+
+
+Hi, I'm Andreas Gohr and splitbrain.org is my website.
+I'm a Web, Wiki and Open Source enthusiast living in Berlin, Germany. Enjoy your stay here.
+                    
+
+
+
+
+
+
+
+
+
+
+
+Blog
+
+
+Older Articles are available in the Archive, subscribe to the
+Full Content RSS Feed to stay tuned. You can also subscribe to the Link RSS Feed.
+
+Andreas Gohr's weblog and all his Open Source stuff
+
+← Flattr me 
+
+
+
+
+
+
+
+Adventure before Dementia5 Minute CupcakeRaspberry Pi B+ Pinout LeafGames I liked in 2014Agenda Watch Face for Android WearNew Gadget: LG Watch R 
+
+
+Using your Mobile Headset on a PC DokuWiki Linux OCR Software Comparison Open Text Summarizer DNS Tunneling made easy DokuWiki Beginners Screencast #1 
+
+
+
+
+No tags, yet. Why don't you bookmark it?                        
+
+
+
+
+
+            2001-2015 © Andreas Gohr [G+] · Imprint/Impressum
+
+
+
+
+
+
+

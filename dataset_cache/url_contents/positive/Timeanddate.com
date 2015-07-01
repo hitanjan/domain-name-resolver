@@ -1,0 +1,23 @@
+timeanddate.com
+
+
+
+
+
+Search ×Site / ArticlesCity / CountrySocial  ×Share this page / Follow us on:FacebookTweetFollowTwitterGoogle+Visit us on: My accountBackMy LocationMy UnitsMy AccountMy EventsMy World ClockLog inHomeBackNewsletterAbout UsSite MapArticle TopicsWorld ClockBackMain World ClockExtended World ClockPersonal World ClockWorld Time Lookup Time ArticlesTime ZonesBackTime Zone ConverterInternational Meeting PlannerEvent Time AnnouncerTime Zone MapTime Zone AbbreviationsTime Zone NewsDaylight Saving TimeTime Changes WorldwideTime DifferenceTime Zone ArticlesCalendarBackCalendar InfoCalendar 2015Calendar 2016Monthly CalendarEasy-Print PDF Calendar Add your own Calendar EventsCalendar CreatorAdvanced Calendar CreatorHolidays WorldwideCalendar ArticlesWeatherBackWorldwideLocal Weather2-week ForecastHour-by-hourPast WeekSun & MoonBackSun CalculatorMoon CalculatorMoonphasesEclipsesSeasonsDay and Night MapMoon Light World MapAstronomy ArticlesTimersBackCountdown to Any DateNew Year CountdownTimerStopwatchCalculatorsBackDate to Date Calculator (duration)Business Date to Date (exclude holidays)Date Calculator (add / subtract)Business Date (exclude holidays)International Dialing CodesDistance CalculatorDistance SignpostTravel Time CalculatorWeekday CalculatorWeek Number CalculatorApps & APIBackiOS AppsAndroid AppsWindows 8 AppsFree ClockFree CountdownAPI for DevelopersFree FunBackFree Clock for Your SiteFree Countdown for Your SiteWord ClockAlternative Age CalculatorDate Pattern CalculatorFun Fact ArticlesNewsletter About Us Site Map Article TopicsHomeCurrent TimeBengaluru, India - KarnatakaSet home location World ClockTime ZonesTime Zone MapTime AnnouncerTime Zone ConverterMeeting Planner:Find the Best Time across time zonesTime Zone AbbreviationsCalling Codes  |  Distance CalculatorCalendarFull yearMonthजनवरीफरवरीमार्चअप्रैलमईजूनजुलाईअगस्तसितंबरअक्टूबरनवंबरदिसंबरAlbaniaAlgeriaAndorraAngolaArgentinaArmeniaAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBermudaBoliviaBosnia and HerzegovinaBotswanaBrazilBulgariaCambodiaCameroonCanadaCayman IslandsChileChinaColombiaCongo DRCosta RicaCroatiaCubaCyprusCzech RepublicDenmarkDominican RepublicEcuadorEgyptEl SalvadorEquatorial GuineaEstoniaEthiopiaFinlandFranceGeorgiaGermanyGhanaGibraltarGreeceGreenlandGregorian calendarGuatemalaHaitiHondurasHong KongHungaryIcelandIndiaIndonesiaIranIraqIrelandIsraelItalyIvory CoastJamaicaJapanJordanJulian calendarKazakhstanKenyaKosovoKuwaitKyrgyzstanLatviaLebanonLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacedonia, Republic ofMalaysiaMaltaMauritiusMexicoMoldovaMonacoMontenegroMoroccoMozambiqueNamibiaNew ZealandNicaraguaNigeriaNorwayOmanPakistanPanamaParaguayPeruPhilippinesPolandPortugalPuerto RicoQatarRomaniaRussiaRwandaSan MarinoSaudi ArabiaSerbiaSingaporeSlovakiaSloveniaSomaliaSouth AfricaSouth KoreaSpainSri LankaSwedenSwitzerlandSyriaTaiwanTanzaniaThailandThe NetherlandsTrinidad and TobagoTunisiaTurkeyUgandaUkraineUnited Arab EmiratesUnited KingdomUnited StatesUruguayVatican CityVenezuelaVietnamYemenZambiaZimbabwePrintable PDF Calendar | Add EventsCreate your Calendar  |  Holidays & EventsCalculators & TimersDate-to-Date CalculatorWhat Date is it in X Days?Countdown to Any DateCountdown to New Year 2016StopwatchTimer / AlarmIn the NewsHolidays & EventsTime Zone NewsNewsletterNEW iOS World Clock App Sunrise and sunset times for every city, Easy Time Zone Converter, iCloud syncing and a widget are only a few of the features in our brand-new easy to use World Clock App for iOS. And it's free! Full StoryConstitution Day in Ukraineरविवार 28 जून 2015A change in Ukraine’s history was made when the country’s Constitution of Independence was adopted on June 28, 1996. Constitution Day is a national holiday to celebrate this historical event. 
+ Full StoryGo to Holidays WorldwideMorocco starts 5 week DST break रविवार 14 जून 2015Morocco pauses DST for 5 weeks during the month of Ramadan, starting Sunday June 14, 2015. The clocks will be turned forward again 1 hour Sunday July 19, 2015.  Full StoryGo to Time Zone NewsJune Solstice on June 21/22It will be the longest day in the Northern Hemisphere and the shortest day in the Southern Hemisphere.Two New AppsCheck out our new World Clock App for iOS and the free Countdown App for Android devices. Read moreCurrent Newsletter  |  Previous Editions  |  Subscribe Sun & MoonSunrise & SunsetMoon PhasesMoonrise & MoonsetSolar & Lunar EclipsesWeatherCurrent Weather2-week ForecastHour by Hour AppsiPhone AppsiPad AppsAndroid AppsWindows 8 Apps
+
+
+
+
+Copyright © Time and Date AS 1995–2015. All rights reserved.
+
+
+
+
+Feedback | Linking Policy | 
+About Us | Advertising | Disclaimer | Privacy | Sitemap
+
+
+
+

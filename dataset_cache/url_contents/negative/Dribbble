@@ -1,0 +1,749 @@
+
+
+
+
+Using the Dribbble API with PHP «  Build Internet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Articles
+Tutorials
+Projects
+
+
+
+
+
+
+
+the blog of
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Zach Dunn
+CPO & Co-Founder at One Mighty Roar and Robin in Boston, Massachusetts.
+
+Follow @zachdunn
+
+
+
+
+Files
+
+
+
+Share
+
+Tweet
+
+
+
+Topics
+API + Dribbble + GitHub + Open Source + PHP
+
+
+
+
+
+
+
+
+Nov 10, 2010
+26 Comments
+Tutorials
+
+
+
+Using the Dribbble API with PHP
+Get your Dribbble shots out into the wild using the API plus open source PHP project.
+
+
+
+
+The GitHub Project
+It might have taken a while, but two weeks ago I finally got into GitHub. For those not familiar, GitHub is a site focused on the version control system Git, and allows. It’s not the only place that you can get hosted Git repositories from (e.g. Beanstalk), but it does have a much more open-source friendly environment. It’s no coincidence that their tagline is “Social Coding”.
+As part of my orientation to GitHub, I wanted to contribute something to an existing project. As it turned out, Martin Bean’s Dribbble PHP wrapper was a brilliant candidate. Martin had already done a substantial amount of work in getting the raw JSON data into a workable format. I decided to help out and add in support for comments, rebounds, and some updated examples. This tutorial is the finishing touch.
+
+Dribble API in PHP
+Dribbble has a nicely documented API. Unfortunately for some, it only documents the API’s output, which means that you’d have to do some work on your own to get it to working on a project. On the bright side, finding a library for your language is not hard. In this tutorial, we’ll walk through a couple examples using the Dribbble PHP project hosted on GitHub.
+As part of my GitHub update, I included formatted example pages that cover most of the regular API activity. This includes displaying rebounds, comments, and a number of the preset feeds given by Dribbble. If you download the source files and look at the examples, getting started should be straightforward. For the average person, displaying their account’s last five shots is perfectly fine.
+
+General Installation
+Note: All of these instructions are based on the version available as of November 1, 2010. If you’re reading this in the future, things may look different. That’s technology for you.
+ To start off, make sure that you’ve downloaded the most recent version from the project page. Once you’ve unzipped the project folder you’ll see a couple folders. The first is “examples/” and has a few sample pages that you can play with and see how things work. The second is “src” and contains all the files you need to integrate it into your own project.
+Assuming you leave these files in the “src/” folder, you’ll load the class using the following code at the top of your page. 
+
+
+
+
+
+&lt;?php
+
+require_once('src/dribbble.php');
+
+$dribbble = new Dribbble();
+
+?&gt;
+
+
+
+
+1234567
+
+   
+
+
+
+
+
+This will create a new dribbble object stored in $dribbble. Everything below branches from this.
+Example 1: List by User
+This is probably what 90% of you are interested in. A Dribbble feed makes an excellent addition to any portfolio/personal site. The following code will pull in the latest 3 shots made by the specified account.
+
+
+
+
+
+&lt;ul class="dribbble-shots"&gt;
+	&lt;?php
+		$player = $dribbble-&gt;player-&gt;find('zachdunn');
+		$shots = $player-&gt;shots(array('per_page' =&gt; 3));
+		foreach ($shots-&gt;shots as $shot) {
+			echo sprintf('&lt;li&gt;&lt;a href="%s"&gt;&lt;img src="%s" alt="%s" /&gt;&lt;/a&gt;&lt;/li&gt;', $shot-&gt;url, $shot-&gt;image_url, $shot-&gt;title);
+	} ?&gt;
+&lt;/ul&gt;
+
+
+
+
+12345678
+
+
+
+
+
+
+
+Shots can be called in two sizes: teaser and full. The example above uses the full 400×300 default, but if you wanted to display teasers instead, you can replace the $shot->image_url with $shot->image_teaser_url.
+For those unfamiliar with PHP’s sprintf() function, here’s a quick primer: The “%s” acts as a placeholder for the arguments provided after the first comma. In the example above, the $shot->url result will be placed into the href attribute, etc. You don’t have to use this method, but I find it to be much neater than a series of PHP blocks for one-liners.
+Example 2: Popular Shots
+Here’s how you could use the API to get the three latest shots from Dribbble’s popular section:
+
+
+
+
+
+&lt;ul class="shots"&gt;
+
+	&lt;?php
+		//If we're using the same dribbble object, this will overwrite previous calls
+		$popular_shots = $dribbble-&gt;shot-&gt;popular(array('page' =&gt; 1, 'per_page' =&gt; 3));
+	foreach ($popular_shots-&gt;shots as $shot) { ?&gt;
+		&lt;li&gt;
+			&lt;h2&gt;&lt;a href="&lt;?php echo $shot-&gt;url;?&gt;"&gt;&lt;?php echo $shot-&gt;title; ?&gt;&lt;/a&gt;&lt;/h2&gt;
+			&lt;a href="&lt;?php echo $shot-&gt;url;?&gt;"&gt;&lt;img src="&lt;?php echo $shot-&gt;image_url; ?&gt;" alt="&lt;?php echo $shot-&gt;title; ?&gt;"/&gt;&lt;/a&gt;
+			&lt;p&gt;from &lt;a href="&lt;?php echo $shot-&gt;player-&gt;url; ?&gt;"&gt;&lt;?php echo $shot-&gt;player-&gt;name; ?&gt;&lt;/a&gt;
+		&lt;/li&gt;
+	&lt;?php } ?&gt;
+
+&lt;/ul&gt;
+
+
+
+
+1234567891011121314
+
+  
+
+
+
+
+
+Notice that you’re also able to display information about each shot’s author as well as link to their respective profiles.
+Example 3: Comments on a Shot
+
+This last one would be useful if you wanted to make a Dribbble-powered testimonial system. The loop below will display comments for the shot specified by ID.
+
+
+
+
+
+# find a shot
+$shot = $dribbble-&gt;shot-&gt;find(62170);
+
+# Get first 5 comments on first page
+$comments = $shot-&gt;comments(array('page' =&gt; 1, 'per_page' =&gt; 5));
+
+	&lt;ul class="shots"&gt;
+		&lt;li&gt;
+			&lt;h2&gt;&lt;a href="&lt;?php echo $shot-&gt;url;?&gt;"&gt;&lt;?php echo $shot-&gt;title; ?&gt;&lt;/a&gt;&lt;/h2&gt;
+			&lt;a href="&lt;?php echo $shot-&gt;url;?&gt;"&gt;&lt;img src="&lt;?php echo $shot-&gt;image_url; ?&gt;" alt="&lt;?php echo $shot-&gt;title; ?&gt;"/&gt;&lt;/a&gt;
+			&lt;p&gt;from &lt;a href="&lt;?php echo $shot-&gt;player-&gt;url; ?&gt;"&gt;&lt;?php echo $shot-&gt;player-&gt;name; ?&gt;&lt;/a&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+
+	&lt;?php if ($comments) : ?&gt;
+
+		&lt;ul class="comments"&gt;
+
+		&lt;?php foreach ($comments as $comment) { ?&gt;
+
+			&lt;li&gt;
+				&lt;p&gt;&lt;span class="author"&gt;&lt;a href="&lt;?php echo $comment-&gt;player-&gt;url; ?&gt;"&gt;&lt;?php echo $comment-&gt;player-&gt;name; ?&gt;&lt;/a&gt; says:&lt;/span&gt; &lt;?php echo $comment-&gt;body; ?&gt;&lt;/p&gt;
+			&lt;/li&gt;
+
+		&lt;?php } ?&gt;
+
+		&lt;/ul&gt;
+
+	&lt;?php else : ?&gt;
+
+		&lt;p&gt;No comments on this shot yet&lt;/p&gt;
+
+	&lt;?php endif; ?&gt;
+
+
+
+
+123456789101112131415161718192021222324252627282930313233
+
+           
+
+
+
+
+
+If you have any confusion with these (or other) examples,  I tried to make sure that they were as clear-cut as possible, and should make it easy to figure out most issues.
+Fork It Yourself
+Since the project is open source, if anyone is motivated enough to contribute, that would be wonderful. Even though the current version covers all of the basics, there are plenty of features that could be improved upon and integrated from scratch. Even a couple hours can add miles (or kilometers) of polish. If you make a branch that’s got some exciting stuff in it, post up a link in the comments! We’d love to see it.
+ Sorry to disappoint!
+Links & References
+
+The Dribbble PHP project on GitHub
+Dribbble’s official API documentation
+Follow me on Dribbble
+
+
+Posted Wednesday, November 10th, 2010 · Back to Top
+
+
+
+
+Related Posts
+
+No related posts.
+
+
+
+
+
+
+
+
+
+
+
+
+
+26 Comments 
+
+
+
+
+
+ 
+Tutorial Lounge  
+really useful article you sharing for better development.
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+ 
+Steve Lacey  
+As of yesterday (getting invited to Dribbble) I’ve wanted/needed to integrate Dribbble into my next design- and this looks perfect for the job, well timed and good job. I’ll probably extend this to a Symfony Plugin at some point if I see benefit in doing so.
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+ 
+myselfanand  
+I  found  the latest development sources  for PHP from api,thank you
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+ 
+Martin Bean  
+Hey, I just wanted to say thanks to Zack for contributing to the project and featuring it in this article! Cheers!
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+ 
+Greg  
+Hi,
+First of all, thanks Zack for this awesome code. I just have a problem when I’m trying to implement the “List by user” example.
+I don’t know why, but I get this error : Notice: Trying to get property of non-object in C:\wamp\www\pfo\dribbble-showcase.php on line 84
+Warning: Invalid argument supplied for foreach() in C:\wamp\www\pfo\dribbble-showcase.php on line 84
+Can someone give me an hint why I get this error? I’m just a designer trying to show my dribbble shots ;)
+Thanks and have a nice day.
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+ 
+Juan Arreguin  
+@Greg — I had the same error, and what i did was I changed
+“foreach($shots->shots as $shot)”
+to
+“foreach($shots as $shot) {
+Good luck!
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+ 
+Jake Thompson  
+Hi, firstly thanks Zack! Also, I’m doing my portfolio in HTML and I’m learning as I go along, could somebody please tell me how I can simple implement this in html?
+-Jake (:
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+ 
+Dave  
+Hello, I am having trouble. Is there a way to check my sever and see if it has the required software/settings? I know it has php. I have gotten your code to work on a sever, but when I moved it to another sever it failed, even after checking links. Also, the source files for the project don’t work on this new server. I think the server is the problem. 
+Here is the error showing up in the source files for this project:
+Warning: file_get_contents() [function.file-get-contents]: URL file-access is disabled in the server configuration in /misc/28/000/215/334/9/user/web/davewhitley.com/dribbble/src/base.php on line 32
+Warning: file_get_contents(http://api.dribbble.com//shots/popular?page=1&per_page=3) [function.file-get-contents]: failed to open stream: no suitable wrapper could be found in /misc/28/000/215/334/9/user/web/davewhitley.com/dribbble/src/base.php on line 32
+Warning: Invalid argument supplied for foreach() in /misc/28/000/215/334/9/user/web/davewhitley.com/dribbble/src/base.php on line 33
+Warning: Invalid argument supplied for foreach() in /misc/28/000/215/334/9/user/web/davewhitley.com/dribbble/examples/general.php on line 34
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+ 
+Supertramp  
+Hi Dave, did you get to fix this? I have the same problem with.
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+
+
+ 
+dennis  
+AWESOME and thx  @Juan
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+ 
+josh  
+Thank you Zach!
+I’m trying to get this to work in my WordPress theme. Are there any changes that would need to be made to install this in the WordPress theme files?
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+ 
+Brett Widmann  
+This was a helpful tutorial! I didn’t realize how easy this all is.
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+ 
+Supertramp  
+I have the same problem that Dave, how can I solve it? :
+Warning: file_get_contents() [function.file-get-contents]: URL file-access is disabled in the server configuration in /misc/28/000/215/334/9/user/web/davewhitley.com/dribbble/src/base.php on line 32
+Warning: file_get_contents(http://api.dribbble.com//shots/popular?page=1&per_page=3) [function.file-get-contents]: failed to open stream: no suitable wrapper could be found in /misc/28/000/215/334/9/user/web/davewhitley.com/dribbble/src/base.php on line 32
+Warning: Invalid argument supplied for foreach() in /misc/28/000/215/334/9/user/web/davewhitley.com/dribbble/src/base.php on line 33
+Warning: Invalid argument supplied for foreach() in /misc/28/000/215/334/9/user/web/davewhitley.com/dribbble/examples/general.php on line 34
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+ 
+jon  
+Warning: Invalid argument supplied for foreach() in /misc/28/000/215/334/9/user/web/davewhitley.com/dribbble/examples/general.php on line 34
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+ 
+papaji@gmail.com  
+Warning: Invalid argument supplied for foreach() in /misc/28/000/215/334/9/user/web/davewhitley.com/dribbble/examples/general.php on line 34Warning: Invalid argument supplied for foreach() in /misc/28/000/215/334/9/user/web/davewhitley.com/dribbble/examples/general.php on line 34Warning: Invalid argument supplied for foreach() in /misc/28/000/215/334/9/user/web/davewhitley.com/dribbble/examples/general.php on line 34
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+ 
+Beat  
+Hello, I have the same problem. I was using the script for a long time but today seems to be broken. I don´t understand why. I have enabled fopen in my server using php.ini file and now seems to be broken. Have you any idea why is happening this?
+Notice: Undefined property: Player::$players in /Applications/MAMP/htdocs/martinbean-dribbble-php-e99ad3e/src/player.php on line 79
+Notice: Undefined property: Player::$players in /Applications/MAMP/htdocs/martinbean-dribbble-php-e99ad3e/src/player.php on line 69
+Notice: Undefined property: Player::$shots in /Applications/MAMP/htdocs/martinbean-dribbble-php-e99ad3e/src/player.php on line 49
+****************
+Warning: Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/martinbean-dribbble-php-e99ad3e/examples/player-info.php on line 53
+Thanks!! :)
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+ 
+Chris Da Sie  
+Hi, 
+I’m having the same issue as Beat. I woke up this morning and opened Chrome up and saw the exact same error. 
+Notice: Undefined property: Player::$players in /Users/christopherdasie/Sites/php/martinbean-dribbble-php-e99ad3e/src/player.php on line 79
+Notice: Undefined property: Player::$players in /Users/christopherdasie/Sites/php/martinbean-dribbble-php-e99ad3e/src/player.php on line 69
+Notice: Undefined property: Player::$shots in /Users/christopherdasie/Sites/php/martinbean-dribbble-php-e99ad3e/src/player.php on line 49
+Followed by:
+Warning: Invalid argument supplied for foreach() in /Users/christopherdasie/Sites/php/martinbean-dribbble-php-e99ad3e/examples/index.php on line 97
+Was there a change in the server or calls by dribbble? Please help
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+ 
+Beat  
+@Crhis, Martin updated the wrapper here -> https://github.com/martinbean/dribbble-php
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+
+
+ 
+Beat  
+Please, Zack. Could you update the tutorial with the new API Wrapper V2 update?
+I´m using the new file but I have a lot of errors implementing it. Would be great to have this tutorial updated too!
+Thanks anyway!
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+ 
+Beat  
+I have this error (I have not experience using PHP):
+Notice: Undefined property: Dribbble::$player in /Applications/MAMP/htdocs/martinbean-dribbble-php-e99ad3e/examples/player-info.php on line 11
+Fatal error: Call to a member function find() on a non-object in /Applications/MAMP/htdocs/martinbean-dribbble-php-e99ad3e/examples/player-info.php on line 11
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+
+
+ 
+Matt  
+I’m trying to get this to work for a wordpress page and am having issues. Any suggestions?
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+ 
+Rosaria Lucchesi  
+I’m starting a new project with Dribbble and your tutorial helps me a lot. Thank you.
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+ 
+Chris  
+The latest version doesn’t seem to have the “examples” folder included. Any idea on where I can see this in use?
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+ 
+بهینه سازی سایت  
+is that work with asp.net?
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+ 
+Surjith SM  
+Hi, Great Article.
+I would like to know that can we get shots with their file extensions? like All shots having *.gif extension? because i would like to grab all gif animations from dribbble. is there any way to do this?
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+
+
+
+ 
+Jayant Vyda  
+Hi all,
+Is there a way to upload shots to dribbble using its api and PHP.
+Any response on this would be appreciated.
+  wp_date_in_a_nice_tone(); ?> · 
+
+
+
+ 
+
+
+
+
+
+
+
+
+Follow @buildinternet
+
+			  
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tweets by @buildinternet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Articles
+Tutorials
+Projects
+About
+Advertise
+Contact
+Robin
+
+
+
+
+
+
+
+
+
+
+
+
+Build Internet by One Mighty Roar. Since 2008.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+

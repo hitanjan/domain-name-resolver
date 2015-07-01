@@ -1,0 +1,992 @@
+ 
+
+
+
+
+DDoS attack against Bitbucket darkens Amazon cloud  | Network World
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Trending
+12 hot application container startups 
+Satya Nadella's new mission for Microsoft
+Resources/White Papers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Most read 
+
+Review: Double your iPhone battery life with these 6 smartphone cases
+Louisiana governor vetoes license plate reader legislation
+How encryption keys could be stolen by your lunch
+iPhone 7 rumor rollup: Heavy metal! Fingerprints! A kinda-sorta-maybe release date!
+Microsoft's anti-surveillance, pro-privacy website was hacked by casino spammer
+Happy Father's Day, from the Father of Hyperconvergence
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+Search for
+
+
+
+Suggestions for you
+
+
+
+Insider email 
+
+
+
+
+
+Security
+
+All Security
+Access Control
+Application Security
+Compliance
+Malware/Cybercrime
+Mobile Security
+Network Security
+Security and Vulnerability Management
+
+
+LAN & WAN
+
+All LAN & WAN
+Ethernet Switch
+IPv6
+Internet of Things
+Router
+Service Providers
+WAN Optimization
+
+
+SDN
+
+Unified Communications/VoIP
+
+All Unified Communications/VoIP
+Collaboration/Social
+Contact Center
+E-mail Services
+Videoconferencing
+VoIP
+
+
+Cloud Computing
+
+All Cloud Computing
+Cloud Security
+Cloud Storage
+Hybrid Cloud
+IaaS
+PaaS
+Private Cloud
+Public Cloud
+SaaS
+
+
+Infrastructure Management
+
+All Infrastructure Management
+Application Performance Management
+Asset Management
+Network Management
+System Management
+
+
+Wireless
+
+All Wireless
+4G
+Android
+BYOD
+MDM/MAM
+Mobile Apps
+Smartphones
+Wi-Fi
+iOS
+
+
+Software
+
+All Software
+Applications
+Big Data/Business Intelligence
+CRM
+ERP
+Linux
+Windows
+
+
+Data Center
+
+All Data Center
+Business Continuity
+Disaster Recovery
+Green IT
+Network Storage
+PCs
+Servers
+Tablets
+Virtual Desktop
+Virtualization
+
+
+SMB
+
+Careers
+
+All Careers
+Education
+IT Skills & Training
+Salary
+
+
+Tech Debates
+
+Tech Primers
+
+Cisco Subnet
+
+Microsoft Subnet
+
+Open Source Subnet
+
+Events
+
+All Events
+Demo
+
+
+
+
+News
+Tests
+Insider
+Blogs
+Resources/White Papers
+Newsletters
+Video
+IT Job Search
+Events
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Buzzblog
+
+							
+								
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+By 
+
+
+Follow
+
+
+
+
+
+
+
+
+
+
+
+About  
+In addition to my editing duties, I have written Buzzblog since January, 2006. Feel free to e-mail me at buzz@nww.com.
+
+
+Opinion
+DDoS attack against Bitbucket darkens Amazon cloud 
+
+
+
+
+
+Related
+
+
+
+A pet peeve: pedantic pet peeves
+
+
+
+
+Bitbucket's downtime is a cautionary cloud tale
+
+
+
+
+Missing dot drops Sweden off the Internet
+
+
+
+
+
+
+
+
+
+
+
+
+At least 16 hours elapsed before Amazon acknowledged nature of attack, says Bitbucket
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Email a friend
+
+
+To
+
+Use commas to separate multiple email addresses
+
+
+
+
+From
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		     
+
+
+
+
+
+Privacy Policy
+
+
+
+
+Thank you
+Your message has been sent.
+
+
+
+Sorry
+There was an error emailing this page.
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Data Center
+Cloud Computing
+DDoS
+
+
+
+
+A crippling DDoS attack over the weekend against open-source hosting service Bitbucket and Amazon's EC2 service has questions being raised about the speed and effectiveness of Amazon's response to the emergency, as well as the general reliability of cloud services.Bottom line for Bitbucket? They're considering switching to a different provider, several of whom were "concerned" enough to offer their services while Bitbucket and Amazon struggled to stem the tide. Bitbucket has almost 19,000 users.I've requested comment from Amazon's public relations department. (Update: Amazon reply below.)From a Bitbucket blog post yesterday by Jesper Noehr:As many of you are well aware, we've been experiencing some serious downtime the past couple of days. Starting Friday evening, our network storage became virtually unavailable to us, and the site crawled to a halt.We're hosting everything on Amazon EC2, aka. "the cloud", and we're also using their EBS service for storage of everything from our database, logfiles, and user data (repositories.)The post offers a detailed blow by blow account of what Bitbucket needed to go through in order to get the situation resolved. Initially, they had a difficult time convincing Amazon technicians that the problem was on their end, and it was at least 16 hours before a DDoS attack was identified as the culprit.We filed an "urgent" ticket with Amazons support system, and within 5 minutes we had them on the phone. I spoke to the person there, describing our issue, continuously claiming that everything pointed to a network problem between the instance and the store.What came from that, was 5 or 6 hours of advice, some of which were obvious timesinks, while others were somewhat credible. What they kept coming back to was that EBS is a "shared network resource" and performance would vary. We were also told to use RAID0 to distribute our load over several EBS instances to increase the throughput.At this point, we were getting less throughput than you can pull off of a 1.44MB floppy, so we didn't accept this for an answer. We did some more tests, trying to measure the bandwidth of the machine by fetching their "100mb.bin" files, which we couldn't do. We again emphasized that this was in fact, in all likelihood, a network problem.Despite acknowledging the possibility they might abandon the Amazon service, Bitbucket's Noehr went out of his way to praise the professionalism of the Amazon response team and deflect blame from the service itself.One thing's for sure, we're investing a lot of man-hours into making sure this won't happen again. If this means moving to a different host, so be it. We haven't decided yet.They're talking about the episode at Hacker News:And there's also discussion over at Reddit, including this take.Bitbucket wrote: "After a bit of stalling with their first rep., our case received absolutely stellar attention. They were very professional in their correspondence, and in communicating things to us along the way."Reddit commenter: "I disagree. The only reason Amazon did something was because of this:Bitbucket wrote: "At this point, our outage was well known, especially in the Twittosphere. We have some rather large customers relying on service with us, and some of these customers have some hefty support contracts with Amazon. Emails were sent.Shortly after this, I requested an additional phone-call from Amazon, this time to our system administrator. He had been compiling some rather worrying numbers over the past hours, since up until now, the support had refused to acknowledge a problem with the service. They claimed that everything was working fine, when clearly, it was not.This time, a different support rep. called, and this time, they were ready to acknowledge our problem as "very serious."Reddit commenter: "So while Amazon has corrected itself in the end, it was not before receiving a swift kick in the ass. What if this was a small business without influential friends? Then Amazon would leave them high and dry. That's what I take from this."Not all the details are known, of course, but it's tough to see how that's an unfair take-away.(Updated, 3:15: Just received this statement from Amazon: "Over the weekend, one of our customers reported a problem with their Amazon Elastic Block Store (EBS). This issue was limited to this customer's single Amazon EBS volume and other customers were not affected."We did not immediately look beyond the reported problem and spent too much time focusing on what was believed to be an issue with the Amazon EBS volume.  While the customer perceived this issue to be slowness of their EBS volume, what we ultimately found was not a problem with Amazon EBS, but rather that the customer's Amazon EC2 instance was receiving a very large amount of network traffic."This large flood of traffic overwhelmed the networking of the customer's single Amazon EC2 instance and caused performance to degrade on all I/O operations on the instance.  Once we properly diagnosed the problem, we worked with the customer to put measures in place to help mitigate the unwanted traffic they were receiving. We have continued to work with the customer to apply network filtering techniques which have kept their site functioning properly."We are working on a post mortem to make sure we learn from this and continue to improve the speed with which we diagnose issues like this.  We will also be providing guidance to our customers on how they can better detect this sort of problem and use features like Elastic Load Balancing and Auto-Scaling to architect their services to better handle this sort of issue.")Welcome regulars and passersby. Here are a few more recent Buzzblog items. And, if you'd like to receive Buzzblog via e-mail newsletter, here's where to sign up.2009's 25 Geekiest 25th AnniversariesHalf of iPhone users would drop AT&T like a bad habit."Anonymous Digging?" What could go wrong?How long does The World's Oldest Person have left ... on average?Wiretapping charges may be the silliest ever recorded.Only 13% of Wikipedia contributors are women.Why would Microsoft patent a 'butt hinge with butt straps'?Snopes.com gets an "A" from fellow fact-checkers.
+
+
+
+
+Data Center
+Cloud Computing
+DDoS
+
+
+
+
+
+Wolfram|Alpha declares Oct. 21 'Homework Day'
+
+
+
+500 words too taxing? Does the 'T' in MIT stand for Tweet?
+
+
+
+
+
+
+Paul McNamara — 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View 
+
+
+
+You Might Like
+
+
+
+
+
+
+
+
+Join the discussion
+Our Commenting Policies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Don't Miss
+
+The top 15 tech companies on the Fortune 500
+We scour the F500 list to home in on the largest tech companies gracing the list.
+
+
+Cisco warns of default SSH keys shipped in three products
+
+
+
+Wi-Fi router's 'pregnant women' setting sparks vendor rivalry in China
+
+
+
+
+
+Newsletters Sign up and receive the latest news, reviews and trends on your favorite technology topics. Get our Daily News newsletter   Go 
+
+
+
+12 hot application container startups 
+From management to storage and networking to security – these startups have application containers...
+
+
+
+Short Take: Apple Music, Siri integration and other WWDC thoughts
+Computerworld's Ken Mingis and Keith Shaw discuss the 2015 Apple Worldwide Developer Conference...
+
+
+
+
+BrandPostLearn more
+
+
+ HP
+How To Build A Hybrid Cloud Part 5
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    Resources
+    
+    
+
+
+
+
+
+
+
+White Paper
+
+10 Steps to Make Your DCIM Implementation a Success
+
+
+
+
+
+
+
+
+White Paper
+
+5 Ways Private PaaS Helps IT to Support Digital Business Growth
+
+
+
+
+
+
+
+
+White Paper
+
+5 Ways Private PaaS is Revolutionizing Enterprise Web Hosting
+
+
+
+
+
+
+
+
+White Paper
+
+7 Critical Questions to Demystify DRaaS
+
+
+
+
+
+
+
+
+White Paper
+
+Accelerating Enterprise Docker Strategy with Private PaaS
+
+
+
+
+
+
+
+
+Go
+
+
+
+
+
+
+
+Top Stories
+Juniper scales down the Internet core
+PTX1000 router features 3Tbps in 2RU for distributed peering
+
+
+
+
+
+
+Be paranoid: 10 terrifying extreme hacks
+
+Nothing is safe, thanks to the select few hacks that push the limits of what we thought possible  
+
+
+
+
+
+
+The top 15 tech companies on the Fortune 500
+
+We scour the F500 list to home in on the largest tech companies gracing the list.   
+
+
+
+
+
+
+Migrating to the cloud?  Start with a readiness assessment
+
+A professional services engagement can best prep you for success
+    
+
+
+
+
+
+
+
+
+
+
+Sponsored Links
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Security
+
+LAN & WAN
+
+SDN
+
+Unified Communications/VoIP
+
+Cloud Computing
+
+Infrastructure Management
+
+Wireless
+
+Software
+
+Data Center
+
+SMB
+
+Careers
+
+Tech Debates
+
+Tech Primers
+
+Cisco Subnet
+
+Microsoft Subnet
+
+Open Source Subnet
+
+Events
+
+
+
+
+
+Features
+News
+Blogs
+Resources
+Newsletters
+Events
+
+
+
+
+
+
+
+About Us
+Contact
+Privacy Policy
+Advertising
+Careers at IDG
+Site Map
+Ad Choices
+
+
+
+
+
+
+Copyright © 1994 - 2015 Network World, Inc. All rights reserved.
+
+
+Explore the IDG Network descend
+
+CFOworld
+CIO
+CITEworld
+Computerworld
+CSO
+DEMO
+Fritterati
+Greenbot
+IDC
+IDG
+IDG Answers
+IDG Connect
+IDG Knowledge Hub
+IDG TechNetwork
+IDG.TV
+IDG Ventures
+InfoWorld
+IT News
+ITwhitepapers
+ITworld
+JavaWorld
+LinuxWorld
+Macworld
+Network World
+PC World
+TechHive
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This ad will close in 20 seconds. Continue to site »
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

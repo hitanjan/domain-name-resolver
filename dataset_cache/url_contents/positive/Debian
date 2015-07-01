@@ -1,0 +1,247 @@
+
+
+
+Debian -- The Universal Operating System 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+Skip Quicknav
+
+About Debian
+Getting Debian
+Support
+Developers' Corner
+
+ 
+  
+ 
+
+
+
+
+Debian
+
+
+Debian is a
+free operating system (OS) for your computer.
+An operating system is the set of basic programs and utilities that make
+your computer run.
+
+Debian provides more than a pure OS: it comes with over
+43000 packages, precompiled software bundled
+up in a nice format for easy installation on your machine. Read more...
+
+
+
+
+About
+
+Social Contract
+Code of Conduct
+Free Software
+Partners
+Donations
+Contact Us
+
+
+Help Debian
+
+
+Getting Debian
+
+Network install
+CD/USB ISO images
+CD vendors
+Pre-installed
+
+
+Developers' Corner
+Debian Packages
+
+
+News
+
+Project News
+Events
+
+
+Documentation
+
+Release Info
+Installation manual
+Debian Books
+Debian Wiki
+
+
+
+
+Support
+
+Debian International
+Security Information
+Bug reports
+Mailing Lists
+Mailing List Archives
+Ports/Architectures
+
+
+
+
+Miscellaneous
+Site map
+Search
+The Debian Blog
+
+
+
+
+ 
+The latest stable release of Debian is
+8.1. The last update to this release was made on
+June 6th, 2015. Read more about available
+versions of Debian.
+Getting Started
+
+If you'd like to start using Debian, you can easily obtain a copy, and then follow the installation instructions to
+  install it.
+If you're upgrading to the latest stable release
+  from a previous version, please read the release notes before
+  proceeding.
+To get help in using or setting up Debian, see
+  our documentation and support
+  pages.
+Users that speak languages other than English should
+  check the international section.
+People who use systems other than Intel x86 should check the ports section.
+
+
+RSS
+News
+[06 Jun 2015] Updated Debian 8: 8.1 released
+[25 Apr 2015] Debian 8 Jessie released
+[24 Apr 2015] Join the LTS project to help shape Wheezy and Jessie LTS
+[27 Mar 2015] Imagination maintains momentum for Debian MIPS ports
+[06 Feb 2015] New Debian security mirror for Asia
+[04 Feb 2015] Debian Project mourns the loss of Clytie Siddall
+
+For older news items see the News Page.
+If you would like to receive mail whenever new Debian news comes out, subscribe to the
+debian-announce mailing list.
+
+RSS
+Security Advisories
+[24 Jun 2015] DSA-3295 cacti - security update 
+[23 Jun 2015] DSA-3294 wireshark - security update 
+[20 Jun 2015] DSA-3293 pyjwt - security update 
+[19 Jun 2015] DSA-3292 cinder - security update 
+[18 Jun 2015] DSA-3291 drupal7 - security update 
+[18 Jun 2015] DSA-3290 linux - security update 
+[15 Jun 2015] DSA-3289 p7zip - security update 
+[13 Jun 2015] DSA-3288 libav - security update 
+[13 Jun 2015] DSA-3287 openssl - security update 
+[13 Jun 2015] DSA-3286 xen - security update 
+[13 Jun 2015] DSA-3285 qemu-kvm - security update 
+[13 Jun 2015] DSA-3284 qemu - security update 
+
+For older security advisories see the 
+Security Page.
+If you would like to receive security advisories as soon as they're announced, subscribe to the
+debian-security-announce
+mailing list.
+
+ 
+
+
+
+
+
+This page is also available in the following languages:
+
+عربية (Arabiya)
+Български (Bəlgarski)
+català
+česky
+dansk
+Deutsch
+Ελληνικά (Ellinika)
+español
+Esperanto
+فارسی (Farsi)
+français
+Galego
+한국어 (Hangul)
+Հայերեն (hayeren)
+hrvatski
+Indonesia
+Italiano
+עברית (ivrit)
+Lietuvių
+magyar
+Nederlands
+日本語 (Nihongo)
+norsk (bokmål)
+polski
+Português
+română
+Русский (Russkij)
+slovensky
+suomi
+svenska
+தமிழ் (Tamil)
+Tiếng Việt
+Türkçe
+українська (ukrajins'ka)
+中文(简)
+中文(HK)
+中文(繁)
+
+How to set the default document language
+
+
+
+
+To report a problem with the web site, e-mail debian-www@lists.debian.org. For other contact information, see the Debian contact page. Web site source code is available.
+
+Last Modified: Mon, Jun 1 04:39:41 UTC 2015
+  
+  Copyright © 1997-2015
+ SPI and others; See license terms
+  Debian is a registered trademark of Software in the Public Interest, Inc.
+
+
+
+ 
+
+

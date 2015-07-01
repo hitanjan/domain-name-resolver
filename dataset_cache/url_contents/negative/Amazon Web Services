@@ -1,0 +1,388 @@
+
+
+
+
+
+
+
+
+
+
+
+Amazon Web Services API | Drupal.org
+
+
+
+
+
+
+
+
+
+Skip to main content
+Skip to search
+
+
+
+
+
+
+
+
+
+Get Started
+Community
+Documentation
+Support
+Download & Extend
+Jobs
+Marketplace
+About
+ 
+
+
+
+ 
+
+
+
+Drupal
+ 
+ 
+
+
+
+
+
+
+
+Search form
+
+Search 
+
+
+
+ All 
+
+
+ Modules 
+
+
+ Themes 
+
+
+ Documentation 
+
+
+ Forums & Issues 
+
+
+ Groups 
+
+
+
+
+
+ 
+
+
+
+ 
+ 
+ 
+
+Drupal Homepage
+Log in / Register
+  
+ 
+
+ 
+
+
+
+
+
+Download & Extend
+
+
+ 
+
+Download & Extend Home
+Drupal Core
+Distributions
+Modules
+Themes
+  
+Amazon Web Services API
+ 
+
+Primary tabsView
+Version control
+Automated Testing
+  
+
+
+ 
+ 
+
+
+ 
+
+
+
+
+
+      Posted by dragonwize on January 6, 2008 at 8:43pm 
+
+Unless a module specifically calls for this module, developers should check out the AWS SDK for PHP module instead.
+------------------------------------------------------------------------------
+This module is actually a collection of modules. The first being the main AWS API
+module. The sub-modules each deal with a specific Amazon Service.
+SERVICE MODULES
+In Development and Testing
+Elastic Compute Cloud (EC2)
+Planned
+Simple Storage Service (S3)
+Simple Queue Service (SQS)
+S3 Admin UI - a higher level S3 module that is easier to administer your S3 account.
+SimpleDB (SDB)
+Flexible Payments Service (FPS)
+Mechanical Turk (MTurk)
+I would like to hear from module developers on ideas because this module should make your work much easier. If you would like to collaborate or contribute please contact me via the issue queue or on IRC.
+REQUIRED MODULES
+REST Client is required for the AWS modules.
+DEPENDENT MODULES
+Cloud - a GUI for managing EC2 resources
+SPONSOR
+This project is sponsored by DOCOMO Innovations, Inc.
+
+Project Information
+
+Maintenance status: 
+Development status: 
+Module categories: 
+Reported installs: 2 sites currently report using this module. View usage statistics.
+Downloads: 1,822
+Last modified: December 2, 2014
+
+
+Downloads
+
+Recommended releases
+
+
+
+
+
+
+            Version          
+
+            Download          
+
+            Date          
+
+
+
+
+
+6.x-1.3 
+
+tar.gz  | zip  
+
+            2012-Nov-09          
+
+
+
+
+
+
+
+
+
+Development releases
+
+
+
+
+
+
+            Version          
+
+            Download          
+
+            Date          
+
+
+
+
+
+7.x-1.x-dev 
+
+tar.gz  | zip  
+
+            2013-Sep-30          
+
+
+
+6.x-1.x-dev 
+
+tar.gz  | zip  
+
+            2013-Sep-30          
+
+
+
+
+ 
+View all releases
+ 
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+Maintainers for Amazon Web Services API
+
+yas - last: 2 years ago, first: 4 years ago
+recidive - last: 5 years ago, first: 5 years ago
+dragonwize - last: 7 years ago, first: 7 years ago
+View all committersView commits 
+
+
+
+
+Issues for Amazon Web Services API
+
+    To avoid duplicates, please search before submitting a new issue.
+  
+Advanced search 
+
+All issues
+
+17 open,
+          26 total 
+
+
+Bug report
+
+4 open,
+          5 total 
+
+
+
+Subscribe via e-mail 
+
+Statistics
+
+
+
+
+
+
+
+
+
+      %    
+
+
+
+
+
+hours 
+
+
+
+
+
+
+
+
+ 2 year graph, updates weekly
+
+
+
+
+
+
+Resources
+
+View project translations
+ 
+
+
+
+
+Development
+
+View pending patches
+Browse code repository
+View commits
+Report a security vulnerability
+View change records
+ 
+
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+News ItemsDrupal News
+Planet Drupal
+Association News
+Social Media Directory
+Security Announcements
+Jobs
+Our CommunityCommunity
+Getting Involved
+
+Groups & Meetups
+DrupalCon
+Code of Conduct
+Online DocumentationGet Started
+Documentation Home
+Installation Guide
+Site Building Guide
+Support
+api.drupal.org
+Drupal Code BaseDownload & Extend
+Drupal Core
+Modules
+Themes
+Distributions
+Governance of CommunityAbout
+Web accessibility
+The Drupal Association
+About Drupal.org
+Terms of Service
+Privacy Policy
+
+
+
+Drupal is a registered trademark of Dries Buytaert.
+
+
+
+
+ 
+ 
+ 
+ 
+
+ 
+
+

@@ -1,0 +1,317 @@
+
+
+
+
+
+
+
+
+
+
+Apache Traffic Server
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+Downloads
+Documentation
+Wiki
+Issues
+CI
+Customers
+Acknowledgements
+Press kit
+Assistance
+
+
+Security
+Donate
+Thanks
+
+
+
+
+
+Apache Traffic Server™ software is a fast, scalable and extensible HTTP/1.1 compliant caching
+        proxy server. Formerly a commercial product, Yahoo! donated it to the Apache
+        Foundation, and it is now an Apache TLP. Here's a Traffic
+          Server overview.
+
+Important security announcements:
+
+	  All versions of Traffic Server prior to v5.0.1 (or v4.2.1.1) have a vulnerability related to
+	  the synthetic health checks as used by traffic_cop. We urge everyone
+	  to upgrade to the latest releases, either v4.2.1.1 or v5.1.2. See
+	  CVE-2014-3525 for some details.
+	
+
+	  Traffic Server 5.1.0 has a security issue that can lead to acting as an open relay under specific circumstances.
+	  Traffic Server 5.1.1 has a security issue which makes it vulnerable to denial of service attacks.
+	  We urge all deployments of 5.1.0 and 5.1.1 to upgrade to 5.1.2. See CVE-2014-3624 and TS-2677 for more detail.
+	
+
+
+
+
+
+
+
+
+
+Overview
+
+
+
+
+
+
+
+Caching
+Improve your response time, while reducing server load and bandwidth needs by
+          caching and reusing frequently-requested web pages, images, and web service
+          calls.
+
+
+Proxying
+Easily add keep-alive, filter or anonymize content requests, or add load
+          balancing by adding a proxy layer.
+
+
+
+
+
+
+
+
+Fast
+Scales well on modern SMP hardware, handling 10s of thousands of requests per
+          second.
+
+
+Extensible
+APIs to write your own plug-ins to do anything from modifying HTTP headers to
+          handling ESI requests to writing your own cache algorithm.
+
+
+
+
+
+
+
+
+Proven
+Handling over 400TB a day at Yahoo! both as
+          forward and reverse proxies, Apache Traffic Server is battle
+          hardened. Also visit our Customers page (see link above) for
+          some of our corporate users and supporters.
+
+
+
+
+
+
+
+Learn More
+
+
+
+
+
+
+Get Support
+
+
+
+Having trouble with builds, configurations or are you getting errors you don't understand? Subscribe to our Users Mailing List or join our
+          #traffic-server channel on irc.freenode.net to get help!
+
+
+          Can't get your plugin to work? Get help from developers or
+          start a discussion on our dev discussion list.
+
+
+Report or confirm bugs or try out the latest patches from our Bug Tracker
+
+
+          Learn here how to ask good questions, create useful bug reports and how to apply patches.
+
+
+
+
+
+
+
+Get Involved
+
+
+
+Subscribe and
+          help out on the users Mailing List or simply share your usecase or experience.
+          For (hopefully) speedier responses check out our IRC channel
+          #traffic-server on irc.freenode.net.
+
+
+          Impress developers or help others by participating on
+          our dev discussion list or follow the latest development on
+          our commits list.
+
+
+Report issues or bring patches to our Bug Tracker
+
+
+          Visit our wiki to see a list of
+          Projects
+          we are currently working on.
+
+
+          Learn here how to create patches to the code or the
+          documentation and how to debug Apache Traffic Server..
+
+Or just fix a random bug!
+A low entrance barrier is helping us clean up our code: Fix clang build warnings.
+
+
+
+
+
+
+Web Resources
+
+
+
+Administrator's Guide
+Installing, configuring and administrating Apache Traffic Server
+
+
+SDK Programmer's Guide
+Developing Apache Traffic Server plug-ins and how the code works
+
+
+Frequently Asked
+            Questions
+A running list of your most common questions
+
+
+Wiki
+          and Our blog
+Collaboration and interesting topics around the project
+
+
+
+
+
+
+
+News
+
+
+
+
+
+
+May 13, 2015: The latest stable release, v5.3.0, is now
+          available from the Downloads section. This is the LTS release for 5.x
+March 30, 2015: The latest stable release, v5.2.1, is now
+          available from the Downloads section. This is a bug-fix release over
+          the previous v5.2.0 release.
+February 3, 2015: A bug-fix release for v4.2 is now
+          available. Fetch the latest v4.2.3 tarballs from the Downloads section.
+          This is our LTS branch for 4.x.
+January 14, 2015: We are pleased to announce the next
+	  quarterly release, v5.2.0. It's as usual available from the
+	  Downloads page.
+December 16, 2014: 5.1.2 is a security update for
+	  5.1.1. We urge everyone to upgrade from 5.1.0 or 5.1.1 to 5.1.2 as
+	  soon as possible.
+October 31, 2014: 5.1.1 is a security update for 5.1.0. We
+          urge everyone to upgrade from 5.1.0 to 5.1.1 as soon as possible. See
+          CVE-2014-3566 and CVE-2014-3624.
+September 18, 2014: We are pleased to announce the relase
+          of our quarterly minor release, v5.1.0. It's available from our
+          Downloads page.
+September 08, 2014: The old, legacy release of ATS,
+          v3.2.x, is no longer supported. We have removed it from the
+          download site, but it is available via the archives. We urge
+          everyone to migrate to v4.2.x or 5.x as soon as possible.
+September 04, 2014: A bug-fix release for v4.2 is now
+          available. Fetch the latest v4.2.2 tarballs from the Downloads section.
+          This is our LTS branch for 4.x.
+July 23, 2014: A security flaw in handling of healthchecks
+          was discovered, affecting all versions of ATS. We urge everyone to
+          upgrade to v4.2.1.1 or v5.0.1 immediately. See CVE-2014-3525 for
+          details.
+June 17, 2014: We are extremely pleased to announce the
+          release of our latest major release, v5.0.0! This has been a year
+          in the making, and includes a number of new features and bug fixes.
+April 29, 2014: A bug-fix release for v4.2 is now
+          available. Fetch the latest v4.2.1 tarballs from the Downloads section.
+          This is our LTS branch for 4.x.
+March 19, 2014: A minor release for v4.x is now
+          available. Fetch the latest v4.2.0 builds from the Downloads section.
+          This is our LTS branch for 4.x.
+Archived News
+
+
+
+
+
+
+Miscellaneous
+
+
+
+
+
+
+View Git code repository
+TrafficServer AMI for EC2
+Supported Operating Systems
+
+
+
+
+
+
+License
+Build Instructions
+Roadmap
+Committers
+Users Archives
+Dev Archives
+
+
+
+
+
+
+
+      Copyright  © 2013
+      The Apache Software Foundation.
+      Licensed under
+      the Apache License,
+      Version 2.0. Apache Traffic Server, Apache,
+      the Apache Traffic Server logo, and the Apache feather logo are
+      trademarks of The Apache Software Foundation.
+    
+
+
+
+
+
+

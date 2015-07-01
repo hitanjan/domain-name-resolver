@@ -1,0 +1,429 @@
+
+
+
+
+
+
+
+Beyond PLM Blog  » GrabCAD + 3D Viewer = ? 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Browse 
+Blog
+PLM Consulting Services
+Partnership
+About Beyond PLM
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+GrabCAD + 3D Viewer = ?
+
+
+May 30, 2012
+Daily PLM Think Tank / News and Press / Technologies / Vendors
+Oleg
+ 
+  
+
+
+
+Social, Community, Website, Engineers,  Challenges, CAD, MCAD, 3D Viewer… Everybody in CAD/PLM business  understand, viewer is an important component of design collaboration.
+
+So, what happened? Read yesterday announcement made by GrabCAD here.  GrabCAD is going to 3D by adding viewing capabilities to their website.  Here are few passages from GrabCAD blog about new functionality.
+Share  your models with anyone in 3 dimensions? Check. Pin annotations right  on the surface of a model to share advice and ideas with other  engineers? Check. GrabCAD’s new in-browser 3D viewer is a huge step  toward seamless collaboration and sharing for mechanical engineers and  designers.
+According to SolidSmack publication,  GrabCAD developed their own viewer. I didn’t find a confirmation for  that on GrabCAD website. Josh Mings of SolidSmack compared it with Web  3D:
+Wow, when I said Web 3D was heating up, I wasn’t kidding.  You know GrabCAD is always cooking up new features, but this is a  delightful surprise. Today, they launch their own web-based 3D Viewer  available right inside the GrabCAD interface to view 3D files and  collaborate with others. Here’s the sneak peak.
+
+Actually, I thought Web 3D was branded by Bernard Charles of DS as part of 3DVIA introduction. However, it won’t decrease the importance of 3D viewing for engineers and other people handling 3D models.
+What is “in the box”? 
+In  a nutshell, GrabCAD provides the ability to view and annotate CAD  models you uploaded to GrabCAD website. Viewer supports STL files and   runs in any WebGL enabled browser. GrabCAD automatically converts  files to STL (15’000 files already converted according to GrabCAD). Here  is what GrabCAD viewer supposed to do:
+Collaborate with engineers on projects you’re working on by annotating pins right on the model
+Share your models securely with clients, manufacturers, or anybody without CAD software
+Check out all public models on GrabCAD without downloading them
+Few  limitations that may disappoint some users. IE explorer is not  supported, for the moment. Automatic conversion of file STL can go wrong  and you will be requested to make a manual STL file upload. Speed can  be vary and depend on STL file size and connection speed.
+From “Facebook” to 3D collaboration business
+GrabCAD  expansion from community website sharing CAD models to 3D collaboration  confirms that company is searching how to provide more services to  monetize website performance. Couple of weeks ago, Hardi Meybaum,  GrabCAD CEO stated that collaboration service becomes one of the most important one – …the  company now plans to launch what could become the focal point of its  business: a service that aims to change the way engineers and their  customers collaborate on designs….
+In my view, GrabCAD is  challenged by how to monetize the tremendous success in making 200K  engineers to register on their website and upload 40K free CAD models.  Funded by few institutional investors, GrabCAD has an access to money  that allows them to experiment with different directions.
+Competition
+By  stepping into 3D Collaboration, GrabCAD will face more competition.  Nobody has a vision for Facebook for engineers. However, to collaborate  and share models in 3D is less unique value proposition, in my view.  Autodesk 360, SolidWorks n!Fuze, CADFaster, etc. This is a short list of  public cloud-based collaboration tools. When you turn to “on premise” solutions, the number of tools will only increase. What will be  GrabCAD differentiation among all these products? Usability? Price?  Community? It is an interesting question to ask.
+What is my conclusion? Viewer is a cool feature. By adding it, GrabCAD will “grab” people to spend more time on the website. However, pivoting is the name of the game. GrabCAD + 3D Viewer = Pivoting. The  question of GrabCAD business model is still not answered, in my mind. If  GrabCAD focus is on helping engineers in manufacturing companies to  collaborate, GrabCAD will be clearly moving closer to PLM trajectory  and compete with other cloud-based PLM  offerings. Otherwise, Hardi Meybaum and his team have more surprises in  the box to come later. Time will show…
+Best, Oleg
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Previous Post Next Post 
+
+
+
+
+
+
+
+
+
+
+Cloud CAD/PDM and mass customization future 
+How Fusion360 and Onshape are solving fundamental CAD collaboration problem 
+Brutal reality of process management for hardware startup 
+Why Kickstarter projects need PLM? 
+PLM Vendors: Cloud Service Comparison 
+“True SaaS” PLM – the devil is in details 
+Top PLM Vendors. Let’s face it – every vendor has its strength… 
+PLM vendors are in risk to follow ERP dinosaurs 
+Autodesk and Onshape disagree about cloud technology and focus 
+Why PLM should revise NPI products? 
+
+
+
+  
+
+Brutal reality of process management for hardware startup
+
+
+Cloud CAD/PDM and mass customization future
+
+
+How Fusion360 and Onshape are solving fundamental CAD collaboration problem
+
+
+“True SaaS” PLM – the devil is in details
+
+
+PLM vendors are in risk to follow ERP dinosaurs
+
+
+ 
+June 2015
+May 2015
+April 2015
+March 2015
+February 2015
+January 2015
+December 2014
+November 2014
+October 2014
+September 2014
+August 2014
+July 2014
+June 2014
+May 2014
+April 2014
+March 2014
+February 2014
+January 2014
+December 2013
+November 2013
+October 2013
+September 2013
+August 2013
+July 2013
+June 2013
+May 2013
+April 2013
+March 2013
+February 2013
+January 2013
+December 2012
+November 2012
+October 2012
+September 2012
+August 2012
+July 2012
+June 2012
+May 2012
+April 2012
+March 2012
+February 2012
+January 2012
+December 2011
+November 2011
+October 2011
+September 2011
+August 2011
+July 2011
+June 2011
+May 2011
+April 2011
+March 2011
+February 2011
+January 2011
+December 2010
+November 2010
+October 2010
+September 2010
+August 2010
+July 2010
+June 2010
+May 2010
+April 2010
+March 2010
+February 2010
+January 2010
+December 2009
+November 2009
+October 2009
+September 2009
+August 2009
+July 2009
+June 2009
+May 2009
+April 2009
+March 2009
+February 2009
+January 2009
+December 2008
+November 2008
+July 2008
+June 2008
+May 2008
+
+
+
+3D Perspectives (Dassault)
+3dplastics blog
+All Al, Nothing but Al
+Aras Community
+Arnold IT
+Autodesk PLM360 and Vault – Under the hood
+Business Management Systems
+CAD Digest
+Cadalyst blog
+CADENAS Part Solutions blog
+CIMData Blog
+Clarity on PLM
+Daily BLOGMA
+Daily PLM Think Tank
+Deelip
+Der PLM-Blog – Product Lifecycle Management in Germany
+Design and Motion blog
+Engineering [Engineering] blog
+ERP and more…
+ERP Selection Help
+Evan Yares Blog
+Find the best Project Management Software
+From Russia with PLM
+Inforbix Product Data Space
+Inside PLM
+isicad.ru
+Jonathan P. Scott of Razorleaf Learning
+Jos Voskuil’s Blog
+Kenneth Wong's Virtual Desktop
+Not Just Russian CAD/PLM
+Oleg's Buzz
+PLM Alpha by Aras
+PLM Blog
+PLM Contact DE
+PLM Dojo
+PLM Info
+PLM Jim Blog
+PLM Technology Guide
+Product Data Space Blog
+Refreshing PLM News, Articles, Tutorials, Videos, more – Cad2Design
+Russian CAD/PLM from David Levin
+SolidSmack
+Taxal
+Teamcenter blog
+TEC Blog by Kurt Chen
+Tenlinks
+The PLM Insider
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PLM and Data Model Pyramid
+
+There is a lot going on in database space these days. Few days ago I posted – PLM, RDBMS and Future Data Management Challenges and I’ve got quite a few comments discussing multiple data management and modeling topics. My main point in that post was an alert to PLM to…
+ 
+January 10, 2012
+   
+
+
+
+
+
+
+
+PLM Enterprise App Store: Bad Idea or Future Promise?
+
+During the past months, I’ve seen an increased amount of conversations about the future of App Store software model in the enterprise. You, of course, familiar with the App store model. It all started from iTunes and prolifirate to many other places. The question, obviously, raises lots of discussion about…
+ 
+September 9, 2011
+   
+
+
+
+
+
+
+
+4 Reasons Why It Is Hard to Deliver MBOM in PLM?
+
+Manufacturing Bill of Materials or MBOM. Where it belongs and how to support it right? Does it part of your ERP system? PLM system? Is it a piece that normally fails between chairs of engineering and manufacturing? In PLM development, manufacturing BOM is usually a piece of functionality that raises…
+ 
+October 15, 2012
+   
+
+
+
+
+
+
+
+
+
+
+
+
+Beyond PLM 
+About Beyond PLM
+Daily PLM Think Tank
+PLM Consulting Services
+
+ 
+
+
+
+
+
+Contact Beyond PLM
+oleg@beyondplm.com
+Boston, MA 
+ 
+
+
+
+
+
+
+
+
+				© Beyond PLM, 2015. All Rights Reserved.
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,285 @@
+
+
+
+
+
+
+Windows Azure Toolkit for Windows Phone - Home
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Code
+
+Register
+Sign In
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+home
+source code
+downloads
+documentation
+discussions
+issues
+people
+license
+
+
+
+
+
+
+Are you Sure? X
+
+
+            By clicking Delete, all history, comments and attachments for this page will be deleted and cannot be restored.
+            
+
+
+
+
+
+
+
+
+Page Info
+Change History (all pages)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+All Project Updates
+
+
+Discussions
+
+
+Issue Tracker
+
+
+Downloads
+
+
+Reviews
+
+
+Source Code
+
+
+Wiki & Documentation
+
+
+
+
+
+                        Subscribe
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+Windows Azure Mobile Services
+The Windows Azure Toolkit for Windows Phone provided developers with the first iteration of support for building backend services for Windows Phone apps using Windows Azure.  The main areas of feedback we received from mobile developers was that they
+ wanted a turn-key set of services for common functionality such as notifications, auth, and data.  
+
+Windows Azure Mobile Services directly reflects this feedback by enabling developers to simply provision, configure, and consume scalable backend services. The downloads for this toolkit will be removed on the week of Feb 1st 2013 and all future improvements
+ will be channeled into Windows Azure Mobile Services rather than this toolkit. 
+To get started with Mobile Services, 
+sign up for a Windows Azure account and receive 10 free Mobile Services.
+
+
+ 
+
+The Windows Azure Toolkit for Windows Phone is designed to make it easier for you to build mobile applications that leverage cloud services running in Windows Azure.
+The toolkit includes Visual Studio project templates for Windows Phone and Windows Azure, class libraries optimized for use on the phone, sample applications, and documentation. All this content is designed to be easily reused, simplifying your experience
+ and optimizing your time when building your own phone applications leveraging cloud services.
+For more details, take a look at our 
+documentation.
+
+
+
+
+Includes projects, libraries, source code, 
+and dependency checker
+
+
+
+Includes full source code
+
+
+
+
+
+Install-Package Phone.Notifications.BasePage
+
+
+
+Install-Package 
+Phone.Notifications.AccessControl
+
+
+
+
+
+Install-Package CloudServices.Notifications
+
+
+
+Install-Package CloudServices. 
+Notifications.AccessControl
+
+
+
+Install-Package 
+CloudServices.Notifications.Sql
+
+
+
+
+
+If you have questions or feedback, please send an email to waztoolkitwp7@microsoft.com.
+
+
+
+Last edited  by nharris, version 70
+
+
+
+
+
+
+There is no recommended release for this project.
+
+
+activity
+
+
+
+page views
+visits
+downloads
+
+
+
+
+
+
+
+
+Days: 
+
+
+7
+
+
+
+30
+
+
+
+All
+
+Details
+
+
+
+related projects
+Windows Azure Toolkit for Windows 8
+
+
+
+
+
+
+
+© 2006-2015 Microsoft
+Get Help
+Privacy Statement
+Terms of Use
+Code of Conduct
+Advertise With Us
+Version 5.26.2015.21018
+
+
+
+
+
+
